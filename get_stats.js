@@ -1,10 +1,10 @@
-import fetch from 'node-fetch';
+const fetch = require('node-fetch');
 
 const token = process.env.GH_TOKEN;
 
 async function getStats() {
   try {
-    const response = await fetch('https://api.github.com/bardolog1', {
+    const response = await fetch('https://api.github.com/Bardolog1', {
       headers: {
         Authorization: `Bearer ${token}`
       }
