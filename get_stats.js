@@ -1,16 +1,23 @@
-
-const axios = require('axios');
+const fetch = require('node-fetch');
 
 const token = process.env.GH_TOKEN;
 
-axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-
 async function getStats() {
   try {
-    const response = await axios.get('https://api.github.com/bardolog1'); 
-    console.log(response.data);
+    const response = await fetch('https://api.github.com/user', {
+      headers: {
+        Authorization: `Bearer ${token}`
+      }
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data);
+    } else {
+      console.error('Error:', response.status, response.statusText);
+    }
   } catch (error) {
-    console.error('Error:', error);
+    console.error('Error:', error.message);
   }
 }
 
