@@ -2,7 +2,7 @@ name: Get GitHub Stats
 
 on:
   schedule:
-    - cron: '* * * * *' # Ejecutar cada 2 horas
+    - cron: '* * * * *' # Ejecutar cada minuto
 
 jobs:
   get-stats:
@@ -18,7 +18,7 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
-        run: npm install
+        run: npm install node-fetch
 
       - name: Run Node.js script
         env:
