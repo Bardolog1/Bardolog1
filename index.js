@@ -14,9 +14,12 @@ async function getStats() {
 
 
 
+    console.log(user.data);
 
+    console.log("Tamaño: ",user.data.length);
 
-    console.log(user.data.length);
+    console.log(user.data.map(repo => repo.name));
+
   } catch (error) {
     console.error('Error:', error.message);
   }
