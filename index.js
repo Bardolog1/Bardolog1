@@ -55,9 +55,18 @@ async function getStats() {
       totalStars += stargazers.data.length;
     }
 
-    lang.sort((a, b) => b.value - a.value); // Ordenar los lenguajes de programación por el valor de mayor a menor
-    lang.forEach(l => langPercents.push({ name: l.name, value: (l.value * 100) / lang[0].value })); // Calcular el porcentaje de uso de cada lenguaje de programación
+    lang.forEach(l => { // Recorrer los lenguajes de programación
+     
+      langPercents.push(
+        { 
+          name: l.name, 
+          value: ((l.value * 100) / lang.reduce((a, b) => a + b.value, 0)).toFixed(2)
+        }
+        );
+
+    }); // Calcular el porcentaje de uso de cada lenguaje de programación
    
+    langPercents.sort((a, b) => b.value - a.value); // Ordenar los lenguajes de programación por porcentaje de uso
     totalPrivateRepos = user.data.total_private_repos;
     totalPublicRepos = user.data.public_repos;
 
