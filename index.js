@@ -6,7 +6,7 @@ const octokit = new Octokit({
 
 async function getStats() {
   try {
-    const user = await octokit.request('GET /user', {
+    const user = await octokit.request('GET /user/repos', {
       headers: {
         'X-GitHub-Api-Version': '2022-11-28'
       }
@@ -16,7 +16,7 @@ async function getStats() {
 
 
 
-    console.log(user.data);
+    console.log(user.data.length);
   } catch (error) {
     console.error('Error:', error.message);
   }
