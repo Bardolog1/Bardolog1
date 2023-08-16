@@ -5,30 +5,41 @@ const octokit = new Octokit({
 });
 
 async function getStats() {
-  try {
     const repos = await octokit.request('GET /user/repos', {
       headers: {
         'X-GitHub-Api-Version': '2022-11-28'
       }
     })
-  const languages = await octokit.request('GET /repos/{owner}/{repo}/languages', {
-    headers: {
-      'X-GitHub-Api-Version': '2022-11-28'
-    },
-    owner: 'bardolog1',
-    repo: 'devchallengers-weather-app'
-  })
+    const lang =[];
 
-  console.log(languages.data);
+    repos.data.map(async repo => {
+      const languages = await octokit.request('GET /repos/{owner}/{repo}/languages', {
+        headers: {
+          'X-GitHub-Api-Version': '2022-11-28'
+        },
+        owner: 'bardolog1',
+        repo: repo.name
+      })
+
+      languages.data.map(lenguage => {
+        if (lang.find(l => l.name === lenguage.name)) {
+          lang.find(l => l.name === lenguage.name).value += lenguage.value
+        } else {
+          lang.push(lenguage)
+        }
+      }
+      )
+
+    })
+
+    console.log(lang);
+  
     //console.log(repos.data);
     //console.log("Tamaño: ",repos.data.length);
     //console.log(repos.data.map(repo => repo.name));
 
-  } catch (error) {
-    console.error('Error:', error.message);
-  }
 
-  try{
+  
 
     const user = await octokit.request('GET /user', {
       headers: {
@@ -38,9 +49,7 @@ async function getStats() {
 
     console.log(user.data);
 
-  }catch(error){
-    console.error('Error:', error.message);
-  }
+ 
 }
 
 getStats();
