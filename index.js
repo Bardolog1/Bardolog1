@@ -11,10 +11,18 @@ async function getStats() {
         'X-GitHub-Api-Version': '2022-11-28'
       }
     })
+  const languages = await octokit.request('GET /repos/{owner}/{repo}/languages', {
+    headers: {
+      'X-GitHub-Api-Version': '2022-11-28'
+    },
+    owner: 'bardolog1',
+    repo: 'devchallengers-weather-app'
+  })
 
-    console.log(repos.data);
-    console.log("Tamaño: ",repos.data.length);
-    console.log(repos.data.map(repo => repo.name));
+  console.log(languages.data);
+    //console.log(repos.data);
+    //console.log("Tamaño: ",repos.data.length);
+    //console.log(repos.data.map(repo => repo.name));
 
   } catch (error) {
     console.error('Error:', error.message);
@@ -29,7 +37,7 @@ async function getStats() {
     })
 
     console.log(user.data);
-    
+
   }catch(error){
     console.error('Error:', error.message);
   }
