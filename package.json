@@ -1,10 +1,12 @@
 {
+    "name": "github-stats",
+    "version": "1.0.0",
     "type": "module",  
     "engines": {
       "node": "18.17.0"  
     },
     "dependencies": {
-      "node-fetch": "2.6.2"  
+      "@octokit/rest": "^18.0.0" 
     }
   }
   

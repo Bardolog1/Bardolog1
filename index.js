@@ -1,21 +1,13 @@
-import fetch from 'node-fetch';
+import { Octokit } from '@octokit/rest';
 
-const token = process.env.GH_TOKEN;
+const octokit = new Octokit({
+  auth: process.env.GH_TOKEN, // Token de acceso
+});
 
 async function getStats() {
   try {
-    const response = await fetch('https://api.github.com/Bardolog1', {
-      headers: {
-        Authorization: `Bearer ${token}`
-      }
-    });
-
-    if (response.ok) {
-      const data = await response.json();
-      console.log(data);
-    } else {
-      console.error('Error:', response.status, response.statusText);
-    }
+    const user = await octokit.rest.users.getAuthenticated();
+    console.log(user.data);
   } catch (error) {
     console.error('Error:', error.message);
   }
