@@ -6,9 +6,16 @@ const octokit = new Octokit({
 
 async function getStats() {
   try {
-    const repos = await octokit.repos.listForAuthenticatedUser(); // Obtener los repositorios del usuario autenticado
 
     const lang = [];
+    let totalCommits = 0;
+    let totalPrivateRepos =0;
+    let totalPublicRepos =0;
+
+    const user = await octokit.users.getAuthenticated(); // Obtener el usuario autenticado
+    const repos = await octokit.repos.listForAuthenticatedUser(); // Obtener los repositorios del usuario autenticado
+
+    
 
     for (const repo of repos.data) {
       const languages = await octokit.request('GET /repos/{owner}/{repo}/languages', {
@@ -24,10 +31,28 @@ async function getStats() {
         }
       }
     }
+
+    for (const repo of repos.data) {
+      const commits = await octokit.request('GET /repos/{owner}/{repo}/commits', {
+        owner: 'bardolog1',
+        repo: repo.name,
+      });
+
+      totalCommits += commits.data.length;
+    }
+    totalPrivateRepos = user.data.total_private_repos;
+    totalPublicRepos = user.data.public_repos;
+    console.log('Usuario:', user.data.login);
+    console.log('Nombre:', user.data.name);
+    console.log('Bio:', user.data.bio);
+    console.log('Total de repositorios:', totalPrivateRepos + totalPublicRepos);
+    console.log('Total de commits:', totalCommits);
     console.log('Lenguajes de programación:');
     console.log(lang);
     console.log('Repositorios:');
     console.log(repos.data);
+    
+
   } catch (error) {
     console.error('Error:', error);
   }
