@@ -21,7 +21,8 @@ async function getStats() {
         repo: repo.name
       })
 
-      languages.data.map(lenguage => {
+      languages.data.forEach
+      (lenguage => {
         if (lang.find(l => l.name === lenguage.name)) {
           lang.find(l => l.name === lenguage.name).value += lenguage.value
         } else {
