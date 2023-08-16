@@ -6,7 +6,16 @@ const octokit = new Octokit({
 
 async function getStats() {
   try {
-    const user = await octokit.rest.users.getAuthenticated();
+    const user = await octokit.request('GET /user', {
+      headers: {
+        'X-GitHub-Api-Version': '2022-11-28'
+      }
+    })
+
+
+
+
+
     console.log(user.data);
   } catch (error) {
     console.error('Error:', error.message);
