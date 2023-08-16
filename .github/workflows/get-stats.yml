@@ -23,4 +23,4 @@ jobs:
       - name: Run Node.js script
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: node index.js
+        run: node index.js 
