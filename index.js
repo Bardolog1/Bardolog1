@@ -1,56 +1,36 @@
 import { Octokit } from '@octokit/rest';
 
 const octokit = new Octokit({
-  auth: process.env.GH_TOKEN, // Token de acceso
+  auth: process.env.GH_TOKEN,
 });
 
 async function getStats() {
-    const repos = await octokit.request('GET /user/repos', {
-      headers: {
-        'X-GitHub-Api-Version': '2022-11-28'
-      }
-    })
-    const lang =[];
+  try {
+    const repos = await octokit.repos.listForAuthenticatedUser(); // Obtener los repositorios del usuario autenticado
 
-    repos.data.map(async repo => {
+    const lang = [];
+
+    for (const repo of repos.data) {
       const languages = await octokit.request('GET /repos/{owner}/{repo}/languages', {
-        headers: {
-          'X-GitHub-Api-Version': '2022-11-28'
-        },
         owner: 'bardolog1',
-        repo: repo.name
-      })
+        repo: repo.name,
+      });
 
-      languages.data.forEach
-      (lenguage => {
-        if (lang.find(l => l.name === lenguage.name)) {
-          lang.find(l => l.name === lenguage.name).value += lenguage.value
+      for (const language in languages.data) {
+        if (lang.find(l => l.name === language)) {
+          lang.find(l => l.name === language).value += languages.data[language];
         } else {
-          lang.push(lenguage)
+          lang.push({ name: language, value: languages.data[language] });
         }
       }
-      )
-
-    })
-
+    }
+    console.log('Lenguajes de programación:');
     console.log(lang);
-  
-    //console.log(repos.data);
-    //console.log("Tamaño: ",repos.data.length);
-    //console.log(repos.data.map(repo => repo.name));
-
-
-  
-
-    const user = await octokit.request('GET /user', {
-      headers: {
-        'X-GitHub-Api-Version': '2022-11-28'
-      }
-    })
-
-    console.log(user.data);
-
- 
+    console.log('Repositorios:');
+    console.log(repos.data);
+  } catch (error) {
+    console.error('Error:', error);
+  }
 }
 
 getStats();
