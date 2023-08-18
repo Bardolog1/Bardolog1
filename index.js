@@ -1,4 +1,5 @@
 import { Octokit } from '@octokit/rest';
+import * as d3 from 'd3';
 
 const octokit = new Octokit({
   auth: process.env.GH_TOKEN,

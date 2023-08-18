@@ -1,11 +1,11 @@
-<h2 align="center">Hi 👋! My name is Libardo Lozano  and I'm a Software Developer</h2>
+<!--<h2 align="center">Hi 👋! My name is Libardo Lozano  and I'm a Software Developer</h2>
 
 ###
 <!--
 <div align="center">
  <img align="center" height="300" src="https://github-stats-alpha.vercel.app/api?username=Bardolog1&cc=000&tc=fff&ic=fff&bc=000"  />
 </div>
--->
+
  
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Bardolog1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=cobalt&locale=en&hide_border=true" height="150" alt="stats graph"  />
@@ -59,7 +59,17 @@
   <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
   <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+
+
+
+
+
+<img src="template.svg"/>
+
+-->
+<div style="background-image: url('https://img.pikbest.com/backgrounds/20190126/fashion-personality-geometric-3d-cylinder-color-gradient-background_1858030.jpg!w700wp'); background-size: cover; background-position: center; width: 100%; height: 300px;">
+  <!-- Aquí puedes agregar el contenido de tu README -->
 </div>
 
 
-
+  
