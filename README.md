@@ -1,9 +1,5 @@
 <!--
 
-
-###
-
-<h3>I develop and design using these technologies.</h3>
 <p>
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
   <img alt="Webpack" src="https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=white" /> 
@@ -44,10 +40,10 @@
 
 
 
-
-<img src="https://raw.githubusercontent.com/bardolog1/bardolog1/contributions.gif" alt="Contributions" width="722px" height="112px" />
-&nbsp;&nbsp;&nbsp;
 -->
+<img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/contributions.gif" alt="Contributions" width="100%" height="180px" />
+&nbsp;&nbsp;&nbsp;
+
 <h2 align="center">Hi 👋! My name is Libardo Lozano  and I'm a Software Developer</h2>
 
 
@@ -55,6 +51,8 @@
  <img align="right" height="200" src="https://i.imgur.com/D5VHIxn.gifion/"  />
  <p align="left">
 Experienced software developer with a strong foundation in both programming and additional expertise in design and basic electronics. I bring over 3 years of hands-on experience in software development, coupled with excellent communication skills, a quick learning aptitude, leadership qualities, and a readiness to embrace change. 
+ </p>
+  <p align="left">
 My passion for technology extends beyond software development. I possess a keen interest and basic knowledge in electronics, allowing me to bring a unique perspective to problem-solving. I thrive on curiosity and am committed to a continuous learning journey. Adaptable and open to change, I am well-equipped to navigate the dynamic landscape of the tech industry.
 </p>
 </div>
@@ -64,27 +62,24 @@ My passion for technology extends beyond software development. I possess a keen 
  
  <img width=40% align="center" src="https://github-readme-stats-bardolog1.vercel.app/api?username=bardolog1&show_icons=true&theme=dracula&show=repos&count_private=true&include_all_commits=true&hide=contribs,issues"/>
  </div>
-
+<h3>I develop and design using these technologies.</h3>
 ## My Skills
 
 #### Main Stack:
-<!--
+
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)&nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)&nbsp;
 ![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![Cypress](https://img.shields.io/badge/cypress-239120?style=for-the-badge&logo=cypress)&nbsp;
-![RabbitMQ](https://img.shields.io/badge/rabbitmq-%23FF6600.svg?&style=for-the-badge&logo=rabbitmq&logoColor=white)&nbsp;
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)&nbsp;
-![Graphql](https://img.shields.io/badge/graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white)&nbsp;
+
 
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 #### Secondary Stack:
-
+<!--
 ![Csharp](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)&nbsp;
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)&nbsp;
 ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)&nbsp;
