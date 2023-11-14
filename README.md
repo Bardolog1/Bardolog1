@@ -48,11 +48,11 @@
 
 
 <img src="template.svg"/>
-
-
-<img align="center" style="margin-bottom:100px" width=100% src="https://github.com/bardolog1/bardolog1/assets/97697928/9acbb44e-98f8-4f83-82f7-c19408c161cd" />
-&nbsp;&nbsp;&nbsp;
 -->
+
+<img align="center" style="margin-bottom:100px" width=100% src="https://github.com/bardolog1/bardolog1/contributions.gif" />
+&nbsp;&nbsp;&nbsp;
+
 <h2 align="center">Hi 👋! My name is Libardo Lozano  and I'm a Software Developer</h2>
 
 
@@ -63,26 +63,12 @@ Experienced software developer with a strong foundation in both programming and 
 My passion for technology extends beyond software development. I possess a keen interest and basic knowledge in electronics, allowing me to bring a unique perspective to problem-solving. I thrive on curiosity and am committed to a continuous learning journey. Adaptable and open to change, I am well-equipped to navigate the dynamic landscape of the tech industry.
 </p>
 </div>
-&nbsp;
- &nbsp;
- &nbsp;
-
-
-
-
-
-
 <div  align="center" style="margin-bottom:100px">
-  <img width=55% align="center"  src="https://github-readme-streak-stats.herokuapp.com?user=bardolog1&theme=radical&mode=weekly" />
-  <img width=40% align="center" src="https://github-readme-stats-bardolog1.vercel.app/api/top-langs/?username=bardolog1&show_icons=true&theme=radical&layout=compact&langs_count=5"/> 
+  <img width=55% align="center"  src="https://github-readme-streak-stats.herokuapp.com?user=bardolog1&theme=dracula&mode=weekly" />
+  <img width=40% align="center" src="https://github-readme-stats-bardolog1.vercel.app/api/top-langs/?username=bardolog1&show_icons=true&theme=dracula&layout=compact&langs_count=5"/> 
  
- <img width=40% align="center" src="https://github-readme-stats-bardolog1.vercel.app/api?username=bardolog1&show_icons=true&theme=radical&show=repos"/>
+ <img width=40% align="center" src="https://github-readme-stats-bardolog1.vercel.app/api?username=bardolog1&show_icons=true&theme=dracula&show=repos&count_private=true&include_all_commits=true&hide=contribs,issues"/>
  </div>
-   
- &nbsp;
- &nbsp;
-
-
 
 ## My Skills
 
