@@ -23,7 +23,7 @@ jobs:
 
       - name: Run Node.js script
         env:
-          GH_TOKEN: ${{ secrets.GH_APIKEY_2 }}
+          GH_TOKEN: ${{ secrets.GITH_TOKEN }}
         run: node index.js 
 
       - name: Commit & Push
