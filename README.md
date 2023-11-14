@@ -41,7 +41,6 @@
 
 
 -->
-<img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/profile-3d-contrib/profile-gitblock.svg" alt="Contributions" width="100%"  />
 
 <h2 align="center">Hi 👋! My name is Libardo Lozano  and I'm a Software Developer</h2>
 
@@ -57,11 +56,15 @@ My passion for technology extends beyond software development. I possess a keen 
 </div>
 <div  align="center" style="margin-bottom:100px">
   <img width=55% align="center"  src="https://github-readme-streak-stats.herokuapp.com?user=bardolog1&theme=dracula&mode=weekly" />
-  <img width=40% align="center" src="https://github-readme-stats-bardolog1.vercel.app/api/top-langs/?username=bardolog1&show_icons=true&theme=dracula&layout=compact&langs_count=5"/> 
- 
+  <img width=40% align="center" src="https://github-readme-stats-bardolog1.vercel.app/api/top-langs/?username=bardolog1&show_icons=true&theme=dracula&layout=compact&langs_count=5"/>  
  <img width=40% align="center" src="https://github-readme-stats-bardolog1.vercel.app/api?username=bardolog1&show_icons=true&theme=dracula&show=repos&count_private=true&include_all_commits=true&hide=contribs,issues"/>
+
+
  </div>
-<h3>I develop and design using these technologies.</h3>
+ <div align="center">
+  <img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="80%"  />
+ </div>
+   <h3>I develop and design using these technologies.</h3>
 ## My Skills
 
 #### Main Stack:
