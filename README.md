@@ -41,7 +41,7 @@
 
 
 -->
-<img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/contributions.gif" alt="Contributions" width="100%" height="180px" />
+<img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/profile-3d-contrib/profile-gitblock.svg" alt="Contributions" width="100%"  />
 
 <h2 align="center">Hi 👋! My name is Libardo Lozano  and I'm a Software Developer</h2>
 
