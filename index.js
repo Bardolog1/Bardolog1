@@ -89,7 +89,7 @@ async function getStats(readmeFile) {
         console.log('Repositorios:');
     console.log(repos.data);
 
-     const readmePath = 'readme.md';
+     const readmePath = 'README.md';
 
     // Crear el contenido actualizado del archivo readme
     const updatedReadmeContent = `
