@@ -5,7 +5,8 @@ const octokit = new Octokit({
   auth: process.env.GH_TOKEN,
 });
 
-async function getStats() {
+async function getStats(readmeFile) {
+  
   try {
 
     const lang = [];
@@ -87,6 +88,24 @@ async function getStats() {
     console.log('Total de repositorios públicos:', totalPublicRepos);
         console.log('Repositorios:');
     console.log(repos.data);
+
+     const readmePath = 'readme.md';
+
+    // Crear el contenido actualizado del archivo readme
+    const updatedReadmeContent = `
+# Mi Proyecto
+
+Estadísticas actualizadas:
+
+- Total de repositorios: ${totalPrivateRepos + totalPublicRepos}
+- Total de commits: ${totalCommits}
+- ...
+
+${fs.readFileSync(readmePath, 'utf-8')}
+`;
+
+    // Escribir el contenido actualizado en el archivo readme
+    await fs.writeFile(readmePath, updatedReadmeContent);
     
 
   } catch (error) {
@@ -94,4 +113,9 @@ async function getStats() {
   }
 }
 
+
+
 getStats();
+
+
+
