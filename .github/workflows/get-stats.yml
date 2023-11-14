@@ -24,3 +24,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_APIKEY_2 }}
         run: node index.js 
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          git commit -m "updated"
+          git push
