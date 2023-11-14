@@ -62,7 +62,7 @@ My passion for technology extends beyond software development. I possess a keen 
 
  </div>
  <div align="center">
-  <img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="80%"  />
+  <img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="100%"  />
  </div>
    <h3>I develop and design using these technologies.</h3>
 ## My Skills
