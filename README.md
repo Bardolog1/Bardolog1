@@ -101,7 +101,7 @@ My passion for technology extends beyond software development. I possess a keen 
   <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" target="_blank">
 </a>
 
-<a href="https://www.youtube.com/channel/@Bardolog1" target="_blank">
+<a href="https://www.youtube.com/@Bardolog1" target="_blank">
   <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" alt="youtube logo">
 </a>
 
