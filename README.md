@@ -22,6 +22,9 @@ My passion for technology extends beyond software development. I possess a keen 
   <img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="100%"  />
  </div>
    <h3>I develop and design using these technologies.</h3>
+   
+   <img src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/images/man_10.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+
 
 #### Languages:
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
@@ -49,8 +52,7 @@ My passion for technology extends beyond software development. I possess a keen 
 ![ThreeJs](https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white)&nbsp;
 ![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9)
 
-   <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
-
+   
 
 #### Environments:
 ![Node.js](https://img.shields.io/badge/Nodejs-43853d?style=for-the-badge&logo=Node.js&logoColor=white)&nbsp;
@@ -70,6 +72,8 @@ My passion for technology extends beyond software development. I possess a keen 
 ![Apache Netbeans](https://img.shields.io/badge/apache%20netbeans-1B6AC6?style=for-the-badge&logo=apache%20netbeans%20IDE&logoColor=white)&nbsp;
 ![PHPStorm](http://img.shields.io/badge/-PHPStorm-181717?style=for-the-badge&logo=phpstorm&logoColor=white)&nbsp;
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?style=for-the-badge&logo=PyCharm&logoColor=white)&nbsp;
+
+   
 
 #### Databases:
 ![MongoDB](https://img.shields.io/badge/MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
@@ -93,6 +97,7 @@ My passion for technology extends beyond software development. I possess a keen 
 ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white)&nbsp;
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)&nbsp;
 
+   <img src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/images/man_13.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 #### Design:
 ![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)&nbsp;
@@ -152,7 +157,7 @@ My passion for technology extends beyond software development. I possess a keen 
 ![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white)
-
+ <img src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/images/man_7.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 #### Virtualization:
 ![Docker](https://img.shields.io/badge/Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-4285F4?style=for-the-badge&logo=kubernetes&logoColor=white)
