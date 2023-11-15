@@ -104,8 +104,10 @@ async function getStats(readmeFile) {
       ${fs.readFileSync(readmePath, 'utf-8')}
       `;
       
+      console.log('Contenido actual del README.md:', fs.readFileSync(readmePath, 'utf-8'));
       // Escribir el contenido actualizado en el archivo readme
       await fs.writeFile(readmePath, updatedReadmeContent);
+      console.log('Contenido actualizado del README.md:', fs.readFileSync(readmePath, 'utf-8'));
       
   
     } catch (error) {
