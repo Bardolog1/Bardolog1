@@ -102,17 +102,15 @@ async function getStats(readmeFile) {
       - Total de repositorios: ${totalPrivateRepos + totalPublicRepos}
       - Total de commits: ${totalCommits}
       - ...
-      
-      ${existingReadmeContent}
     `;
-
+    
     console.log("Imprimiré el README");
-    console.log('Contenido actual del README.md:', existingReadmeContent);
-
-    // Escribir el contenido actualizado en el archivo readme
+    
+    // Escribir el contenido actualizado en el archivo readme (sin concatenar al contenido existente)
     await fs.writeFile(readmePath, updatedReadmeContent);
-
+    
     console.log('Contenido actualizado del README.md:', await fs.readFile(readmePath, 'utf-8'));
+
 
   } catch (error) {
     console.error('Error:', error);
