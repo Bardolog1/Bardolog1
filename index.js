@@ -1,16 +1,14 @@
-import { Octokit } from '@octokit/rest';
-import * as d3 from 'd3';
-import * as fs from 'fs/promises';
+const { Octokit } = require('@octokit/rest');
+const d3 = require('d3');
+const fs = require('fs').promises;
 
 
 const octokit = new Octokit({
   auth: process.env.GH_TOKEN,
 });
 
-async function getStats(readmeFile) {
-  
+async function getStats(readmeFile) {  
   try {
-
     const lang = [];
     let totalCommits = 0;
     let totalPrivateRepos =0;
@@ -80,7 +78,6 @@ async function getStats(readmeFile) {
     console.log('Total de repositorios:', totalPrivateRepos + totalPublicRepos);
     console.log('Total de commits:', totalCommits);
     console.log('Lenguajes de programación:');
-    /*
     console.log(langPercents);
     console.log('Total de pull requests:', totalPullRequests);
     console.log('Total de estrellas:', totalStars);
@@ -91,9 +88,8 @@ async function getStats(readmeFile) {
     console.log('Total de repositorios públicos:', totalPublicRepos);
     console.log('Repositorios:');
     console.log(repos.data);
-    */
 
-     const readmePath = './README.md';
+    const readmePath = './README.md';
 
     // Crear el contenido actualizado del archivo readme
     const updatedReadmeContent = `
