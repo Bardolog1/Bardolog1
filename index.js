@@ -93,6 +93,7 @@ async function getStats(readmeFile) {
     const readmePath = './README.md';
 
     // Crear el contenido actualizado del archivo readme
+    const existingReadmeContent = await fs.readFile(readmePath, 'utf-8');
     const updatedReadmeContent = `
       # Mi Proyecto
       
@@ -102,8 +103,8 @@ async function getStats(readmeFile) {
       - Total de commits: ${totalCommits}
       - ...
       
-      ${fs.readFileSync(readmePath, 'utf-8')}
-      `;
+      ${existingReadmeContent}
+    `;
       console.log("imprimire el readme");
       console.log('Contenido actual del README.md:', fs.readFileSync(readmePath, 'utf-8'));
       // Escribir el contenido actualizado en el archivo readme
