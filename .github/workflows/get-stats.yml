@@ -31,15 +31,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_APIKEY_2 }}
         run: node index.js
 
-      - name: Check for changes
+      - name: Check for changes & Git commit - Git Push/Pull
         run: |
-          if [[ -z $(git status -s) ]]; then
-            echo "No changes to commit"
-            exit 0
-          fi
-      
-      - name: Commit & Push
-        run: |
-          git add -A .
-          git commit -m "Updated"
-          git push origin main  # Asegúrate de especificar la rama correcta
+          git diff --exit-code || (git add -A . && git commit -m "Updated" && git pull origin main && git push origin main)
