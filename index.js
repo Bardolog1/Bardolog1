@@ -5,122 +5,78 @@ const octokit = new Octokit({
   auth: process.env.GH_TOKEN,
 });
 
-async function getLanguages(repo) {
-  const languages = await octokit.request("GET /repos/{owner}/{repo}/languages", {
-    owner: "bardolog1",
-    repo: repo.name,
-  });
-
-  return languages.data;
-}
-
-async function getCommits(repo) {
-  const commits = await octokit.request("GET /repos/{owner}/{repo}/commits", {
-    owner: "bardolog1",
-    repo: repo.name,
-  });
-
-  return commits.data.length;
-}
-
-async function getPullRequests(repo) {
-  const pullRequests = await octokit.pulls.list({
-    owner: "bardolog1",
-    repo: repo.name,
-  });
-
-  return pullRequests.data.length;
-}
-
-async function getStargazers(repo) {
-  const stargazers = await octokit.activity.listStargazersForRepo({
-    owner: "bardolog1",
-    repo: repo.name,
-  });
-
-  return stargazers.data.length;
-}
-
-async function getUser() {
-  return octokit.users.getAuthenticated();
-}
-
-async function getRepos() {
-  return octokit.repos.listForAuthenticatedUser();
-}
-
-async function calculateLangPercents(lang) {
-  const langPercents = lang.map((l) => ({
-    name: l.name,
-    value: ((l.value * 100) / lang.reduce((a, b) => a + b.value, 0)).toFixed(2),
-  }));
-
-  langPercents.sort((a, b) => b.value - a.value);
-  return langPercents;
-}
-
-async function updateReadme(updatedStats) {
-  const readmePath = "./README.md";
-  const existingReadmeContent = await fs.readFile(readmePath, "utf-8");
-
-  const updatedReadmeContent = `
-    # Mi Proyecto
-    
-    Estadísticas actualizadas:
-    
-    - Total de repositorios: ${updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos}
-    - Total de commits: ${updatedStats.totalCommits}
-    - ...
-  `;
-
-  await fs.writeFile(readmePath, updatedReadmeContent);
-}
-
 async function getStats() {
   try {
     const lang = [];
     let totalCommits = 0;
-    let totalPrivateRepos = 0;
-    let totalPublicRepos = 0;
+    let totalPullRequests = 0; 
+    let totalStars = 0;
+    const langPercents = [];
 
-    const user = await getUser();
-    const repos = await getRepos();
+    const user = await octokit.users.getAuthenticated();
+    const repos = await octokit.repos.listForAuthenticatedUser();
 
     for (const repo of repos.data) {
-      const repoLanguages = await getLanguages(repo);
-      for (const language in repoLanguages) {
+      const repoLanguages = await octokit.request("GET /repos/{owner}/{repo}/languages", {
+        owner: "bardolog1",
+        repo: repo.name,
+      });
+
+      for (const language in repoLanguages.data) {
         if (lang.find((l) => l.name === language)) {
-          lang.find((l) => l.name === language).value += repoLanguages[language];
+          lang.find((l) => l.name === language).value += repoLanguages.data[language];
         } else {
-          lang.push({ name: language, value: repoLanguages[language] });
+          lang.push({ name: language, value: repoLanguages.data[language] });
         }
       }
 
-      totalCommits += await getCommits(repo);
-      totalPullRequests += await getPullRequests(repo);
-      totalStars += await getStargazers(repo);
+      totalCommits += (await octokit.request("GET /repos/{owner}/{repo}/commits", {
+        owner: "bardolog1",
+        repo: repo.name,
+      })).data.length;
+
+      totalPullRequests += (await octokit.pulls.list({
+        owner: "bardolog1",
+        repo: repo.name,
+      })).data.length;
+
+      totalStars += (await octokit.activity.listStargazersForRepo({
+        owner: "bardolog1",
+        repo: repo.name,
+      })).data.length;
     }
 
-    const langPercents = await calculateLangPercents(lang);
+    lang.forEach((l) => {
+      langPercents.push({
+        name: l.name,
+        value: ((l.value * 100) / lang.reduce((a, b) => a + b.value, 0)).toFixed(2),
+      });
+    });
 
-    totalPrivateRepos = user.data.total_private_repos;
-    totalPublicRepos = user.data.public_repos;
+    langPercents.sort((a, b) => b.value - a.value);
 
-    const updatedStats = {
-      langPercents,
-      totalCommits,
-      totalPullRequests,
-      totalStars,
-      totalPrivateRepos,
-      totalPublicRepos,
-    };
+    const totalPrivateRepos = user.data.total_private_repos;
+    const totalPublicRepos = user.data.public_repos;
 
-    await updateReadme(updatedStats);
+    const readmePath = "./README.md";
+    const existingReadmeContent = await fs.readFile(readmePath, "utf-8");
+
+    const updatedReadmeContent = `
+      # Mi Proyecto
+      
+      Estadísticas actualizadas:
+      
+      - Total de repositorios: ${totalPrivateRepos + totalPublicRepos}
+      - Total de commits: ${totalCommits}
+      - Total de pull requests: ${totalPullRequests}
+      - Total de estrellas: ${totalStars}
+    `;
+
+    await fs.writeFile(readmePath, updatedReadmeContent);
   } catch (error) {
     console.error("Error:", error);
   }
 }
-
 
 async function run() {
   await getStats();
