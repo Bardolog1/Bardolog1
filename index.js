@@ -83,6 +83,7 @@ async function getStats() {
     let totalPrivateRepos = 0;
     let totalPublicRepos = 0;
     let totalPullRequests = 0;
+    let totalStars  = 0;
 
     const user = await getUser();
     const repos = await getRepos();
