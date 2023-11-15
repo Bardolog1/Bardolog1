@@ -7,6 +7,15 @@
       - Total de commits: 100
       - ...
       
+      
+      # Mi Proyecto
+      
+      Estadísticas actualizadas:
+      
+      - Total de repositorios: 196
+      - Total de commits: 100
+      - ...
+      
       <h2 align="center">Hi 👋! My name is Libardo Lozano  and I'm a Software Developer</h2>
 
 <div align="center">
@@ -223,4 +232,5 @@ My passion for technology extends beyond software development. I possess a keen 
 
   
 
+    
     
