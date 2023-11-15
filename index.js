@@ -80,6 +80,7 @@ async function getStats(readmeFile) {
     console.log('Total de repositorios:', totalPrivateRepos + totalPublicRepos);
     console.log('Total de commits:', totalCommits);
     console.log('Lenguajes de programación:');
+    /*
     console.log(langPercents);
     console.log('Total de pull requests:', totalPullRequests);
     console.log('Total de estrellas:', totalStars);
@@ -88,32 +89,33 @@ async function getStats(readmeFile) {
     console.log('Total de gists:', user.data.public_gists);
     console.log('Total de repositorios privados:', totalPrivateRepos);
     console.log('Total de repositorios públicos:', totalPublicRepos);
-        console.log('Repositorios:');
+    console.log('Repositorios:');
     console.log(repos.data);
+    */
 
-     const readmePath = 'README.md';
+     const readmePath = './README.md';
 
     // Crear el contenido actualizado del archivo readme
     const updatedReadmeContent = `
-# Mi Proyecto
-
-Estadísticas actualizadas:
-
-- Total de repositorios: ${totalPrivateRepos + totalPublicRepos}
-- Total de commits: ${totalCommits}
-- ...
-
-${fs.readFileSync(readmePath, 'utf-8')}
-`;
-
-    // Escribir el contenido actualizado en el archivo readme
-    await fs.writeFile(readmePath, updatedReadmeContent);
-    
-
-  } catch (error) {
-    console.error('Error:', error);
+      # Mi Proyecto
+      
+      Estadísticas actualizadas:
+      
+      - Total de repositorios: ${totalPrivateRepos + totalPublicRepos}
+      - Total de commits: ${totalCommits}
+      - ...
+      
+      ${fs.readFileSync(readmePath, 'utf-8')}
+      `;
+      
+      // Escribir el contenido actualizado en el archivo readme
+      await fs.writeFile(readmePath, updatedReadmeContent);
+      
+  
+    } catch (error) {
+      console.error('Error:', error);
+    }
   }
-}
 
 
 
