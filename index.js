@@ -74,6 +74,7 @@ async function getStats(readmeFile) {
 
     console.log('Usuario:', user.data.login);
     console.log('Nombre:', user.data.name);
+    /*
     console.log('Bio:', user.data.bio);
     console.log('Total de repositorios:', totalPrivateRepos + totalPublicRepos);
     console.log('Total de commits:', totalCommits);
@@ -88,7 +89,7 @@ async function getStats(readmeFile) {
     console.log('Total de repositorios públicos:', totalPublicRepos);
     console.log('Repositorios:');
     console.log(repos.data);
-
+*/
     const readmePath = './README.md';
 
     // Crear el contenido actualizado del archivo readme
@@ -103,7 +104,7 @@ async function getStats(readmeFile) {
       
       ${fs.readFileSync(readmePath, 'utf-8')}
       `;
-      
+      console.log("imprimire el readme");
       console.log('Contenido actual del README.md:', fs.readFileSync(readmePath, 'utf-8'));
       // Escribir el contenido actualizado en el archivo readme
       await fs.writeFile(readmePath, updatedReadmeContent);
