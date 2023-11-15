@@ -1,4 +1,13 @@
-<h2 align="center">Hi 👋! My name is Libardo Lozano  and I'm a Software Developer</h2>
+
+      # Mi Proyecto
+      
+      Estadísticas actualizadas:
+      
+      - Total de repositorios: 196
+      - Total de commits: 100
+      - ...
+      
+      <h2 align="center">Hi 👋! My name is Libardo Lozano  and I'm a Software Developer</h2>
 
 <div align="center">
  <img align="right" height="200" src="https://i.imgur.com/D5VHIxn.gifion/"  />
@@ -213,3 +222,5 @@ My passion for technology extends beyond software development. I possess a keen 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=8F0D87&height=120&section=footer"/>
 
   
+
+    
