@@ -1,8 +1,8 @@
-name: Get GitHub Stats
+name: Update Readme
 
 on:
   schedule:
-    - cron: '*/2 * * * *' # Ejecutar cada 2 minutos
+    - cron: '*/2 * * * *'  # Ejecutar cada 2 minutos
   workflow_dispatch:
 
 jobs:
@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
 
       - name: Use Node.js 18.17.0
         uses: actions/setup-node@v2
@@ -24,12 +29,17 @@ jobs:
       - name: Run Node.js script
         env:
           GH_TOKEN: ${{ secrets.GH_APIKEY_2 }}
-        run: node index.js 
+        run: node index.js
+
+      - name: Check for changes
+        run: |
+          if [[ -z $(git status -s) ]]; then
+            echo "No changes to commit"
+            exit 0
+          fi
 
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
           git add -A .
-          git commit -m "updated"
-          git push
+          git commit -m "Updated"
+          git push origin main  # Asegúrate de especificar la rama correcta
