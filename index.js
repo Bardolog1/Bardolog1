@@ -1,6 +1,6 @@
-const { Octokit } = require('@octokit/rest');
-const d3 = require('d3');
-const fs = require('fs').promises;
+import { Octokit } from '@octokit/rest';
+import * as d3 from 'd3';
+import * as fs from 'fs/promises';
 
 
 const octokit = new Octokit({
