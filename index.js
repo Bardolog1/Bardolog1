@@ -99,8 +99,11 @@ async function getStats() {
       }
 
       totalCommits += await getCommits(repo);
+      console.log(repo.name," acumulado commits", totalCommits);
       totalPullRequests += await getPullRequests(repo);
       totalStars += await getStargazers(repo);
+      console.log(repo.name," acumulado stars", totalStars);
+
     }
 
     const langPercents = await calculateLangPercents(lang);
@@ -123,14 +126,10 @@ async function getStats() {
   }
 }
 
-function processData() {
-  // Puedes realizar aquí cualquier procesamiento adicional
-}
+
 
 async function run() {
   await getStats();
-  // Aquí puedes llamar a otras funciones según sea necesario
-  processData();
 }
 
 run();
