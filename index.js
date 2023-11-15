@@ -1,11 +1,11 @@
 import { Octokit } from '@octokit/rest';
 import * as d3 from 'd3';
-import * as fs from 'fs/promises';
-
+import { promises as fs } from 'fs';
 
 const octokit = new Octokit({
   auth: process.env.GH_TOKEN,
 });
+
 
 async function getStats(readmeFile) {  
   try {
@@ -90,7 +90,7 @@ async function getStats(readmeFile) {
     console.log('Repositorios:');
     console.log(repos.data);
 */
-    const readmePath = './README.md';
+   const readmePath = './README.md';
 
     // Crear el contenido actualizado del archivo readme
     const existingReadmeContent = await fs.readFile(readmePath, 'utf-8');
@@ -105,23 +105,22 @@ async function getStats(readmeFile) {
       
       ${existingReadmeContent}
     `;
-      console.log("imprimire el readme");
-      console.log('Contenido actual del README.md:', fs.readFileSync(readmePath, 'utf-8'));
-      // Escribir el contenido actualizado en el archivo readme
-      await fs.writeFile(readmePath, updatedReadmeContent);
-      console.log('Contenido actualizado del README.md:', fs.readFileSync(readmePath, 'utf-8'));
-      
-  
-    } catch (error) {
-      console.error('Error:', error);
-    }
-  }
 
+    console.log("Imprimiré el README");
+    console.log('Contenido actual del README.md:', existingReadmeContent);
+
+    // Escribir el contenido actualizado en el archivo readme
+    await fs.writeFile(readmePath, updatedReadmeContent);
+
+    console.log('Contenido actualizado del README.md:', await fs.readFile(readmePath, 'utf-8'));
+
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
 
 async function run() {
   await getStats();
 }
 
 run();
-
-
