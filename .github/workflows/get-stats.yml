@@ -37,7 +37,7 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-
+      
       - name: Commit & Push
         run: |
           git add -A .
