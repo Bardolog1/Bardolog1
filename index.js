@@ -114,8 +114,10 @@ async function getStats(readmeFile) {
   }
 
 
+async function run() {
+  await getStats();
+}
 
-getStats();
-
+run();
 
 
