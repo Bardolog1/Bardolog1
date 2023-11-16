@@ -2,7 +2,7 @@ name: Update Readme
 
 on:
   schedule:
-    - cron: '*/2 * * * *'  # Ejecutar cada 2 minutos
+    - cron: '0 */2 * * *'  # Ejecutar cada 2 horas
   workflow_dispatch:
 
 jobs:
