@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
       
       - name: Configure Git
         run: |
@@ -22,8 +24,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18.17.0'  # Utiliza la versión de Node.js adecuada
-      - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
       
       - name: Install dependencies
         run: npm install @octokit/rest
@@ -35,6 +35,16 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
         run: node index.js
 
-      - name: Check for changes & Git commit - Git Push/Pull
+      - name: Check for changes
         run: |
-          git diff --exit-code || (git add -A . && git commit -m "Updated" && git pull origin main && git push origin main)
+          if [[ -z $(git status -s) ]]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+      
+      - name: Git commit - Git Push/Pull
+        run: |
+          git add -A .
+          git commit -m "Updated"
+          git pull origin main
+          git push origin main  # Asegúrate de especificar la rama correcta
