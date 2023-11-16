@@ -16,7 +16,7 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITH_TOKEN }}
-
+          USERNAME: ${{ github.repository_owner }}
       
       - name: Configure Git
         run: |
@@ -34,7 +34,6 @@ jobs:
       - name: Run Node.js script
         env:
           GH_TOKEN: ${{ secrets.GH_APIKEY_2 }}
-          USERNAME: ${{ github.repository_owner }}
         run: node index.js
 
       - name: Check for changes
