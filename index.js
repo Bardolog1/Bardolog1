@@ -15,12 +15,34 @@ async function getLanguages(repo) {
 }
 
 async function getCommits(repo) {
-  const commits = await octokit.request("GET /repos/{owner}/{repo}/commits", {
+  const response = await octokit.request("GET /repos/{owner}/{repo}/commits", {
     owner: "bardolog1",
     repo: repo.name,
+    per_page: 100, // Especifica el número de commits por página
   });
 
-  return commits.data.length;
+  // Verifica si hay múltiples páginas
+  const linkHeader = response.headers.link;
+  if (linkHeader) {
+    const lastPageMatch = linkHeader.match(/<([^>]+)>;\s*rel="last"/);
+    if (lastPageMatch) {
+      const lastPageUrl = lastPageMatch[1];
+      const lastPage = parseInt(new URLSearchParams(lastPageUrl).get("page"), 10);
+
+      // Recorre las páginas restantes y suma los commits
+      for (let page = 2; page <= lastPage; page++) {
+        const nextPageResponse = await octokit.request("GET /repos/{owner}/{repo}/commits", {
+          owner: "bardolog1",
+          repo: repo.name,
+          per_page: 100,
+          page,
+        });
+        response.data = response.data.concat(nextPageResponse.data);
+      }
+    }
+  }
+
+  return response.data.length;
 }
 
 async function getPullRequests(repo) {
