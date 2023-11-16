@@ -99,6 +99,10 @@ async function updateReadme(updatedStats) {
   const existingReadmeContent = await fs.readFile(readmePath, "utf-8");
 
   const updatedReadmeContent = `
+  
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/images/Banner developer (2).gif" alt="Contributions" width="100%"  />
+</div>
 <div align="center">
   <img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="100%"  />
 </div>
