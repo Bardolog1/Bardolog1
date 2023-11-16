@@ -42,7 +42,10 @@ async function getCommits(repo) {
     }
   }
 
-  return response.data.length;
+  // Filtra los commits para incluir solo aquellos cuyo autor es el propietario del repositorio
+  const ownerCommits = response.data.filter(commit => commit.author && commit.author.login === "bardolog1");
+
+  return ownerCommits.length;
 }
 
 async function getPullRequests(repo) {
