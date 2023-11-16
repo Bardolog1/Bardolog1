@@ -118,7 +118,8 @@ async function updateReadme(updatedStats) {
   <img src="https://raw.githubusercontent.com/bardolog1/bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="100%"  />
 </div>
 
-    # Mi Proyecto de Readme Actualizado con GitHub Actions 
+    # Mi Proyecto de Readme Actualizado con GitHub Actions
+[![Run GH Actions & GH Stats](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml)    
     
     Estadísticas actualizadas por GH Actions:
     
