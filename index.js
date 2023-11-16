@@ -111,6 +111,7 @@ async function updateReadme(updatedStats) {
 </p>
 <p align="left">
     My passion for technology extends beyond software development. I possess a keen interest and basic knowledge in electronics, allowing me to bring a unique perspective to problem-solving. I thrive on curiosity and am committed to a continuous learning journey. Adaptable and open to change, I am well-equipped to navigate the dynamic landscape of the tech industry.
+    <iframe src="https://giphy.com/embed/6heBQSjt2IoA8" width="480" height="241" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6heBQSjt2IoA8">via GIPHY</a></p>
 </p>
 </div>
 <div align="center">
