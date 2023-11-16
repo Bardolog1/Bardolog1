@@ -21,29 +21,37 @@ async function getCommits(repo) {
 
   // Recorre todas las páginas de commits
   while (true) {
-    const commitsResponse = await octokit.repos.listCommits({
-      owner: "bardolog1",
-      repo: repo.name,
-      per_page: perPage,
-      page: page,
-    });
+    try {
+      const commitsResponse = await octokit.repos.listCommits({
+        owner: "bardolog1",
+        repo: repo.name,
+        per_page: perPage,
+        page: page,
+      });
 
-    const commits = commitsResponse.data;
+      const commits = commitsResponse.data;
 
-    if (commits.length === 0) {
-      break; 
+      if (commits.length === 0) {
+        break; // No hay más commits, sal del bucle
+      }
+
+      allCommits = allCommits.concat(commits);
+
+      if (commits.length < perPage) {
+        break; // Menos commits de los esperados en esta página, sal del bucle
+      }
+
+      page++;
+    } catch (error) {
+      console.error(`Error obteniendo commits para el repositorio ${repo.name}:`, error.message);
+      break;
     }
-
-    allCommits = allCommits.concat(commits);
-
-    if (commits.length < perPage) {
-      break; 
-    }
-
-    page++;
   }
 
+  // Filtra los commits para incluir solo aquellos cuyo autor es el propietario del repositorio
   const ownerCommits = allCommits.filter((commit) => commit.author && commit.author.login === "bardolog1");
+
+  console.log(`Commits para el repositorio ${repo.name}:`, ownerCommits.length);
 
   return ownerCommits.length;
 }
