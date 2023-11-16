@@ -15,35 +15,35 @@ async function getLanguages(repo) {
 }
 
 async function getCommits(repo) {
-  const response = await octokit.request("GET /repos/{owner}/{repo}/commits", {
-    owner: "bardolog1",
-    repo: repo.name,
-    per_page: 100, // Especifica el número de commits por página
-  });
+  let allCommits = [];
+  let page = 1;
+  const perPage = 100;
 
-  // Verifica si hay múltiples páginas
-  const linkHeader = response.headers.link;
-  if (linkHeader) {
-    const lastPageMatch = linkHeader.match(/<([^>]+)>;\s*rel="last"/);
-    if (lastPageMatch) {
-      const lastPageUrl = lastPageMatch[1];
-      const lastPage = parseInt(new URLSearchParams(lastPageUrl).get("page"), 10);
+  // Recorre todas las páginas de commits
+  while (true) {
+    const commitsResponse = await octokit.repos.listCommits({
+      owner: "bardolog1",
+      repo: repo.name,
+      per_page: perPage,
+      page: page,
+    });
 
-      // Recorre las páginas restantes y suma los commits
-      for (let page = 2; page <= lastPage; page++) {
-        const nextPageResponse = await octokit.request("GET /repos/{owner}/{repo}/commits", {
-          owner: "bardolog1",
-          repo: repo.name,
-          per_page: 100,
-          page,
-        });
-        response.data = response.data.concat(nextPageResponse.data);
-      }
+    const commits = commitsResponse.data;
+
+    if (commits.length === 0) {
+      break; 
     }
+
+    allCommits = allCommits.concat(commits);
+
+    if (commits.length < perPage) {
+      break; 
+    }
+
+    page++;
   }
 
-  // Filtra los commits para incluir solo aquellos cuyo autor es el propietario del repositorio
-  const ownerCommits = response.data.filter(commit => commit.author && commit.author.login === "bardolog1");
+  const ownerCommits = allCommits.filter((commit) => commit.author && commit.author.login === "bardolog1");
 
   return ownerCommits.length;
 }
