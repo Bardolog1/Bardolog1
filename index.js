@@ -51,8 +51,8 @@ async function getCommits(repo) {
   }
 
   // Filtra los commits para incluir solo aquellos cuyo autor es el propietario del repositorio
-  const ownerCommits = allCommits.filter((commit) => commit.author && commit.author.login === "bardolog1");
-
+  //const ownerCommits = allCommits.filter((commit) => commit.author && commit.author.login === "bardolog1");
+  const ownerCommits = allCommits;
   console.log(`Commits para el repositorio ${repo.name}:`, ownerCommits.length);
 
   return ownerCommits.length;
