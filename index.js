@@ -28,6 +28,8 @@ async function getCommits(repo) {
         per_page: perPage,
         page: page,
       });
+      
+      console.log(commitsResponse);
 
       const commits = commitsResponse.data;
 
@@ -102,7 +104,8 @@ async function updateReadme(updatedStats) {
     Estadísticas actualizadas:
     
     - Total de repositorios: ${updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos}
-    - Total de commits: ${updatedStats.totalCommits}
+    - Total de commits: ${updatedStats.totalCommits} 
+    - Total de estrellas: ${updatedStats.totalStars}
     - ...
   `;
 
@@ -132,10 +135,8 @@ async function getStats() {
       }
 
       totalCommits += await getCommits(repo);
-      console.log(repo.name," acumulado commits", totalCommits);
       totalPullRequests += await getPullRequests(repo);
       totalStars += await getStargazers(repo);
-      console.log(repo.name," acumulado stars", totalStars);
 
     }
 
@@ -152,7 +153,7 @@ async function getStats() {
       totalPrivateRepos,
       totalPublicRepos,
     };
-
+    console.log("Total commmits: ",updatedStats.totalCommits);
     await updateReadme(updatedStats);
   } catch (error) {
     console.error("Error:", error);
