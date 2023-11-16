@@ -99,9 +99,9 @@ async function updateReadme(updatedStats) {
   const existingReadmeContent = await fs.readFile(readmePath, "utf-8");
 
   const updatedReadmeContent = `
-    # Mi Proyecto
+    # Mi Proyecto de Readme Actualizado con GitHub Actions 
     
-    Estadísticas actualizadas:
+    Estadísticas actualizadas por GH Actions:
     
     - Total de repositorios: ${updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos}
     - Total de commits: ${updatedStats.totalCommits} 
