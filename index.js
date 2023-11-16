@@ -22,14 +22,12 @@ async function getCommits(repo) {
   // Recorre todas las páginas de commits
   while (true) {
     try {
-      console.log(commitsResponse);
       const commitsResponse = await octokit.repos.listCommits({
         owner: "bardolog1",
         repo: repo.name,
         per_page: perPage,
         page: page,
       });
-            console.log(commitsResponse);
 
       const commits = commitsResponse.data;
 
