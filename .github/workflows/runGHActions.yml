@@ -26,7 +26,7 @@ jobs:
       - name: Use Node.js 18.17.0
         uses: actions/setup-node@v2
         with:
-          node-version: '18.17.0'  # Utiliza la versión de Node.js adecuada
+          node-version: '18.17.0'  
       
       - name: Install dependencies
         run: npm install @octokit/rest
