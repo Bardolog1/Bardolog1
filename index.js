@@ -29,7 +29,7 @@ async function getCommits(repo) {
         page: page,
       });
       
-      console.log(commitsResponse);
+      //console.log(commitsResponse);
 
       const commits = commitsResponse.data;
 
