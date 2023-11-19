@@ -166,6 +166,10 @@ async function updateReadme(updatedStats) {
     - Total de commits: ${updatedStats.totalCommits} 
     - Total de estrellas: ${updatedStats.totalStars}
     - ...
+    
+<div align="center">
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=FF2967&height=120&section=footer"/>
+</div>
   `;
 
   await fs.writeFile(readmePath, updatedReadmeContent);
