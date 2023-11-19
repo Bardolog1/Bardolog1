@@ -2,7 +2,7 @@ name: Run GH Actions & GH Stats
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Ejecutar cada 2 horas
+    - cron: '* * * * *'  # Ejecutar cada 2 horas
   workflow_dispatch:
 
 jobs:
