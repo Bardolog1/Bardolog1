@@ -63,7 +63,7 @@
     Estadísticas actualizadas por GH Actions (Falta perfeccionar):
     
     - Total de repositorios: 202
-    - Total de commits: 1996 
+    - Total de commits: 1997 
     - Total de estrellas: 25
     - ...
     
