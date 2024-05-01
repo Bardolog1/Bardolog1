@@ -1,3 +1,5 @@
+
+
 name: Run GH Actions & GH Stats
 
 on:
@@ -12,10 +14,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - uses: actions/checkout@v3
+
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       
       - name: Configure Git
@@ -23,17 +25,14 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-      - name: Use Node.js 20.12.2
+      - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
-          node-version: '20.12.2'  
+          node-version: '16.x'  
       
-      - name: Install dependencies
-        run: npm install @octokit/rest
-
       - name: Run Node.js script
         env:
-          GH_TOKEN: ${{ secrets.GH_APIKEY_2 }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node index.js
 
       - name: Check for changes
@@ -43,9 +42,9 @@ jobs:
             exit 0
           fi
       
-      - name: Git commit - Git Push/Pull
+      - name: Git commit
         run: |
           git add -A .
           git commit -m "Updated"
-          git pull origin main
-          git push origin main  # Asegúrate de especificar la rama correcta
+          git push origin main
+
