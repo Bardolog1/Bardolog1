@@ -165,6 +165,7 @@ async function updateReadme(updatedStats) {
     - Total de repositorios: ${updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos}
     - Total de commits: ${updatedStats.totalCommits} 
     - Total de estrellas: ${updatedStats.totalStars}
+    - Last uupdate :${ new Date('Jul 12 2011')};
     - ...
     
 <div align="center">
