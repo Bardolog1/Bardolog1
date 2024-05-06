@@ -42,9 +42,15 @@ jobs:
             exit 0
           fi
       
+
       - name: Git commit - Git Push/Pull
         run: |
-          git add -A .
-          git commit -m "Updated"
-          git pull origin main
-          git push origin main  # Asegúrate de especificar la rama correcta
+          git status --porcelain  # Comprueba si hay cambios
+          if [ $? -eq 0 ]; then   # $? captura el código de salida del comando anterior
+            git add -A .
+            git commit -m "Updated"
+            git pull origin main
+            git push origin main  # Asegúrate de especificar la rama correcta
+          else
+            echo "No hay cambios para agregar"
+          fi
