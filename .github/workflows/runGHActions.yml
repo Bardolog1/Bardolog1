@@ -45,12 +45,11 @@ jobs:
 
       - name: Git commit - Git Push/Pull
         run: |
-          git status --porcelain  # Comprueba si hay cambios
-          if [ $? -eq 0 ]; then   # $? captura el código de salida del comando anterior
+          if git diff-index --quiet HEAD --; then
+            echo "No hay cambios para agregar"
+          else
             git add -A .
             git commit -m "Updated"
             git pull origin main
             git push origin main  # Asegúrate de especificar la rama correcta
-          else
-            echo "No hay cambios para agregar"
           fi
