@@ -241,12 +241,10 @@ async function getStats() {
     let reposVal =0;
      do{
       reposVal = (await getRepos(page++, 100)).data;
-       repos.push(reposVal);
+      count += reposVal.length;
+      repos.push(reposVal);
       
-      
-      count = count + repos.length;
-       
-    } while (reposVal.length > 0);
+    } while (count > 0);
     
     repos.forEach((repo) => {
       console.log("Repo: ", repo[0]? repo[0].name : repo);    
