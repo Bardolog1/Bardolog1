@@ -236,7 +236,7 @@ async function getStats() {
     const totalRepos = totalPrivateRepos + totalPublicRepos;
     
     let page = 1;
-    const repos = {};
+    const repos = [];
     let count = 0;
     
      do{
