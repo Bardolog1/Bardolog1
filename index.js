@@ -251,7 +251,7 @@ async function getStats() {
     } while (reposVal.length !== 0);
     
     repos.forEach((repo) => {
-      console.log("Repo: ", repo[0].name? repo[0].name : repo);    
+      console.log("Repo: ", repo[0]? repo[0].name : repo);    
     })
     /*
     
