@@ -87,8 +87,8 @@ async function getStargazersUser(repo) {
     owner: "bardolog1",
     repo: repo,
   });
-
-  if (stargazers.data) {
+  console.log("STARGAZERS: ", stargazers);
+  if (stargazers) {
     return stargazers.data.length;
   } else {
     return 0;
