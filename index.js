@@ -238,7 +238,7 @@ async function getStats() {
     let page = 1;
     const repos = [];
     let count = 0;
-    const reposVal =0;
+    let reposVal =0;
      do{
       reposVal = (await getRepos(page++, 100)).data;
        repos.push(reposVal);
