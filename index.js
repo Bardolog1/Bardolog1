@@ -123,6 +123,7 @@ async function updateReadme(updatedStats) {
 </div>
 
 <!--https://raw.githubusercontent.com/Bardolog1/Bardolog1/master-->
+- Last update :${ new Date('Jul 12 2011')};
 
 # THIS README IS UNDER CONSTRUCTION
 
@@ -165,7 +166,7 @@ async function updateReadme(updatedStats) {
     - Total de repositorios: ${updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos}
     - Total de commits: ${updatedStats.totalCommits} 
     - Total de estrellas: ${updatedStats.totalStars}
-    - Last uupdate :${ new Date('Jul 12 2011')};
+    
     - ...
     
 <div align="center">
