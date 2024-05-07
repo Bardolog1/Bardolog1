@@ -88,7 +88,11 @@ async function getStargazersUser(repo) {
     repo: repo,
   });
 
-  return stargazers.data.length;
+  if (stargazers.data) {
+    return stargazers.data.length;
+  } else {
+    return 0;
+  }
 }
 
 async function getUser() {
