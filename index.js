@@ -247,11 +247,11 @@ async function getStats() {
         break;
       }
       count = count + repos.length;
-      
+       
     } while (count <= totalRepos);
     
     repos.forEach((repo) => {
-      console.log("Repo: ", repo.name);
+      console.log("Repo: ", repo);    
     })
     /*
     
