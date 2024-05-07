@@ -76,6 +76,15 @@ async function getStargazers(repo) {
   return stargazers.data.length;
 }
 
+async function getStargazersUser(repo) {
+  const stargazers = await octokit.activity.listReposStarredByUser({
+    owner: "bardolog1",
+    repo: repo.name,
+  });
+
+  return stargazers.data.length;
+}
+
 async function getUser() {
   return octokit.users.getAuthenticated();
 }
@@ -123,7 +132,6 @@ async function updateReadme(updatedStats) {
 </div>
 
 <!--https://raw.githubusercontent.com/Bardolog1/Bardolog1/master-->
-- Last update :${ new Date('Jul 12 2011')};
 
 # THIS README IS UNDER CONSTRUCTION
 
@@ -166,7 +174,8 @@ async function updateReadme(updatedStats) {
     - Total de repositorios: ${updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos}
     - Total de commits: ${updatedStats.totalCommits} 
     - Total de estrellas: ${updatedStats.totalStars}
-    
+    - Last update :${ new Date().toLocaleDateString('es-ES', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
+
     - ...
     
 <div align="center">
@@ -202,7 +211,8 @@ async function getStats() {
       totalCommits += await getCommits(repo);
       totalPullRequests += await getPullRequests(repo);
       totalStars += await getStargazers(repo);
-
+      totalStars += await getStargazersUser(repo);
+      
     }
 
     const langPercents = await calculateLangPercents(lang);
