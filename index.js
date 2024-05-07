@@ -253,7 +253,7 @@ async function getStats() {
     repos.forEach((repo) => {
       console.log("Repo: ", repo.name);
     })
-    
+    /*
     
     for (const repo of repos) {
       if (repo.owner.login.toLowerCase()  !== "bardolog1") {
@@ -290,7 +290,7 @@ async function getStats() {
     };
     console.log("Total commmits: ", updatedStats.totalCommits);
     
-    await updateReadme(updatedStats);
+    await updateReadme(updatedStats);*/
   } catch (error) {
     console.error("Error:", error);
   }
