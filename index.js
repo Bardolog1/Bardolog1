@@ -240,14 +240,15 @@ async function getStats() {
     let count = 0;
     
      do{
+     
        repos.push(await getRepos(page++, 100));
-       console.log(repos.data.length);
+      
         
       if (repos.data.length === 0) {
         break;
       }
       count = count + repos.data.length;
-      
+       console.log(repos.data.length);
     } while (count <= totalRepos);
     
     
