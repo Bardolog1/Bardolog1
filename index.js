@@ -82,9 +82,10 @@ async function getStargazers(repo) {
   return stargazers.data.length;
 }
 
-async function getStargazersUser() {
-  const stargazers = await octokit.activity.listReposStarredByUser({
-    username: "bardolog1",
+async function getStargazersUser(repo) {
+  const stargazers = await octokit.rest.activity.checkRepoIsStarredByAuthenticatedUser({
+    owner: "bardolog1",
+    repo: repo,
   });
 
   return stargazers.data.length;
@@ -206,7 +207,7 @@ async function getStats() {
     let totalPublicRepos = 0;
     let totalPullRequests = 0;
     let totalStars = 0;
-    const stars= await getStargazersUser();
+    
     const user = await getUser();
     const repos = await getRepos();
     
@@ -227,7 +228,7 @@ async function getStats() {
         totalCommits += await getCommits(repo);
         totalPullRequests += await getPullRequests(repo);
         totalStars += await getStargazers(repo);
-        //totalStars += await getStargazersUser(repo);
+        totalStars += await getStargazersUser(repo);
     }
 
     const langPercents = await calculateLangPercents(lang);
