@@ -250,7 +250,9 @@ async function getStats() {
       
     } while (count <= totalRepos);
     
-    console.log(repos);
+    repos.forEach((repo) => {
+      console.log("Repo: ", repo.name);
+    })
     
     
     for (const repo of repos) {
