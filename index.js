@@ -107,8 +107,16 @@ async function getUser() {
   return octokit.users.getAuthenticated();
 }
 
-async function getRepos() {
-  return octokit.repos.listForAuthenticatedUser();
+async function getRepos(page = 1, perPage = 100) {
+ 
+    return await octokit.repos.listForAuthenticatedUser({
+      visibility: "all",
+      affiliation: "owner",
+      per_page: perPage,
+      page: page,
+    });
+  
+  
 }
 
 async function calculateLangPercents(lang) {
@@ -221,7 +229,29 @@ async function getStats() {
     let totalStars = 0;
     
     const user = await getUser();
-    const repos = await getRepos();
+    
+    
+    totalPrivateRepos = user.data.total_private_repos;
+    totalPublicRepos = user.data.public_repos;
+    const totalRepos = totalPrivateRepos + totalPublicRepos;
+    
+    let page = 1;
+    const repos = {};
+    let count = 0;
+    
+     do{
+       repos.push(await getRepos(page++, 100));
+       console.log(repos.data.length);
+        
+      if (repos.data.length === 0) {
+        break;
+      }
+      count = count + repos.data.length;
+      
+    } while (count <= totalRepos);
+    
+    
+    
     
     for (const repo of repos.data) {
       if (repo.owner.login.toLowerCase()  !== "bardolog1") {
