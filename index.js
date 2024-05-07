@@ -243,18 +243,17 @@ async function getStats() {
      
        repos.push((await getRepos(page++, 100)).data);
       
-        
       if (repos.length === 0) {
         break;
       }
       count = count + repos.length;
-       console.log(repos.length);
+      
     } while (count <= totalRepos);
     
+    console.log(repos);
     
     
-    
-    for (const repo of repos.data) {
+    for (const repo of repos) {
       if (repo.owner.login.toLowerCase()  !== "bardolog1") {
           repos.data.splice(repos.data.indexOf(repo), 1);
           continue;
