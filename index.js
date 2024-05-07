@@ -89,7 +89,8 @@ async function getStargazersUser(repo) {
   
   if (stargazers) {
   const users ={}
-    console.log("Repo: ", repo.name, " STARGAZERS: ",  stargazers.data.length);
+    console.log("repo", repo);
+    console.log("Repo: ", repo.name, " STARGAZERS: ",  stargazers.data.length, "private: ");
     for (const stargazer of stargazers.data) {
       users[stargazer.login] = stargazer.login;
     }
