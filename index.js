@@ -199,22 +199,22 @@ async function getStats() {
     const repos = await getRepos();
     console.log(repos.data);
     for (const repo of repos.data) {
-      
-    
-      const repoLanguages = await getLanguages(repo);
-      for (const language in repoLanguages) {
-        if (lang.find((l) => l.name === language)) {
-          lang.find((l) => l.name === language).value += repoLanguages[language];
-        } else {
-          lang.push({ name: language, value: repoLanguages[language] });
+        if(repo.owner.login !== "bardolog1"){
+        const repoLanguages = await getLanguages(repo);
+        for (const language in repoLanguages) {
+          if (lang.find((l) => l.name === language)) {
+            lang.find((l) => l.name === language).value +=
+              repoLanguages[language];
+          } else {
+            lang.push({ name: language, value: repoLanguages[language] });
+          }
         }
-      }
 
-      totalCommits += await getCommits(repo);
-      totalPullRequests += await getPullRequests(repo);
-      totalStars += await getStargazers(repo);
-      totalStars += await getStargazersUser(repo);
-      
+        totalCommits += await getCommits(repo);
+        totalPullRequests += await getPullRequests(repo);
+        totalStars += await getStargazers(repo);
+        totalStars += await getStargazersUser(repo);
+    }
     }
 
     const langPercents = await calculateLangPercents(lang);
