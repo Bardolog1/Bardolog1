@@ -254,8 +254,14 @@ async function getStats() {
       count +=  reposVal.data.length;
       
       console.log("Total repos: ", count);
-      repos.push(reposVal.data);
+      
+      reposVal.data.forEach((repo) => {
+        repos.push(repo);
+      })
+
     } while (count < totalRepos);
+    
+    console
     
     repos.forEach((repo) => {
       console.log("Repo: ", repo.name, "private: ", repo.private);
