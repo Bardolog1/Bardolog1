@@ -206,7 +206,7 @@ async function getStats() {
     let totalPublicRepos = 0;
     let totalPullRequests = 0;
     let totalStars = 0;
-    console.log(getStargazersUser());
+    const stars= await getStargazersUser();
     const user = await getUser();
     const repos = await getRepos();
     
@@ -244,6 +244,7 @@ async function getStats() {
       totalPublicRepos,
     };
     console.log("Total commmits: ", updatedStats.totalCommits);
+    console.log("Total stars ", stars);
     await updateReadme(updatedStats);
   } catch (error) {
     console.error("Error:", error);
