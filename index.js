@@ -245,23 +245,14 @@ async function getStats() {
     let count = 0;
     let reposVal =0;
      do{
-     
-      console.log("Page: ", page, "Count: ", count);
-      
       reposVal = await getRepos(page++, 100);
-      console.log(reposVal.data.length);
-      
       count +=  reposVal.data.length;
-      
-      console.log("Total repos: ", count);
-      
       reposVal.data.forEach((repo) => {
         repos.push(repo);
       })
-
     } while (count < totalRepos);
     
-    console
+  
     
     repos.forEach((repo) => {
       console.log("Repo: ", repo.name, "private: ", repo.private);
@@ -271,7 +262,7 @@ async function getStats() {
     
     console.log("==============================================================================");
     
-    /*
+    
     
     for (const repo of repos) {
       if (repo.owner.login.toLowerCase()  !== "bardolog1") {
@@ -308,7 +299,7 @@ async function getStats() {
     };
     console.log("Total commmits: ", updatedStats.totalCommits);
     
-    await updateReadme(updatedStats);*/
+    await updateReadme(updatedStats);
   } catch (error) {
     console.error("Error:", error);
   }
