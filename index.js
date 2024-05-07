@@ -209,7 +209,7 @@ async function getStats() {
     console.log(getStargazersUser());
     const user = await getUser();
     const repos = await getRepos();
-    console.log(repos.data);
+    
     for (const repo of repos.data) {
       if (repo.owner.login.toLowerCase()  !== "bardolog1") {
           repos.data.splice(repos.data.indexOf(repo), 1);
