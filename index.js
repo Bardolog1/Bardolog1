@@ -85,7 +85,7 @@ async function getStargazersUser(repo) {
   const stargazers = await octokit.activity.listStargazersForRepo({
     owner: "bardolog1",
     repo: repo.name,
-    per_page: 250,
+    per_page: 100,
     page: 1,
   });
   
@@ -107,7 +107,7 @@ async function getUser() {
   return octokit.users.getAuthenticated();
 }
 
-async function getRepos(page = 1, perPage = 100) {
+async function getRepos(page , perPage = 100) {
  
     return await octokit.repos.listForAuthenticatedUser({
       visibility: "all",
@@ -207,6 +207,11 @@ async function updateReadme(updatedStats) {
       year: "numeric",
       month: "long",
       day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric",
+      hour12: false,
+      
     })}
 
     - ...
@@ -241,7 +246,7 @@ async function getStats() {
     let reposVal =0;
      do{
       reposVal = (await getRepos(page++, 100)).data;
-      count += reposVal.length;
+      count =  reposVal.length;
       repos.push(reposVal);
       
     } while (count > 0);
