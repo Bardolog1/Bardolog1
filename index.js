@@ -6,10 +6,13 @@ const octokit = new Octokit({
 });
 
 async function getLanguages(repo) {
-  const languages = await octokit.request("GET /repos/{owner}/{repo}/languages", {
-    owner: "bardolog1",
-    repo: repo.name,
-  });
+  const languages = await octokit.request(
+    "GET /repos/{owner}/{repo}/languages",
+    {
+      owner: "bardolog1",
+      repo: repo.name,
+    }
+  );
 
   return languages.data;
 }
@@ -28,7 +31,7 @@ async function getCommits(repo) {
         per_page: perPage,
         page: page,
       });
-      
+
       //console.log(commitsResponse);
 
       const commits = commitsResponse.data;
@@ -45,7 +48,10 @@ async function getCommits(repo) {
 
       page++;
     } catch (error) {
-      console.error(`Error obteniendo commits para el repositorio ${repo.name}:`, error.message);
+      console.error(
+        `Error obteniendo commits para el repositorio ${repo.name}:`,
+        error.message
+      );
       break;
     }
   }
@@ -171,10 +177,17 @@ async function updateReadme(updatedStats) {
     
     Estadísticas actualizadas por GH Actions (Falta perfeccionar):
     
-    - Total de repositorios: ${updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos}
+    - Total de repositorios: ${
+      updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos
+    }
     - Total de commits: ${updatedStats.totalCommits} 
     - Total de estrellas: ${updatedStats.totalStars}
-    - Last update :${ new Date().toLocaleDateString('es-ES', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
+    - Last update :${new Date().toLocaleDateString("es-ES", {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    })}
 
     - ...
     
@@ -193,13 +206,13 @@ async function getStats() {
     let totalPrivateRepos = 0;
     let totalPublicRepos = 0;
     let totalPullRequests = 0;
-    let totalStars  = 0;
+    let totalStars = 0;
 
     const user = await getUser();
     const repos = await getRepos();
     console.log(repos.data);
     for (const repo of repos.data) {
-        if(repo.owner.login !== "bardolog1"){
+      if (repo.owner.login !== "bardolog1") {
         const repoLanguages = await getLanguages(repo);
         for (const language in repoLanguages) {
           if (lang.find((l) => l.name === language)) {
@@ -214,7 +227,7 @@ async function getStats() {
         totalPullRequests += await getPullRequests(repo);
         totalStars += await getStargazers(repo);
         totalStars += await getStargazersUser(repo);
-    }
+      }
     }
 
     const langPercents = await calculateLangPercents(lang);
@@ -230,14 +243,12 @@ async function getStats() {
       totalPrivateRepos,
       totalPublicRepos,
     };
-    console.log("Total commmits: ",updatedStats.totalCommits);
+    console.log("Total commmits: ", updatedStats.totalCommits);
     await updateReadme(updatedStats);
   } catch (error) {
     console.error("Error:", error);
   }
 }
-
-
 
 async function run() {
   await getStats();
