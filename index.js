@@ -238,17 +238,17 @@ async function getStats() {
     let page = 1;
     const repos = [];
     let count = 0;
-    
+    const reposVal =0;
      do{
-     
-       repos.push((await getRepos(page++, 100)).data);
+      reposVal = (await getRepos(page++, 100)).data;
+       repos.push(reposVal);
       
       if (repos.length === 0) {
         break;
       }
       count = count + repos.length;
        
-    } while (count <= totalRepos);
+    } while (reposVal.length !== 0);
     
     repos.forEach((repo) => {
       console.log("Repo: ", repo);    
