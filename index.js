@@ -241,14 +241,14 @@ async function getStats() {
     
      do{
      
-       repos.push(await getRepos(page++, 100));
+       repos.push((await getRepos(page++, 100)).data);
       
         
-      if (repos.data.length === 0) {
+      if (repos.length === 0) {
         break;
       }
-      count = count + repos.data.length;
-       console.log(repos.data.length);
+      count = count + repos.length;
+       console.log(repos.length);
     } while (count <= totalRepos);
     
     
