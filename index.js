@@ -83,7 +83,7 @@ async function getStargazers(repo) {
 }
 
 async function getStargazersUser(repo) {
-  const stargazers = await octokit.rest.activity.checkRepoIsStarredByAuthenticatedUser({
+  const stargazers = await octokit.activity.checkRepoIsStarredByAuthenticatedUser({
     owner: "bardolog1",
     repo: repo,
   });
@@ -249,7 +249,7 @@ async function getStats() {
       totalPublicRepos,
     };
     console.log("Total commmits: ", updatedStats.totalCommits);
-    console.log("Total stars ", stars);
+    
     await updateReadme(updatedStats);
   } catch (error) {
     console.error("Error:", error);
