@@ -228,7 +228,7 @@ async function getStats() {
         totalCommits += await getCommits(repo);
         totalPullRequests += await getPullRequests(repo);
         totalStars += await getStargazers(repo);
-        totalStars += await getStargazersUser(repo);
+        //totalStars += await getStargazersUser(repo);
     }
 
     const langPercents = await calculateLangPercents(lang);
