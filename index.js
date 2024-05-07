@@ -257,7 +257,7 @@ async function getStats() {
       
       
       repos.push(reposVal);
-    } while (page < 3);
+    } while (page <= 3);
     
     
     
