@@ -85,19 +85,9 @@ async function getStargazersUser(repo) {
   const stargazers = await octokit.activity.listStargazersForRepo({
     owner: "bardolog1",
     repo: repo.name,
-    per_page: 100,
-    page: 1,
   });
-  
-  if (stargazers) {
-  const users ={}
-    
-    console.log("Repo: ", repo.name, " STARGAZERS: ",  stargazers.data.length, "private: ", repo.private);
-    for (const stargazer of stargazers.data) {
-      users[stargazer.login] = stargazer.login;
-    }
-    console.log(users);
-    return 1;
+    if (stargazers) {
+    return stargazers.data.length;
   } else {
     return 0;
   }
@@ -280,7 +270,6 @@ async function getStats() {
         }
         totalCommits += await getCommits(repo);
         totalPullRequests += await getPullRequests(repo);
-        totalStars += await getStargazers(repo);
         totalStars += await getStargazersUser(repo);
     }
 
