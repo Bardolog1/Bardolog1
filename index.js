@@ -245,12 +245,14 @@ async function getStats() {
     let count = 0;
     let reposVal =0;
      do{
+     
       console.log("Page: ", page, "Count: ", count);
-      count++;
-      reposVal = (await getRepos(page++, 100));
-      count =  reposVal.length;
+      reposVal = await getRepos(page++, 100);
+      console.log(reposVal);
+      count =  reposVal.data.length;
+      
       repos.push(reposVal);
-    } while (count < 3);
+    } while (page > 3);
     
     
     console.log("Total repos: ", repos.length);
