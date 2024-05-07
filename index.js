@@ -45,7 +45,6 @@ async function getCommits(repo) {
       if (commits.length < perPage) {
         break; // Menos commits de los esperados en esta página, sal del bucle
       }
-
       page++;
     } catch (error) {
       console.error(
@@ -83,13 +82,14 @@ async function getStargazers(repo) {
 }
 
 async function getStargazersUser(repo) {
-  const stargazers = await octokit.activity.checkRepoIsStarredByAuthenticatedUser({
+  const stargazers = await octokit.activity.listStargazersForRepo({
     owner: "bardolog1",
     repo: repo,
   });
   console.log("STARGAZERS: ", stargazers);
   if (stargazers) {
-    return stargazers.data.length;
+    console.log("STARGAZERS: ", stargazers.data.length);
+    return 1;
   } else {
     return 0;
   }
