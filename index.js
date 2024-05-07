@@ -197,9 +197,9 @@ async function getStats() {
 
     const user = await getUser();
     const repos = await getRepos();
-
+    console.log(repos.data);
     for (const repo of repos.data) {
-      console.log(repo.name);
+      
     
       const repoLanguages = await getLanguages(repo);
       for (const language in repoLanguages) {
