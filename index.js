@@ -84,7 +84,7 @@ async function getStargazers(repo) {
 
 async function getStargazersUser() {
   const stargazers = await octokit.activity.listReposStarredByUser({
-    owner: "bardolog1",
+    username: "bardolog1",
   });
 
   return stargazers.data.length;
