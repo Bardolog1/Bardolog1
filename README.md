@@ -23,7 +23,6 @@
 </div>
 
 <!--https://raw.githubusercontent.com/Bardolog1/Bardolog1/master-->
-- Last update :Tue Jul 12 2011 00:00:00 GMT+0000 (Coordinated Universal Time);
 
 # THIS README IS UNDER CONSTRUCTION
 
@@ -63,10 +62,11 @@
     
     Estadísticas actualizadas por GH Actions (Falta perfeccionar):
     
-    - Total de repositorios: 219
-    - Total de commits: 3608 
+    - Total de repositorios: 218
+    - Total de commits: 3626 
     - Total de estrellas: 24
-    
+    - Last update :martes, 7 de mayo de 2024
+
     - ...
     
 <div align="center">
