@@ -199,6 +199,8 @@ async function getStats() {
     const repos = await getRepos();
 
     for (const repo of repos.data) {
+      console.log(repo.name);
+    
       const repoLanguages = await getLanguages(repo);
       for (const language in repoLanguages) {
         if (lang.find((l) => l.name === language)) {
