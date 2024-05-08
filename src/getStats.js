@@ -9,12 +9,12 @@ import { updateReadme } from "./utils/updateReadme.js";
 const updatedStats = {
   owner: "",
   totalCommits: 0,
+  totalPullRequests: 0,
   totalPrivateRepos: 0,
   totalPublicRepos: 0,
-  totalPullRequests: 0,
+  totalRepos: 0,
   langPercents: 0,
   totalStars: 0,
-  totalRepos: 0,
   lang: [],
   repos: [],
 };
@@ -44,9 +44,14 @@ export async function getStats(user) {
     } while (count < updatedStats.totalRepos);
 
     repos.forEach((repo) => {
+      
+      if(repo.name === "repo-info") {
+        console.log("Repo GitHub repo-info ", repo.name);
+      }
+    
       if(repo.size <= 0) {
         if(repo.watchers_count <= 0 && repo.language === null) {
-          console.log("Repo GitHub empty Watchers ", repo.name, "  watchers_count ", repo.watchers_count);
+          console.log("Repo GitHub empty  ", repo.name);
         }
       }
       
@@ -74,31 +79,24 @@ export async function getStats(user) {
         
       }
       
-      
-      updatedStats.totalCommits += await getCommitsLengthByRepo(repo.name, updatedStats.owner);
       updatedStats.totalPullRequests += await getPullRequests(repo.name, updatedStats.owner);
       updatedStats.totalStars += await getStars(repo.name, updatedStats.owner);
       
+      if(repo.size <= 0 && repo.watchers_count <= 0 && repo.language === null){
+        continue;
+      }
+      updatedStats.totalCommits += await getCommitsLengthByRepo(repo.name, updatedStats.owner);
     }
+    
+    updatedStats = {
+      langPercents: await calculateLangPercents(updateReadme.lang),
+      ...updatedStats
+    }; 
     
     console.log("Stats object", updatedStats);
   
-/*
-    totalPrivateRepos = user.data.total_private_repos;
-    totalPublicRepos = user.data.public_repos;
-
-    updatedStats = {
-      langPercents: await calculateLangPercents(lang),
-      totalCommits,
-      totalPullRequests,
-      totalStars,
-      totalPrivateRepos,
-      totalPublicRepos,
-      totalRepos: totalPrivateRepos + totalPublicRepos,
-    };
-
     await updateReadme(updatedStats);
-    */
+   
   } catch (error) {
     console.error("Error:", error);
   }

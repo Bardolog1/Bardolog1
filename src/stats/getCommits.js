@@ -20,7 +20,7 @@ export async function getCommitsLengthByRepo(
         page,
       });
 
-      if (!commitsResponse) break;
+      
 
       const commits = commitsResponse.data;
 
