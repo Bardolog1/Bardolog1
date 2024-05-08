@@ -44,8 +44,8 @@ export async function getStats(user) {
     } while (count < updatedStats.totalRepos);
 
     repos.forEach((repo) => {
-      if(repo.name==="repo-info"){
-        console.log(repo);
+      if(repo.size <= 0) {
+        console.log("Repo GitHub empty  ", repo.name);
       }
       updatedStats.repos.push(repo.name);
       
