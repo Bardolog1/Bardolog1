@@ -1,5 +1,6 @@
 export async function calculateLangPercents(lang) {
-  const langPercents = lang.map((l) => ({
+
+  let langPercents = lang.map((l) => ({
     name: l.name,
     value: ((l.value * 100) / lang.reduce((a, b) => a + b.value, 0)).toFixed(2),
   }));
