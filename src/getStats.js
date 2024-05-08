@@ -44,7 +44,11 @@ export async function getStats(user) {
     } while (count < updatedStats.totalRepos);
 
     repos.forEach((repo) => {
+      if(repo.name==="repo-info"){
+        console.log(repo);
+      }
       updatedStats.repos.push(repo.name);
+      
     });
     
     console.log("Repos", repos[0]);
