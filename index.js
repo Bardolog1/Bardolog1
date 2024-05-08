@@ -1,3 +1,4 @@
+import { getStats } from "./src/getStats.js";
 import { getUser } from "./src/user/getUser.js";
 
 
