@@ -5,6 +5,7 @@ const octokit = OctokitTool();
 
 
 async function run() {
+
   //await getStats();
   console.log(await getUser());
 }
