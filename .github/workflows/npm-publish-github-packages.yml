@@ -54,8 +54,9 @@ jobs:
           if git diff-index --quiet HEAD --; then
             echo "No hay cambios para agregar"
           else
+            git merge main --no-edit
             git add -A .
             git commit -m "Updated"
-            git pull origin main
-            git push origin main  # Asegúrate de especificar la rama correcta
+            git pull origin features/modularization-of-methods
+            git push origin features/modularization-of-methods  
           fi
