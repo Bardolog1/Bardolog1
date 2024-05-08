@@ -44,17 +44,6 @@ export async function getStats(user) {
     } while (count < updatedStats.totalRepos);
 
     repos.forEach((repo) => {
-      
-      if(repo.name === "repo-info") {
-        console.log("Repo GitHub repo-info ", repo);
-      }
-    
-      if(repo.size <= 0) {
-        if(repo.watchers_count <= 0 && repo.language === null) {
-          console.log("Repo GitHub empty  ", repo.name);
-        }
-      }
-      
       updatedStats.repos.push(repo.name);
       
     });
@@ -88,12 +77,11 @@ export async function getStats(user) {
       updatedStats.totalCommits += await getCommitsLengthByRepo(repo.name, updatedStats.owner);
     }
     
-    console.log(updatedStats.lang);
-    /*
+    
     updatedStats = {
-      //langPercents: await calculateLangPercents(updateReadme.lang),
+      langPercents: await calculateLangPercents(updatedStats.lang),
       ...updatedStats
-    }; */
+    }; 
     
     console.log("Stats object", updatedStats);
   
