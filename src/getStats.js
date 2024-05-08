@@ -35,7 +35,7 @@ export async function getStats(user) {
     
     
     console.log("Stats object", updatedStats);
-  /*
+  
     let page = 1;
     const repos = [];
     let count = 0;
@@ -46,8 +46,15 @@ export async function getStats(user) {
       reposVal.data.forEach((repo) => {
         repos.push(repo);
       });
-    } while (count < totalRepos);
-
+    } while (count < updatedStats.totalRepos);
+    
+    count = 0;
+    repos.forEach(async (repo) => {
+      count++;
+      console.log("Repo:", repo.name,"  ", count, "/", totalRepos);
+    });
+    
+/*
     for (const repo of repos) {
       if (repo.owner.login.toLowerCase() !== "bardolog1") {
         repos.data.splice(repos.data.indexOf(repo), 1);
