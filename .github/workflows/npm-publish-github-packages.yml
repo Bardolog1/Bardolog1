@@ -1,0 +1,61 @@
+name: Run GH Actions & GH Stats (Features)
+
+on:
+  push:
+    branches:
+      - features/modularization-of-methods
+  workflow_dispatch:
+
+jobs:
+  get-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITH_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "lilozanoga@unal.edu.co"
+          
+      - name: Switch to the desired branch
+        run: git checkout features/modularization-of-methods
+
+      
+      - name: Use Node.js 18.17.0
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18.17.0'  
+      
+      - name: Install dependencies
+        run: npm install @octokit/rest
+
+      - name: Run Node.js script
+        env:
+          GH_TOKEN: ${{ secrets.GH_APIKEY_2 }}
+        run: node index.js
+
+      - name: Check for changes
+        run: |
+          if [[ -z $(git status -s) ]]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+      
+
+      - name: Git commit - Git Push/Pull
+        run: |
+          if git diff-index --quiet HEAD --; then
+            echo "No hay cambios para agregar"
+          else
+            git add -A .
+            git commit -m "Updated"
+            git pull origin main
+            git push origin main  # Asegúrate de especificar la rama correcta
+          fi
