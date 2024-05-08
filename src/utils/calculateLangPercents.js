@@ -10,4 +10,5 @@ export async function calculateLangPercents(lang) {
 
   console.log(langPercents);
   return langPercents;
+  
 }
