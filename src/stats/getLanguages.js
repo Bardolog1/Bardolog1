@@ -8,5 +8,8 @@ export async function getLanguages(repo, owner) {
   return await octokit.request(endpoint, {
     owner,
     repo,
-  });
+  }).then((response) => {
+    response.data;
+  })
+  ;
 }
