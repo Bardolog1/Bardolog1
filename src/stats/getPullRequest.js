@@ -1,4 +1,4 @@
-import OctokitTool from "../Octokit/OctokitTool";
+import OctokitTool from "../Octokit/OctokitTool.js";
 const octokit = OctokitTool();
 
 export async function getPullRequests(repo) {
