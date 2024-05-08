@@ -1,4 +1,5 @@
 export async function calculateLangPercents(lang) {
+  console.log(lang);
 
   let langPercents = lang.map((l) => ({
     name: l.name,
