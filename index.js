@@ -2,10 +2,9 @@ import { getUser, getUserOwner } from "./src/user/getUser.js";
 
 
 async function run() {
-
-  //await getStats();
-  console.log(await getUser());
-  console.log(await getUserOwner());
+  const user = await getUser();
+  await getStats(user);
+  
 }
 
 run();

@@ -2,15 +2,16 @@ import OctokitTool from "../Octokit/OctokitTool";
 
 const octokit = OctokitTool();
 
-
-export async function getRepos(page , perPage = 100) {
- 
-    return await octokit.repos.listForAuthenticatedUser({
-      visibility: "all",
-      affiliation: "owner",
-      per_page: perPage,
-      page: page,
-    });
-  
-  
+export async function getRepos(
+  page = 1,
+  per_page = 100,
+  affiliation = "owner",
+  visibility = "all"
+) {
+  return await octokit.repos.listForAuthenticatedUser({
+    visibility,
+    affiliation,
+    per_page,
+    page,
+  });
 }
