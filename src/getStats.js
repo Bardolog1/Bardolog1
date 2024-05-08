@@ -7,6 +7,7 @@ import { calculateLangPercents } from "./utils/calculateLangPercents.js";
 import { updateReadme } from "./utils/updateReadme.js";
 
 const updatedStats = {
+  owner: "",
   totalCommits: 0,
   totalPrivateRepos: 0,
   totalPublicRepos: 0,
@@ -14,27 +15,27 @@ const updatedStats = {
   langPercents: 0,
   totalStars: 0,
   totalRepos: 0,
+  lang: [],
 };
 
-let owner = "";
+
 
 export async function getStats(user) {
 
-  owner = user.data.login;
-  console.log("Owner:", owner);
-  /*
+  updatedStats.owner = user.data.login;
+  console.log("Owner:", updatedStats.owner);
+  
   try {
-    const lang = [];
-    let totalCommits = 0;
-    let totalPrivateRepos = 0;
-    let totalPublicRepos = 0;
-    let totalPullRequests = 0;
-    let totalStars = 0;
+    
+    
 
-    totalPrivateRepos = user.data.total_private_repos;
-    totalPublicRepos = user.data.public_repos;
-    const totalRepos = totalPrivateRepos + totalPublicRepos;
-
+    updatedStats.totalPrivateRepos = user.data.total_private_repos;
+    updatedStats.totalPublicRepos = user.data.public_repos;
+    updatedStats.totalRepos = updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos;
+    
+    
+    console.log("Stats object", updatedStats);
+  /*
     let page = 1;
     const repos = [];
     let count = 0;
@@ -80,7 +81,8 @@ export async function getStats(user) {
     };
 
     await updateReadme(updatedStats);
+    */
   } catch (error) {
     console.error("Error:", error);
-  }*/
+  }
 }
