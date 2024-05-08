@@ -33,7 +33,7 @@ export async function getCommitsLengthByRepo(
       page++;
     } catch (error) {
       console.error(
-        `Error obteniendo commits para el repositorio ${repo.name}:`,
+        `Error obteniendo commits para el repositorio ${repo}:`,
         error.message
       );
       break;
