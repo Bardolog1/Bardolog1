@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - features/modularization-of-methods
+  workflow_dispatch:
 
 jobs:
   get-stats:
