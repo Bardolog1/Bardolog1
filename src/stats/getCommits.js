@@ -2,31 +2,33 @@ import OctokitTool from "../Octokit/OctokitTool.js";
 
 const octokit = OctokitTool();
 
-export async function getCommits(repo) {
+export async function getCommitsLengthByRepo(
+  repo,
+  owner,
+  page = 1,
+  per_page = 100
+) {
   let allCommits = [];
-  let page = 1;
-  const perPage = 100;
 
   while (true) {
     try {
       const commitsResponse = await octokit.repos.listCommits({
-        owner: "bardolog1",
-        repo: repo.name,
-        per_page: perPage,
-        page: page,
+        owner,
+        repo,
+        per_page,
+        page,
       });
+
+      if (!commitsResponse) break;
 
       const commits = commitsResponse.data;
 
-      if (commits.length === 0) {
-        break;
-      }
+      if (commits.length === 0) break;
 
       allCommits = allCommits.concat(commits);
 
-      if (commits.length < perPage) {
-        break;
-      }
+      if (commits.length < perPage) break;
+
       page++;
     } catch (error) {
       console.error(
@@ -36,6 +38,6 @@ export async function getCommits(repo) {
       break;
     }
   }
-  const ownerCommits = allCommits;
-  return ownerCommits.length;
+
+  return allCommits.length;
 }

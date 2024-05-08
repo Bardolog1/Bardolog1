@@ -2,10 +2,10 @@ import OctokitTool from "../Octokit/OctokitTool.js";
 
 const octokit = OctokitTool();
 
-export async function getStars(repo) {
+export async function getStars(repo, owner) {
     const stargazers = await octokit.activity.listStargazersForRepo({
-      owner: "bardolog1",
-      repo: repo.name,
+      owner,
+      repo,
     });
       if (stargazers) {
       return stargazers.data.length;
