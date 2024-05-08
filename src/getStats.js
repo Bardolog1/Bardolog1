@@ -59,7 +59,7 @@ export async function getStats(user) {
       
       for (const language in repoLanguages) {
       
-        if (lang.find((l) => l.name === language)) {
+        if (updatedStats.lang.find((l) => l.name === language)) {
           updatedStats.lang.find((l) => l.name === language).value +=
             repoLanguages[language];
         } else {
