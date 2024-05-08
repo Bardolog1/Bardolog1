@@ -2,14 +2,11 @@ import OctokitTool from "../Octokit/OctokitTool.js";
 
 const octokit = OctokitTool();
 
-export async function getLanguages(repo) {
-  const languages = await octokit.request(
-    "GET /repos/{owner}/{repo}/languages",
-    {
-      owner: "bardolog1",
-      repo: repo.name,
-    }
-  );
+const endpoint = "GET /repos/{owner}/{repo}/languages";
 
-  return languages.data;
+export async function getLanguages(repo, owner) {
+  return await octokit.request(endpoint, {
+    owner,
+    repo,
+  });
 }

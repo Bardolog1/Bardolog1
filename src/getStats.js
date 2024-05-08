@@ -47,7 +47,7 @@ export async function getStats(user) {
       updatedStats.repos.push(repo.name);
     });
     
-
+    console.log("Repos", repos[0]);
     for (const repo of repos) {
     
       if (repo.owner.login.toLowerCase() !== updatedStats.owner.toLowerCase()) {
@@ -55,7 +55,7 @@ export async function getStats(user) {
         continue;
       }
       
-      const repoLanguages = await getLanguages(repo);
+      const repoLanguages = await getLanguages(repo.name, updatedStats.owner);
       
       for (const language in repoLanguages) {
       
@@ -67,6 +67,7 @@ export async function getStats(user) {
         }
         
       }
+      
       
       updatedStats.totalCommits += await getCommitsLengthByRepo(repo.name, updatedStats.owner);
       updatedStats.totalPullRequests += await getPullRequests(repo.name, updatedStats.owner);
