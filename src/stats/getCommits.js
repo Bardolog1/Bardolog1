@@ -2,13 +2,14 @@ import OctokitTool from "../Octokit/OctokitTool.js";
 
 const octokit = OctokitTool();
 
+ let allCommits = [];
+ 
 export async function getCommitsLengthByRepo(
   repo,
   owner,
   page = 1,
   per_page = 100
 ) {
-  let allCommits = [];
 
   while (true) {
     try {
@@ -27,7 +28,7 @@ export async function getCommitsLengthByRepo(
 
       allCommits = allCommits.concat(commits);
 
-      if (commits.length < perPage) break;
+      if (commits.length < per_page) break;
 
       page++;
     } catch (error) {
