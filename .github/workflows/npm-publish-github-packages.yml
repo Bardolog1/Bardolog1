@@ -56,9 +56,10 @@ jobs:
           if git diff-index --quiet HEAD --; then
             echo "No hay cambios para agregar"
           else
-            git merge origin/main --no-edit
+            git merge origin/main --no-edit --allow-unrelated-histories
             git add -A .
             git commit -m "Updated"
             git pull origin features/modularization-of-methods
             git push origin features/modularization-of-methods  
           fi
+        
