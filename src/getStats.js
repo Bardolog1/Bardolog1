@@ -1,10 +1,10 @@
-import { getRepos } from "./repositories/getRepos";
-import { getCommits } from "./stats/getCommits";
-import { getLanguages } from "./stats/getLanguages";
-import { getPullRequests } from "./stats/getPullRequest";
-import { getStars } from "./stats/getStars";
-import { calculateLangPercents } from "./utils/calculateLangPercents";
-import { updateReadme } from "./utils/updateReadme";
+import { getRepos } from "./repositories/getRepos.js";
+import { getCommits } from "./stats/getCommits.js";
+import { getLanguages } from "./stats/getLanguages.js";
+import { getPullRequests } from "./stats/getPullRequest.js";
+import { getStars } from "./stats/getStars.js";
+import { calculateLangPercents } from "./utils/calculateLangPercents.js";
+import { updateReadme } from "./utils/updateReadme.js";
 
 const updatedStats = {
   totalCommits: 0,
