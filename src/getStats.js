@@ -50,6 +50,7 @@ export async function getStats(user) {
           console.log("Repo GitHub empty Watchers ", repo.name, "  watchers_count ", repo.watchers_count);
         }
       }
+      
       updatedStats.repos.push(repo.name);
       
     });
