@@ -1,4 +1,4 @@
-import { getUser } from "./src/user/getUser";
+import { getUser } from "./src/user/getUser.js";
 
 
 async function run() {
