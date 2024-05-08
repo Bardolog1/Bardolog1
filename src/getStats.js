@@ -51,7 +51,7 @@ export async function getStats(user) {
     count = 0;
     repos.forEach(async (repo) => {
       count++;
-      console.log("Repo:", repo.name,"  ", count, "/", totalRepos);
+      console.log("Repo:", repo.name,"  ", count, "/", updatedStats.totalRepos);
     });
     
 /*
