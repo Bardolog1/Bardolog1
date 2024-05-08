@@ -1,3 +1,5 @@
+import LanguageStats from "./LanguageStats.js";
+
 export default function TemporalStats(updatedStats) {
     const { totalRepos,totalPrivateRepos, totalPublicRepos, totalCommits, totalStars } = updatedStats;
     /* fecha de colombia actual*/

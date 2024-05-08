@@ -1,10 +1,10 @@
-import AboutInfo from "./AboutInfo";
-import BannerHeader from "./BannerHeader";
-import Contact from "./Contact";
-import ContributionsSchema from "./ContributionsSchema";
-import Footer from "./Footer";
-import PrincipalStack from "./PrincipalStack";
-import TemporalStats from "./TemporalStats";
+import AboutInfo from "./AboutInfo.js";
+import BannerHeader from "./BannerHeader.js";
+import Contact from "./Contact.js";
+import ContributionsSchema from "./ContributionsSchema.js";
+import Footer from "./Footer.js";
+import PrincipalStack from "./PrincipalStack.js";
+import TemporalStats from "./TemporalStats.js";
 
 
 let templateReadme =``;
