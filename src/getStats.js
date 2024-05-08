@@ -13,7 +13,7 @@ const updatedStats = {
   totalPrivateRepos: 0,
   totalPublicRepos: 0,
   totalRepos: 0,
-  langPercents: 0,
+  langPercents: [],
   totalStars: 0,
   lang: [],
   repos: [],
@@ -46,7 +46,7 @@ export async function getStats(user) {
     repos.forEach((repo) => {
       
       if(repo.name === "repo-info") {
-        console.log("Repo GitHub repo-info ", repo.name);
+        console.log("Repo GitHub repo-info ", repo);
       }
     
       if(repo.size <= 0) {
@@ -88,8 +88,9 @@ export async function getStats(user) {
       updatedStats.totalCommits += await getCommitsLengthByRepo(repo.name, updatedStats.owner);
     }
     
+    console.log(updateReadme.lang);
     updatedStats = {
-      langPercents: await calculateLangPercents(updateReadme.lang),
+      //langPercents: await calculateLangPercents(updateReadme.lang),
       ...updatedStats
     }; 
     
