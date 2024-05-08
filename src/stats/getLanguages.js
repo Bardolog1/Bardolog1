@@ -5,11 +5,9 @@ const octokit = OctokitTool();
 const endpoint = "GET /repos/{owner}/{repo}/languages";
 
 export async function getLanguages(repo, owner) {
-  return await octokit.request(endpoint, {
+  const response = await octokit.request(endpoint, {
     owner,
     repo,
-  }).then((response) => {
-    response.data;
-  })
-  ;
+  });
+  return response.data;
 }
