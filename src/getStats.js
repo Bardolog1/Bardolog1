@@ -45,7 +45,10 @@ export async function getStats(user) {
 
     repos.forEach((repo) => {
       if(repo.size <= 0) {
-        console.log("Repo GitHub empty  ", repo.name);
+        console.log("Repo GitHub empty Size ", repo.name, "  size ", repo.size);
+        if(repo.watchers_count <= 0 && repo.language === null) {
+          console.log("Repo GitHub empty Watchers ", repo.name, "  watchers_count ", repo.watchers_count);
+        }
       }
       updatedStats.repos.push(repo.name);
       
