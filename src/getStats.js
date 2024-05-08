@@ -88,11 +88,12 @@ export async function getStats(user) {
       updatedStats.totalCommits += await getCommitsLengthByRepo(repo.name, updatedStats.owner);
     }
     
-    console.log(updateReadme.lang);
+    console.log(updatedStats.lang);
+    /*
     updatedStats = {
       //langPercents: await calculateLangPercents(updateReadme.lang),
       ...updatedStats
-    }; 
+    }; */
     
     console.log("Stats object", updatedStats);
   
