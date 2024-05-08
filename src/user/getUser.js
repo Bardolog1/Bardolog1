@@ -7,5 +7,5 @@ export async function getUser() {
 }
 
 export async  function getUserOwner()  {
-    return await getUser().data.login;
+    return await getUser().data;
 }
