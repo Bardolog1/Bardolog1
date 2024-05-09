@@ -36,7 +36,7 @@ export default function TemporalStats(updatedStats) {
      
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
-````
+\`\`\`
   - Total de repositorios: ${totalRepos}
   - Total de repositorios privados: ${totalPrivateRepos}
   - Total de repositorios publicos: ${totalPublicRepos}
@@ -44,7 +44,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de estrellas: ${totalStars}
   - Last update :${date}
  
-````
+  \`\`\`
  
  
 <div align="center">

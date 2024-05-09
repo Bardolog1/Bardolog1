@@ -1,6 +1,5 @@
 export default function LanguageStats(langsStats) {
-  langsStats?.map((lang, index) => {
-    
+  return langsStats?.slice(0, 5).map((lang, index) => {
     return `
 <div align="center">
     <img
