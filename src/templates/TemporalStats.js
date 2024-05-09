@@ -25,8 +25,6 @@ export default function TemporalStats(updatedStats) {
 
   const date = newDate.toLocaleDateString("es-ES", options);
 
-console.log(date)
-console.log(totalStars)
   return `
         <div align="center"> 
             [![Run GH Actions & GH Stats Main](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml)    

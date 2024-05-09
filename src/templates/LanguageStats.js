@@ -2,8 +2,8 @@
 
 export default function LanguageStats(langsStats) {
     return `
-    ${langsStats?.map((lang) => {
-       
+    ${langsStats?.map((lang, index) => {
+       if(index > 5) return;
         return `
         <div align="center">
             <img
