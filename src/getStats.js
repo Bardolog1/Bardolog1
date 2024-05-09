@@ -77,11 +77,7 @@ export async function getStats(user) {
       updatedStats.totalCommits += await getCommitsLengthByRepo(repo.name, updatedStats.owner);
     }
     
-    let langPercents = await calculateLangPercents(updatedStats.lang);
-    
-    updatedStats.langPercents = langPercents;
-    
-    console.log("Stats object", updatedStats);
+    updatedStats.langPercents = await calculateLangPercents(updatedStats.lang);
   
     await updateReadme(updatedStats);
    

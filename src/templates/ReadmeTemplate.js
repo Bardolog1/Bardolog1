@@ -11,7 +11,7 @@ let templateReadme =``;
 
 export default function ReadmeTemplate(updatedStats) {
     
-    templateReadme.concat(
+    return templateReadme.concat(
         BannerHeader(),
         AboutInfo(),
         ContributionsSchema(),
@@ -22,5 +22,5 @@ export default function ReadmeTemplate(updatedStats) {
     );
     
     
-    return templateReadme;
+   
 }
