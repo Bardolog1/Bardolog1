@@ -1,4 +1,4 @@
-import * as LanguageBadge from "../utils/LanguagesBadges.json";
+const LanguageBadge = require("../utils/LanguagesBadges.json");
 
 
 const LanguagesData = LanguageBadge.default; 
