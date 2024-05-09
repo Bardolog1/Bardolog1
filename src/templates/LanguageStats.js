@@ -1,6 +1,32 @@
+import LanguageBadge from "../utils/LanguagesBadges.json";
+
+/* Parse JSON to Object */
+const LanguagesData = JSON.parse(LanguageBadge);
+
 export default function LanguageStats(langsStats) {
-console.log(langsStats);
-  return langsStats?.slice(0, 5).map((lang, index) => {
+  return langsStats
+    .sort((a, b) => b.value - a.value)
+    .slice(0, 5)
+    .map((lang, index) => {
+      LanguagesData.forEach((language) => {
+        if (language.name.toLowerCase().includes(lang.name.toLowerCase())) {
+          return `
+<div align="center" style="padding: 10px;" width="10%">
+![${
+            language.name
+          }](https://img.shields.io/badge/${language.id.toLowerCase()}--${language.color.slice(
+            1
+          )}?style=for-the-badge&logo=${language.id.toLowerCase()}&logoColor=${
+            language.textColor
+          })      
+</div>
+`;
+        }
+      });
+    });
+}
+
+/* return langsStats?.slice(0, 5).map((lang, index) => {
     return `
 <div align="center">
     <img
@@ -10,5 +36,4 @@ console.log(langsStats);
     />
 </div>
             `;
-  }).join('');
-}
+  }).join(''); */
