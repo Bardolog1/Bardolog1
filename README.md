@@ -111,8 +111,10 @@
 </div>
     
 <div align="center"> 
-    [![Run GH Actions & GH Stats Main](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml)    
-    [![Run GH Actions & GH Stats Features](https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml) 
+
+[![Run GH Actions & GH Stats Main](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml)    
+[![Run GH Actions & GH Stats Features](https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml) 
+
 </div>
 
 # Mi Proyecto de Readme Actualizado con GitHub Actions
@@ -124,9 +126,9 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 218
   - Total de repositorios privados: 177
   - Total de repositorios publicos: 41
-  - Total de commits: 1636121 
+  - Total de commits: 1636329 
   - Total de estrellas: 195
-  - Last update :jueves, 9 de mayo de 2024, 16:55:10
+  - Last update :jueves, 9 de mayo de 2024, 17:28:48
  
   ```
  
@@ -140,7 +142,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
         width="100%"
     />
 </div>
-            ,
+            
 <div align="center">
     <img
         src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/Java/Java.png"
@@ -148,7 +150,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
         width="100%"
     />
 </div>
-            ,
+            
 <div align="center">
     <img
         src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/JavaScript/JavaScript.png"
@@ -156,7 +158,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
         width="100%"
     />
 </div>
-            ,
+            
 <div align="center">
     <img
         src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/Markdown/Markdown.png"
@@ -164,7 +166,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
         width="100%"
     />
 </div>
-            ,
+            
 <div align="center">
     <img
         src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/HTML/HTML.png"
