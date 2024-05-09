@@ -1,4 +1,5 @@
 export default function LanguageStats(langsStats) {
+console.log(langsStats);
   return langsStats?.slice(0, 5).map((lang, index) => {
     return `
 <div align="center">
@@ -9,5 +10,5 @@ export default function LanguageStats(langsStats) {
     />
 </div>
             `;
-  });
+  }).join('');
 }
