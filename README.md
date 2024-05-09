@@ -81,33 +81,33 @@
 ## Contacts:
 <div align="left">
 
-    <a href="mailto:liloga.dev@gmail.com">
-        <img
-            src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
-            target="_blank"
-        />
-    </a>
-    
-    <a href="https://www.linkedin.com/in/bardolog1/" target="_blank">
-        <img
-            src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            target="_blank"
-        />
-    </a>
-    
-    <a href="https://t.me/bardolog1/" target="_blank">
-        <img
-            src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
-            target="_blank"
-        />
-    </a>
-    
-    <a href="https://www.instagram.com/bardolog1/" target="_blank">
-        <img
-            src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
-            alt="whatsapp logo"
-        />
-    </a>
+<a href="mailto:liloga.dev@gmail.com">
+    <img
+        src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
+        target="_blank"
+    />
+</a>
+
+<a href="https://www.linkedin.com/in/bardolog1/" target="_blank">
+    <img
+        src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+        target="_blank"
+    />
+</a>
+
+<a href="https://t.me/bardolog1/" target="_blank">
+    <img
+        src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
+        target="_blank"
+    />
+</a>
+
+<a href="https://www.instagram.com/bardolog1/" target="_blank">
+    <img
+        src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+        alt="whatsapp logo"
+    />
+</a>
 </div>
     
 <div align="center"> 
@@ -119,19 +119,60 @@
  
      
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
+
+```
+  - Total de repositorios: 218
+  - Total de repositorios privados: 177
+  - Total de repositorios publicos: 41
+  - Total de commits: 1636121 
+  - Total de estrellas: 195
+  - Last update :jueves, 9 de mayo de 2024, 16:55:10
  
-- Total de repositorios: 218
-- Total de repositorios privados: 177
-- Total de repositorios publicos: 41
-- Total de commits: 1636121 
-- Total de estrellas: 195
-- Last update :jueves, 9 de mayo de 2024, 16:28:59
- 
- - ...
+  ```
  
  
 <div align="center">
-    undefined
+    
+<div align="center">
+    <img
+        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/C++/C++.png"
+        alt="Language C++"
+        width="100%"
+    />
+</div>
+            ,
+<div align="center">
+    <img
+        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/Java/Java.png"
+        alt="Language Java"
+        width="100%"
+    />
+</div>
+            ,
+<div align="center">
+    <img
+        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/JavaScript/JavaScript.png"
+        alt="Language JavaScript"
+        width="100%"
+    />
+</div>
+            ,
+<div align="center">
+    <img
+        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/Markdown/Markdown.png"
+        alt="Language Markdown"
+        width="100%"
+    />
+</div>
+            ,
+<div align="center">
+    <img
+        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/HTML/HTML.png"
+        alt="Language HTML"
+        width="100%"
+    />
+</div>
+            
 </div>    
     
 <div align="center">
