@@ -1,7 +1,7 @@
-const LanguageBadge = require("../utils/LanguagesBadges.json");
+import LanguageBadge from "../utils/LanguagesBadges.json";
 
-
-const LanguagesData = LanguageBadge.default; 
+/* Parse JSON to Object */
+const LanguagesData = LanguageBadge;
 
 export default function LanguageStats(langsStats) {
   return langsStats
