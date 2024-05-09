@@ -1,4 +1,4 @@
-import LanguageBadge from "../utils/LanguagesBadges.json";
+import LanguageBadge from "../utils/LanguagesBadges.json" assert { type: "json" };
 
 /* Parse JSON to Object */
 const LanguagesData = LanguageBadge;
