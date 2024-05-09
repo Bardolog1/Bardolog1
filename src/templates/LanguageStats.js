@@ -1,14 +1,14 @@
-import LanguageBadge from "../utils/LanguagesBadges.json";
+import * as LanguageBadge from "../utils/LanguagesBadges.json";
 
-/* Parse JSON to Object */
-const LanguagesData = JSON.parse(LanguageBadge);
+
+const LanguagesData = LanguageBadge.default; 
 
 export default function LanguageStats(langsStats) {
   return langsStats
     .sort((a, b) => b.value - a.value)
     .slice(0, 5)
     .map((lang, index) => {
-      LanguagesData.forEach((language) => {
+      return LanguagesData.map((language) => {
         if (language.name.toLowerCase().includes(lang.name.toLowerCase())) {
           return `
 <div align="center" style="padding: 10px;" width="10%">
@@ -25,6 +25,7 @@ export default function LanguageStats(langsStats) {
       });
     });
 }
+
 
 /* return langsStats?.slice(0, 5).map((lang, index) => {
     return `
