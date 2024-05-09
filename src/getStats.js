@@ -79,10 +79,7 @@ export async function getStats(user) {
     
     let langPercents = await calculateLangPercents(updatedStats.lang);
     
-    updatedStats = {
-      langPercents,
-      ...updatedStats
-    }; 
+    updatedStats.langPercents = langPercents;
     
     console.log("Stats object", updatedStats);
   
