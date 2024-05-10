@@ -142,9 +142,9 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de commits: 2921 
   - Total de estrellas obtenidas: 195
   - Total de Lenguajes: 26
-  - Lenguaje con mayor porcentaje: java (61.65%)
+  - Lenguaje con mayor porcentaje: JAVA con <strong>61.65%</strong>
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : viernes, 10 de mayo de 2024, 6:29:53
+  - Ultima actualización del README desde GitHub Actions : viernes, 10 de mayo de 2024, 6:33:56
  
   ```
  
