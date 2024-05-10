@@ -1,34 +1,23 @@
-export default async function LanguageStats(langsStats) {
-  try {
-    const response = await fetch("../utils/LanguagesBadges.json");
-    const data = await response.json();
+import LanguageBadge from "../utils/LanguagesBadges.json" assert { type: "json" };
 
-    const LanguagesData = data;
+const LanguagesData = LanguageBadge;
 
-    return langsStats
-      .sort((a, b) => b.value - a.value)
-      .slice(0, 6)
-      .map((lang) => {
-        const languageMatch = LanguagesData.find(
-          (language) => lang.name.toLowerCase() === language.name.toLowerCase()
-        );
+export default function LanguageStats(langsStats) {
+  return langsStats
+    .sort((a, b) => b.value - a.value)
+    .slice(0, 6)
+    .map((lang) => {
+      return LanguagesData.map((language) => {
+        if (lang.name.toLowerCase() === language.name.toLowerCase()) {
+          return `
 
-        if (!languageMatch) return '';
 
-        const { id, color, logoName, name } = languageMatch;
+<img src="https://img.shields.io/badge/${language.id}-${language.color.slice(1)}.svg?style=for-the-badge&logo=${language.logoName.toLowerCase()}&logoColor=white" alt="${language.name}" />
+<img src="https://img.shields.io/badge/${lang.value+"%25"}-${language.color.slice(1)}.svg?style=social" alt="${lang.name}" />
 
-        return `
-          <img src="https://img.shields.io/badge/${id}-${color.slice(
-          1
-        )}.svg?style=for-the-badge&logo=${logoName.toLowerCase()}&logoColor=white" alt="${name}" />
-          <img src="https://img.shields.io/badge/${
-            lang.value + "%25"
-          }-${color.slice(1)}.svg?style=social" alt="${name}" />
-        `;
-      })
-      .join("");
-  } catch (error) {
-    console.error(error);
-    return ''; 
-  }
+`;
+        }
+      }).join('');
+    }).join('');
 }
+
