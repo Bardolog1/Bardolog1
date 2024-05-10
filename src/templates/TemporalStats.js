@@ -50,11 +50,13 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de commits: ${totalCommits} 
   - Total de estrellas obtenidas: ${totalStars}
   - Total de Lenguajes: ${Object.keys(updatedStats.langPercents).length}
-  - Lenguaje con mayor porcentaje: ${Object.keys(updatedStats.langPercents).reduce(
-    (a, b) => (updatedStats.langPercents[a] > updatedStats.langPercents[b] ? a : b)
-  )} con ${updatedStats.langPercents[Object.keys(updatedStats.langPercents).reduce(
-    (a, b) => (updatedStats.langPercents[a] > updatedStats.langPercents[b] ? a : b)
-  )]} porcentaje
+  - Lenguaje con mayor porcentaje: ${
+    Object.keys(updatedStats.langPercents).reduce((a, b) => {
+      return updatedStats.langPercents[a].value > updatedStats.langPercents[b].value? a: b
+    })
+  } con un porcentaje de ${updatedStats.langPercents[Object.keys(updatedStats.langPercents).reduce((a, b) => {
+    return updatedStats.langPercents[a].value > updatedStats.langPercents[b].value? a: b
+  })]}
   - Total de pull requests: ${updatedStats.totalPullRequests}
   - Ultima actualización del README desde GitHub Actions : ${date}
  
