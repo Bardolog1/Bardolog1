@@ -6,7 +6,7 @@ const LanguagesData = LanguageBadge;
 export default function LanguageStats(langsStats) {
   return langsStats
     .sort((a, b) => b.value - a.value)
-    .slice(0, 4)
+    .slice(0, 6)
     .map((lang, index) => {
       return LanguagesData.map((language) => {
         if (lang.name.toLowerCase() === language.name.toLowerCase()) {
