@@ -49,7 +49,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   \`\`\`
  
  
-<div align="center">
+<div align="center" width="100%">
     ${LanguageStats(updatedStats.lang)}
 </div>    
     `;
