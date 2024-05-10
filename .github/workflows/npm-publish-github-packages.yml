@@ -1,4 +1,4 @@
-name: Run GH Actions & GH Stats (Features)
+name: Run Update Stats GH Actions (Features)
 
 on:
   push:
@@ -21,12 +21,14 @@ jobs:
       
       - name: Configure Git
         run: |
-          git config user.name "GitHub Actions"
+          git config user.name "Libardo Lozano (Bot)"
           git config user.email "lilozanoga@unal.edu.co"
           
       - name: Switch to the desired branch
         run: git checkout features/modularization-of-methods
 
+      - name: Fetch latest changes
+        run: git fetch origin main
       
       - name: Use Node.js 18.17.0
         uses: actions/setup-node@v2
@@ -54,8 +56,10 @@ jobs:
           if git diff-index --quiet HEAD --; then
             echo "No hay cambios para agregar"
           else
+            
             git add -A .
-            git commit -m "Updated"
-            git pull origin main
-            git push origin main  # Asegúrate de especificar la rama correcta
+            git commit -m "Readme and Schemas are updated"
+            git pull origin features/modularization-of-methods
+            git push origin features/modularization-of-methods  
           fi
+        

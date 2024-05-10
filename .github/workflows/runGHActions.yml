@@ -1,8 +1,7 @@
-name: Run GH Actions & GH Stats
-
+name: Run Update Stats GH Actions
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Ejecutar cada 2 horas
+    - cron: '0 */2 * * *'  
   workflow_dispatch:
 
 jobs:
@@ -20,7 +19,7 @@ jobs:
       
       - name: Configure Git
         run: |
-          git config user.name "GitHub Actions"
+          git config user.name "Libardo Lozano (Bot)"
           git config user.email "lilozanoga@unal.edu.co"
       - name: Use Node.js 18.17.0
         uses: actions/setup-node@v2
@@ -49,7 +48,7 @@ jobs:
             echo "No hay cambios para agregar"
           else
             git add -A .
-            git commit -m "Updated"
+            git commit -m "Readme and Schemas are updated"
             git pull origin main
             git push origin main  # Asegúrate de especificar la rama correcta
           fi
