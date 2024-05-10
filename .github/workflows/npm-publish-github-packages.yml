@@ -14,11 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-      - uses: lowlighter/metrics@latest
-        with:
-          config_timezone: America/Bogota      
-            
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1        
         env:
           GITHUB_TOKEN: ${{ secrets.GITH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -59,7 +55,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.habits.charts.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITH_TOKEN }}
           base: ""
           plugin_habits: yes
           plugin_habits_facts: no
