@@ -128,73 +128,73 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios publicos: 41
   - Total de commits: 1636537 
   - Total de estrellas: 195
-  - Last update :jueves, 9 de mayo de 2024, 19:50:57
+  - Last update :jueves, 9 de mayo de 2024, 19:56:50
  
   ```
  
  
 <div align="center">
-    ,,,,,,,,,,,,,,,,,,,,,,,,
-<div align="center" style="padding: 10px;" width="10%">
+    
+
 
 ![Java](https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white)      
 
-</div>
-,
-<div align="center" style="padding: 10px;" width="10%">
+
+
+
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white)      
 
-</div>
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-<div align="center" style="padding: 10px;" width="10%">
+
+
+
 
 ![HTML](https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white)      
 
-</div>
-,
-<div align="center" style="padding: 10px;" width="10%">
+
+
+
 
 ![HTML5](https://img.shields.io/badge/HTML5-e34c26.svg?style=for-the-badge&logo=html5&logoColor=white)      
 
-</div>
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-<div align="center" style="padding: 10px;" width="10%">
+
+
+
 
 ![XHTML](https://img.shields.io/badge/XHTML-1ACDFF.svg?style=for-the-badge&logo=xhtml&logoColor=white)      
 
-</div>
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-<div align="center" style="padding: 10px;" width="10%">
+
+
+
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white)      
 
-</div>
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-<div align="center" style="padding: 10px;" width="10%">
+
+
+
 
 ![CSS](https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white)      
 
-</div>
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-<div align="center" style="padding: 10px;" width="10%">
+
+
+
 
 ![SCSS](https://img.shields.io/badge/SCSS-c6538c.svg?style=for-the-badge&logo=scss&logoColor=white)      
 
-</div>
-,,,,,,,,,,,,,,,,,,,,,,
-<div align="center" style="padding: 10px;" width="10%">
+
+
+
 
 ![C++](https://img.shields.io/badge/c%2B%2B-F34B7D.svg?style=for-the-badge&logo=c%2b%2b&logoColor=white)      
 
-</div>
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-<div align="center" style="padding: 10px;" width="10%">
+
+
+
 
 ![Objective-C++](https://img.shields.io/badge/Objective-C++-6866fb.svg?style=for-the-badge&logo=objectivecpp&logoColor=white)      
 
-</div>
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
 </div>    
     
 <div align="center">
