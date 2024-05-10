@@ -1,6 +1,10 @@
 export default function PrincipalStack() {
     return `
-# THIS README IS UNDER CONSTRUCTION ## Principal Stack:
+<div align="center">
+# THIS README IS UNDER CONSTRUCTION 
+</div>
+<br>
+## Principal Stack:
 <div aling="center">
     <a href="#">
         <img

@@ -26,13 +26,14 @@ export default function TemporalStats(updatedStats) {
   const date = newDate.toLocaleDateString("es-ES", options);
 
   return `
-<div align="center"> 
+<br>
+<div align="center" style="margin-top: 20px" > 
 
-[![Run GH Actions & GH Stats Main](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml)    
-[![Run GH Actions & GH Stats Features](https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml) 
+<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg" alt="gh actions"  style="width: 400px; height: 40px;"/> 
+<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg" alt="gh actions"  style="width: 400px; height: 40px;"/>
 
 </div>
-
+<br>
 # Mi Proyecto de Readme Actualizado con GitHub Actions
  
      
@@ -48,9 +49,10 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
  
   \`\`\`
  
- 
+<br>
 <div align="center" width="100%">
     ${LanguageStats(updatedStats.langPercents)}
-</div>    
+</div>
+<br>
     `;
 }
