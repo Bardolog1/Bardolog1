@@ -136,12 +136,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 219
+  - Total de repositorios: 220
   - Total de repositorios privados: 177
-  - Total de repositorios publicos: 42
+  - Total de repositorios publicos: 43
   - Total de commits: 2917 
-  - Total de estrellas: 195
-  - Last update :jueves, 9 de mayo de 2024, 22:30:31
+  - Total de estrellas obtenidas: 195
+  - Total de Lenguajes: 26
+  - Lenguaje con mayor porcentaje: 25 con [object Object] porcentaje
+  - Total de pull requests: 1
+  - Ultima actualización del README desde GitHub Actions : jueves, 9 de mayo de 2024, 22:51:42
  
   ```
  
