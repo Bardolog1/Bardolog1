@@ -9,7 +9,7 @@ export default function LanguageStats(langsStats) {
     .slice(0, 4)
     .map((lang, index) => {
       return LanguagesData.map((language) => {
-        if (lang.name.toLowerCase().includes(language.name.toLowerCase())) {
+        if (lang.name.toLowerCase() === language.name.toLowerCase()) {
           return `
 
 
