@@ -74,7 +74,8 @@ export async function getStats(user) {
       if(repo.size <= 0 && repo.watchers_count <= 0 && repo.language === null){
         continue;
       }
-      updatedStats.totalCommits += await getCommitsLengthByRepo(repo.name, updatedStats.owner);
+      let commitAll = await getCommitsLengthByRepo(repo.name, updatedStats.owner);
+      updatedStats.totalCommits += commitAll;
     }
     
     updatedStats.langPercents = await calculateLangPercents(updatedStats.lang);
