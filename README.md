@@ -128,12 +128,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios publicos: 41
   - Total de commits: 1636537 
   - Total de estrellas: 195
-  - Last update :jueves, 9 de mayo de 2024, 19:56:50
+  - Last update :jueves, 9 de mayo de 2024, 20:01:34
  
   ```
  
  
-<div align="center">
+<div align="center" width="100%">
     
 
 
@@ -180,18 +180,6 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 ![SCSS](https://img.shields.io/badge/SCSS-c6538c.svg?style=for-the-badge&logo=scss&logoColor=white)      
-
-
-
-
-
-![C++](https://img.shields.io/badge/c%2B%2B-F34B7D.svg?style=for-the-badge&logo=c%2b%2b&logoColor=white)      
-
-
-
-
-
-![Objective-C++](https://img.shields.io/badge/Objective-C++-6866fb.svg?style=for-the-badge&logo=objectivecpp&logoColor=white)      
 
 
 
