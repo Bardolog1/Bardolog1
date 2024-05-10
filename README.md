@@ -14,6 +14,9 @@
 <h2 align="center">
     Hi 👋! My name is Libardo Lozano and I'm a Software Developer
 </h2>
+
+<details open="">
+<summary>
 <div align="center">
     <img
         src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/images/dev1.png"
@@ -35,7 +38,8 @@
         src="https://capsule-render.vercel.app/api?type=waving&color=FF2967&height=120&section=footer"
     />
 </div>
-    
+</summary>
+</details>   
     
 <div align="center">
     <img
@@ -52,13 +56,18 @@
     
 <div align="center">
 
-# THIS README IS UNDER CONSTRUCTION 
+### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> THIS README IS UNDER CONSTRUCTION </b><img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">
+
+<img src="../../images/animated.gif" alt="anim" width="100%" />
+
+<img src="../../images/github-contribution-grid-snake.svg" alt="anim" width="100%" />
 
 </div>
 <br>
 
 ## Principal Stack:
-
+<details open="">
+<summary>
 <div aling="center">
     <a href="#">
         <img
@@ -84,11 +93,16 @@
             target="_blank"
         />
     </a>
-</div>    
+</div>
+</summary>
+</details>
     
 ## Contacts:
+
 <div align="left">
 
+<details open="">
+<summary>
 <a href="mailto:liloga.dev@gmail.com">
     <img
         src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
@@ -116,11 +130,15 @@
         alt="whatsapp logo"
     />
 </a>
+</summary>
+</details>
 </div>
     
   
 <br>
 
+<details open="">
+<summary>
 <div align="center" style="margin-top: 20px" > 
 
 <img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg" alt="gh actions"  style="width: 350px; height: 30px;"/> 
@@ -129,32 +147,37 @@
 </div>
 
 <br>
+</summary>
+</details>
 
-# Mi Proyecto de Readme Actualizado con GitHub Actions
- 
-     
-Estadísticas actualizadas por GH Actions (Falta perfeccionar):
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> <b>Estadísticas actualizadas por GH Actions (Falta perfeccionar)</b>
+<details open="">
+<summary>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bardolog1&theme=synthwave-84&hide_border=true&area=true&custom_title=Contribution%20Graph&radius=16&height=500&area_color=F16FBA" alt="gh actions" width="100%" />
+</summary>
 
+<summary>
 ```
   - Total de repositorios: 220
   - Total de repositorios privados: 177
   - Total de repositorios publicos: 43
-  - Total de commits: 3061 
+  - Total de commits: 3074 
   - Total de estrellas obtenidas: 195
   - Total de Lenguajes: 26
-  - Lenguaje con mayor porcentaje: JAVA con 61.64%
+  - Lenguaje con mayor porcentaje de uso: JAVA con 61.65%
   - Total de pull requests: 0
-  - Ultima actualización del README desde GitHub Actions : viernes, 10 de mayo de 2024, 6:44:11
+  - Ultima actualización del README desde GitHub Actions : viernes, 10 de mayo de 2024, 17:34:59
  
   ```
- 
+</summary>
+<summary>
 <br>
 <div align="center" width="100%">
     
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/61.64%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/61.65%25-B07219.svg?style=social" alt="Java" />
 
 
 
@@ -189,6 +212,8 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 </div>
 <br>
+</summary>
+</details>
     
 <div align="center">
     <img
