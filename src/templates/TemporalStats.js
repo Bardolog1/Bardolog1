@@ -23,11 +23,9 @@ export default function TemporalStats(updatedStats) {
     timeZone: "America/Bogota", 
   };
   
-  const langBest = Object.keys(updatedStats.langPercents).reduce((a, b) => {
-    return updatedStats.langPercents[a].value > updatedStats.langPercents[b].value ? a.toLowerCase() : b.toLowerCase();
-  });
+  const langBest = updatedStats.langPercents.sort((a, b) => b.value - a.value)[0].name.toLowerCase();
   
-  const valueLangBest = langBest ? updatedStats.langPercents[langBest].value : 0;
+  const valueLangBest = updatedStats.langPercents.sort((a, b) => b.value - a.value)[0].value;
 
   const date = newDate.toLocaleDateString("es-ES", options);
 
