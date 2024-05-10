@@ -22,6 +22,12 @@ export default function TemporalStats(updatedStats) {
     hour12: false,
     timeZone: "America/Bogota", 
   };
+  
+  const langBest = Object.keys(updatedStats.langPercents).reduce((a, b) => {
+    return updatedStats.langPercents[a].value > updatedStats.langPercents[b].value ? a : b;
+  });
+  
+  const valueLangBest = langBest ? updatedStats.langPercents[langBest].value : 0;
 
   const date = newDate.toLocaleDateString("es-ES", options);
 
@@ -50,13 +56,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de commits: ${totalCommits} 
   - Total de estrellas obtenidas: ${totalStars}
   - Total de Lenguajes: ${Object.keys(updatedStats.langPercents).length}
-  - Lenguaje con mayor porcentaje: ${
-    Object.keys(updatedStats.langPercents).reduce((a, b) => {
-      return updatedStats.langPercents[a].value > updatedStats.langPercents[b].value? a: b
-    })
-  } con un porcentaje de ${updatedStats.langPercents[Object.keys(updatedStats.langPercents).reduce((a, b) => {
-    return updatedStats.langPercents[a].value > updatedStats.langPercents[b].value? a: b
-  })]}
+  - Lenguaje con mayor porcentaje: ${langBest.name.toUpperCase()} (${valueLangBest}%)
   - Total de pull requests: ${updatedStats.totalPullRequests}
   - Ultima actualización del README desde GitHub Actions : ${date}
  
