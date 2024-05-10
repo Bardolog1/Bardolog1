@@ -128,53 +128,53 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios publicos: 41
   - Total de commits: 1636329 
   - Total de estrellas: 195
-  - Last update :jueves, 9 de mayo de 2024, 17:28:48
+  - Last update :jueves, 9 de mayo de 2024, 18:45:20
  
   ```
  
  
 <div align="center">
-    
-<div align="center">
-    <img
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/C++/C++.png"
-        alt="Language C++"
-        width="100%"
-    />
+    ,,,,,,,,,,,,,,,,,,,,,,,,
+<div align="center" style="padding: 10px;" width="10%">
+![Java](https://img.shields.io/badge/java--B07219?style=for-the-badge&logo=java&logoColor=#FFFFFF)      
 </div>
-            
-<div align="center">
-    <img
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/Java/Java.png"
-        alt="Language Java"
-        width="100%"
-    />
+,
+<div align="center" style="padding: 10px;" width="10%">
+![JavaScript](https://img.shields.io/badge/javascript--F1E05A?style=for-the-badge&logo=javascript&logoColor=#000000)      
 </div>
-            
-<div align="center">
-    <img
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/JavaScript/JavaScript.png"
-        alt="Language JavaScript"
-        width="100%"
-    />
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<div align="center" style="padding: 10px;" width="10%">
+![HTML](https://img.shields.io/badge/html--e34c26?style=for-the-badge&logo=html&logoColor=#FFFFFF)      
 </div>
-            
-<div align="center">
-    <img
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/Markdown/Markdown.png"
-        alt="Language Markdown"
-        width="100%"
-    />
+,
+<div align="center" style="padding: 10px;" width="10%">
+![HTML5](https://img.shields.io/badge/html5--e34c26?style=for-the-badge&logo=html5&logoColor=#FFFFFF)      
 </div>
-            
-<div align="center">
-    <img
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/HTML/HTML.png"
-        alt="Language HTML"
-        width="100%"
-    />
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<div align="center" style="padding: 10px;" width="10%">
+![XHTML](https://img.shields.io/badge/xhtml--1ACDFF?style=for-the-badge&logo=xhtml&logoColor=#000000)      
 </div>
-            
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<div align="center" style="padding: 10px;" width="10%">
+![JavaScript](https://img.shields.io/badge/javascript--F1E05A?style=for-the-badge&logo=javascript&logoColor=#000000)      
+</div>
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<div align="center" style="padding: 10px;" width="10%">
+![CSS](https://img.shields.io/badge/css--563d7c?style=for-the-badge&logo=css&logoColor=#FFFFFF)      
+</div>
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<div align="center" style="padding: 10px;" width="10%">
+![SCSS](https://img.shields.io/badge/scss--c6538c?style=for-the-badge&logo=scss&logoColor=#FFFFFF)      
+</div>
+,,,,,,,,,,,,,,,,,,,,,,
+<div align="center" style="padding: 10px;" width="10%">
+![C++](https://img.shields.io/badge/c++--F34B7D?style=for-the-badge&logo=c++&logoColor=#FFFFFF)      
+</div>
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<div align="center" style="padding: 10px;" width="10%">
+![Objective-C++](https://img.shields.io/badge/objective-c++--6866fb?style=for-the-badge&logo=objective-c++&logoColor=#FFFFFF)      
+</div>
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 </div>    
     
 <div align="center">
