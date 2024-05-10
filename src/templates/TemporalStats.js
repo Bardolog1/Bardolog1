@@ -47,12 +47,23 @@ export default function TemporalStats(updatedStats) {
 </details>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> <b>Estadísticas actualizadas por GH Actions (Falta perfeccionar)</b>
+
 <details open="">
+
 <summary>
+  <g-emoji class="g-emoji" alias="chart_with_upwards_trend" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c8.png">🚀</g-emoji>
+  <strong>Stats </strong>
+</summary>
+<br/>
+
+<summary>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=bardolog1&theme=synthwave-84&hide_border=true&area=true&custom_title=Contribution%20Graph&radius=16&height=500&area_color=F16FBA" alt="gh actions" width="100%" />
+
 </summary>
 
 <summary>
+
 \`\`\`
   - Total de repositorios: ${totalRepos}
   - Total de repositorios privados: ${totalPrivateRepos}
@@ -65,6 +76,7 @@ export default function TemporalStats(updatedStats) {
   - Ultima actualización del README desde GitHub Actions : ${date}
  
   \`\`\`
+  
 </summary>
 <summary>
 <br>
