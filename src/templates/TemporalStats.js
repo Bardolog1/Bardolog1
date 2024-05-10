@@ -50,7 +50,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
  
  
 <div align="center" width="100%">
-    ${LanguageStats(updatedStats.lang)}
+    ${LanguageStats(updatedStats.langPercents)}
 </div>    
     `;
 }
