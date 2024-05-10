@@ -12,13 +12,9 @@ export default function LanguageStats(langsStats) {
         if (language.name.toLowerCase().includes(lang.name.toLowerCase())) {
           return `
 <div align="center" style="padding: 10px;" width="10%">
-![${
-            language.name
-          }](https://img.shields.io/badge/${language.id.toLowerCase()}--${language.color.slice(
-            1
-          )}?style=for-the-badge&logo=${language.id.toLowerCase()}&logoColor=${
-            language.textColor
-          })      
+
+![${language.name}](https://img.shields.io/badge/${language.id}-${language.color.slice(1)}.svg?style=for-the-badge&logo=${language.logoName.toLowerCase()}&logoColor=white)      
+
 </div>
 `;
         }
