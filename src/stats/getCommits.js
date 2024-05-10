@@ -26,11 +26,12 @@ export async function getCommitsLengthByRepo(
       
 
       if (commits.length === 0) break;
-      console.log("Obteniendo commits para el repositorio:", repo, " El total de commits es: ", commits.length);
       
      
       commits.forEach((commit) => {
+      console.log("commit Author:", commit.author.login);
         if (commit.author.login.toLowerCase() === owner.toLowerCase()) {
+          console.log("Obteniendo commits para el repositorio:", repo, " El total de commits es: ", commits.length);
           allCommits.push(commit);
         }
           
@@ -39,6 +40,7 @@ export async function getCommitsLengthByRepo(
       if (commits.length < per_page) break;
 
       page++;
+      
     } catch (error) {
       console.error(
         `Error obteniendo commits para el repositorio ${repo}:`,
