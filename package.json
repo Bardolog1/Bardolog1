@@ -1,12 +1,11 @@
 {
-    "name": "github-stats",
+    "name": "Bardolog1",
     "version": "1.0.0",
     "type": "module",
     "engines": {
         "node": "18.17.0"
     },
     "dependencies": {
-        "@octokit/rest": "^18.12.0",
-        "d3": "^6.7.0"
+        "@octokit/rest": "^18.12.0"
     }
 }
