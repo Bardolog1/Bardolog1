@@ -8,7 +8,6 @@ export async function getCommitsLengthByRepo(
   page = 1,
   per_page = 100
 ) {
-  console.log("Obteniendo commits para el repositorio:", repo);
   let commitCount = 0; 
 
   while (true) {
@@ -26,7 +25,7 @@ export async function getCommitsLengthByRepo(
 
       commits.forEach((commit) => {
       
-        if (commit.author && commit.author.login && commit.author.login.toLowerCase() === owner.toLowerCase()) {
+        if (commit.author && commit.author.login && (commit.author.login.toLowerCase() === owner.toLowerCase() || (commit.author.login.toLowerCase() === "actions-user".toLowerCase() && repo.toLowerCase() === owner.toLowerCase())) ) {
           commitCount++; 
         }
       });
