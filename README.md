@@ -117,9 +117,6 @@
     />
 </a>
 </div>
-    
-  
-<br>
 
 <div align="center" style="margin-top: 20px" > 
 
