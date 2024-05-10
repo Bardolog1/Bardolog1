@@ -41,9 +41,6 @@ export async function getCommitsLengthByRepo(
       break;
     }
   }
-  console.log("==========================================================================================================");
-  console.log("Total de commits para el repositorio: ",repo , " N° : ", commitCount);
-  console.log("==========================================================================================================");
   
   return commitCount; 
 }
