@@ -151,12 +151,16 @@
 </details>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> <b>Estadísticas actualizadas por GH Actions (Falta perfeccionar)</b>
+
 <details open="">
 <summary>
+    
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=bardolog1&theme=synthwave-84&hide_border=true&area=true&custom_title=Contribution%20Graph&radius=16&height=500&area_color=F16FBA" alt="gh actions" width="100%" />
+
 </summary>
 
 <summary>
+    
 ```
   - Total de repositorios: 220
   - Total de repositorios privados: 177
@@ -170,6 +174,7 @@
  
   ```
 </summary>
+
 <summary>
 <br>
 <div align="center" width="100%">
