@@ -2,8 +2,6 @@ import OctokitTool from "../Octokit/OctokitTool.js";
 
 const octokit = OctokitTool();
 
- let allCommits = [];
- let commitAtRepo = 0;
 export async function getCommitsLengthByRepo(
   repo,
   owner,
@@ -11,6 +9,7 @@ export async function getCommitsLengthByRepo(
   per_page = 100
 ) {
   console.log("Obteniendo commits para el repositorio:", repo);
+  let commitCount = 0; 
 
   while (true) {
     try {
@@ -21,33 +20,20 @@ export async function getCommitsLengthByRepo(
         page,
       });
 
-      
-
       const commits = commitsResponse.data;
-      
 
       if (commits.length === 0) break;
-      
-     
+
       commits.forEach((commit) => {
-        if(commit.author.login ===null){
-          console.log("Repositorio: ", repo);
-          console.log("Commit Autor nulo: ", commit);
-        }
       
-        if (commit.author.login.toLowerCase() === owner.toLowerCase()) {
-          allCommits.push(commit);
-          commitAtRepo++;
-        }else{
-          console.log("Autor no coincide:", commit.author.login);
+        if (commit.author && commit.author.login && commit.author.login.toLowerCase() === owner.toLowerCase()) {
+          commitCount++; 
         }
-          
-      })
-      
+      });
+
       if (commits.length < per_page) break;
 
       page++;
-      
     } catch (error) {
       console.error(
         `Error obteniendo commits para el repositorio ${repo}:`,
@@ -56,7 +42,9 @@ export async function getCommitsLengthByRepo(
       break;
     }
   }
-  console.log("Total de commits:", allCommits.length);
-  console.log("Total de commits para el repositorio:", commitAtRepo);
-  return allCommits.length;
+  console.log("==========================================================================================================");
+  console.log("Total de commits para el repositorio: ",repo , " N° : ", commitCount);
+  console.log("==========================================================================================================");
+  
+  return commitCount; 
 }
