@@ -35,8 +35,8 @@ export default function TemporalStats(updatedStats) {
 
 <div align="center" style="margin-top: 20px" > 
 
-<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg" alt="gh actions"  style="width: 300px; height: 30px;"/> 
-<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg" alt="gh actions"  style="width: 300px; height: 30px;"/>
+<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg" alt="gh actions"  style="width: 350px; height: 30px;"/> 
+<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg" alt="gh actions"  style="width: 350px; height: 30px;"/>
 
 </div>
 
@@ -54,7 +54,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de commits: ${totalCommits} 
   - Total de estrellas obtenidas: ${totalStars}
   - Total de Lenguajes: ${Object.keys(updatedStats.langPercents).length}
-  - Lenguaje con mayor porcentaje: ${langBest} con <strong>${valueLangBest}%</strong>
+  - Lenguaje con mayor porcentaje: ${langBest} con ${valueLangBest}%
   - Total de pull requests: ${updatedStats.totalPullRequests}
   - Ultima actualización del README desde GitHub Actions : ${date}
  
