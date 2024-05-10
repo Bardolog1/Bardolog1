@@ -3,13 +3,14 @@ import OctokitTool from "../Octokit/OctokitTool.js";
 const octokit = OctokitTool();
 
  let allCommits = [];
- 
+ let commitAtRepo = 0;
 export async function getCommitsLengthByRepo(
   repo,
   owner,
   page = 1,
   per_page = 100
 ) {
+  console.log("Obteniendo commits para el repositorio:", repo);
 
   while (true) {
     try {
@@ -29,14 +30,20 @@ export async function getCommitsLengthByRepo(
       
      
       commits.forEach((commit) => {
-      console.log("commit Author:", commit.author.login);
+        if(commit.author.login ===null){
+          console.log("Repositorio: ", repo);
+          console.log("Commit Autor nulo: ", commit);
+        }
+      
         if (commit.author.login.toLowerCase() === owner.toLowerCase()) {
-          console.log("Obteniendo commits para el repositorio:", repo, " El total de commits es: ", commits.length);
           allCommits.push(commit);
+          commitAtRepo++;
+        }else{
+          console.log("Autor no coincide:", commit.author.login);
         }
           
       })
-
+      
       if (commits.length < per_page) break;
 
       page++;
@@ -49,6 +56,7 @@ export async function getCommitsLengthByRepo(
       break;
     }
   }
-
+  console.log("Total de commits:", allCommits.length);
+  console.log("Total de commits para el repositorio:", commitAtRepo);
   return allCommits.length;
 }
