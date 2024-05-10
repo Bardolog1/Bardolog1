@@ -50,7 +50,11 @@
     />
 </div>
     
-# THIS README IS UNDER CONSTRUCTION ## Principal Stack:
+<div align="center">
+# THIS README IS UNDER CONSTRUCTION 
+</div>
+<br>
+## Principal Stack:
 <div aling="center">
     <a href="#">
         <img
@@ -110,13 +114,14 @@
 </a>
 </div>
     
-<div align="center"> 
+<br>
+<div align="center" style="margin-top: 20px" > 
 
-[![Run GH Actions & GH Stats Main](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml)    
-[![Run GH Actions & GH Stats Features](https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml) 
+<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg" alt="gh actions"  style="width: 400px; height: 40px;"/> 
+<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg" alt="gh actions"  style="width: 400px; height: 40px;"/>
 
 </div>
-
+<br>
 # Mi Proyecto de Readme Actualizado con GitHub Actions
  
      
@@ -128,50 +133,15 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios publicos: 42
   - Total de commits: 2917 
   - Total de estrellas: 195
-  - Last update :jueves, 9 de mayo de 2024, 22:00:54
+  - Last update :jueves, 9 de mayo de 2024, 22:22:02
  
   ```
  
- 
+<br>
 <div align="center" width="100%">
-    
-
-
-<img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/61.65%25-B07219.svg?style=social" alt="Java" />
-
-
-
-
-<img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/25.20%25-e34c26.svg?style=social" alt="HTML" />
-
-
-
-
-<img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/8.22%25-F1E05A.svg?style=social" alt="JavaScript" />
-
-
-
-
-<img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.15%25-563d7c.svg?style=social" alt="CSS" />
-
-
-
-
-<img src="https://img.shields.io/badge/c%2B%2B-F34B7D.svg?style=for-the-badge&logo=c%2b%2b&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/0.70%25-F34B7D.svg?style=social" alt="C++" />
-
-
-
-
-<img src="https://img.shields.io/badge/Markdown-212121.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
-<img src="https://img.shields.io/badge/0.55%25-212121.svg?style=social" alt="Markdown" />
-
-
-</div>    
+    [object Promise]
+</div>
+<br>
     
 <div align="center">
     <img
