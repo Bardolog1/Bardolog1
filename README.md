@@ -128,7 +128,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios publicos: 42
   - Total de commits: 1641689 
   - Total de estrellas: 195
-  - Last update :jueves, 9 de mayo de 2024, 20:49:38
+  - Last update :jueves, 9 de mayo de 2024, 20:58:06
  
   ```
  
@@ -149,32 +149,8 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 
-<img src="https://img.shields.io/badge/C-555555.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-<img src="https://img.shields.io/badge/8.22%25-555555.svg?style=social" alt="JavaScript" />
-
-
-
-
-<img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/8.22%25-B07219.svg?style=social" alt="JavaScript" />
-
-
-
-
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
 <img src="https://img.shields.io/badge/8.22%25-F1E05A.svg?style=social" alt="JavaScript" />
-
-
-
-
-<img src="https://img.shields.io/badge/R-198CE7.svg?style=for-the-badge&logo=r&logoColor=white" alt="R" />
-<img src="https://img.shields.io/badge/8.22%25-198CE7.svg?style=social" alt="JavaScript" />
-
-
-
-
-<img src="https://img.shields.io/badge/C-555555.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-<img src="https://img.shields.io/badge/2.15%25-555555.svg?style=social" alt="CSS" />
 
 
 
