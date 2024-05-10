@@ -11,15 +11,15 @@ export default function LanguageStats(langsStats) {
       return LanguagesData.map((language) => {
         if (language.name.toLowerCase().includes(lang.name.toLowerCase())) {
           return `
-<div align="center" style="padding: 10px;" width="10%">
+
 
 ![${language.name}](https://img.shields.io/badge/${language.id}-${language.color.slice(1)}.svg?style=for-the-badge&logo=${language.logoName.toLowerCase()}&logoColor=white)      
 
-</div>
+
 `;
         }
-      });
-    });
+      }).join('');
+    }).join('');
 }
 
 
