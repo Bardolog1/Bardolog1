@@ -3,6 +3,9 @@ export default function AboutInfo() {
 <h2 align="center">
     Hi 👋! My name is Libardo Lozano and I'm a Software Developer
 </h2>
+
+<details open="">
+<summary>
 <div align="center">
     <img
         src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/images/dev1.png"
@@ -24,7 +27,8 @@ export default function AboutInfo() {
         src="https://capsule-render.vercel.app/api?type=waving&color=FF2967&height=120&section=footer"
     />
 </div>
-    
+</summary>
+</details>   
     `;
     
 }

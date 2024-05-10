@@ -1,8 +1,11 @@
 export default  function Contact() {
     return `
 ## Contacts:
+
 <div align="left">
 
+<details open="">
+<summary>
 <a href="mailto:liloga.dev@gmail.com">
     <img
         src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
@@ -30,6 +33,8 @@ export default  function Contact() {
         alt="whatsapp logo"
     />
 </a>
+</summary>
+</details>
 </div>
     `;
 }
