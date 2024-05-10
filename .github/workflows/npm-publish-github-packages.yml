@@ -104,9 +104,9 @@ jobs:
           else
             git add -A .
             git commit -m "Readme and Schemas are updated"
-            git fetch origin features/modularization-of-methods
-            git pull origin features/modularization-of-methods
+            git pull --no-rebase origin features/modularization-of-methods
             git push origin features/modularization-of-methods
           fi
+        
         
         
