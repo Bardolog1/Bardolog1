@@ -105,7 +105,11 @@ jobs:
             
             git add -A .
             git commit -m "Readme and Schemas are updated"
+            git config pull.rebase false  
+            git config pull.rebase true  
+            git config pull.ff only 
             git pull origin features/modularization-of-methods
-            git push origin features/modularization-of-methods  
+            git push origin features/modularization-of-methods
+            
           fi
         
