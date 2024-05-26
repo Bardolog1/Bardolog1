@@ -136,15 +136,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 232
-  - Total de repositorios privados: 179
-  - Total de repositorios publicos: 53
-  - Total de commits: 3289 
-  - Total de estrellas obtenidas: 199
-  - Total de Lenguajes: 27
-  - Lenguaje con mayor porcentaje: JAVA con 61.62%
+  - Total de repositorios: 236
+  - Total de repositorios privados: 181
+  - Total de repositorios publicos: 55
+  - Total de commits: 3294 
+  - Total de estrellas obtenidas: 202
+  - Total de Lenguajes: 28
+  - Lenguaje con mayor porcentaje: JAVA con 61.54%
   - Total de pull requests: 0
-  - Ultima actualización del README desde GitHub Actions : domingo, 26 de mayo de 2024, 13:06:04
+  - Ultima actualización del README desde GitHub Actions : domingo, 26 de mayo de 2024, 15:07:39
  
   ```
  
@@ -154,25 +154,25 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/61.62%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/61.54%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/25.18%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/25.27%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/8.24%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/8.23%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.16%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.15%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
