@@ -139,12 +139,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 262
   - Total de repositorios privados: 197
   - Total de repositorios publicos: 65
-  - Total de commits: 4482 
+  - Total de commits: 4484 
   - Total de estrellas obtenidas: 204
   - Total de Lenguajes: 27
-  - Lenguaje con mayor porcentaje: JAVA con 62.67%
+  - Lenguaje con mayor porcentaje: JAVA con 62.66%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : lunes, 26 de agosto de 2024, 19:20:55
+  - Ultima actualización del README desde GitHub Actions : lunes, 26 de agosto de 2024, 21:21:51
  
   ```
  
@@ -154,7 +154,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/62.67%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/62.66%25-B07219.svg?style=social" alt="Java" />
 
 
 
