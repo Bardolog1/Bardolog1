@@ -136,15 +136,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 263
+  - Total de repositorios: 264
   - Total de repositorios privados: 198
-  - Total de repositorios publicos: 65
-  - Total de commits: 4649 
+  - Total de repositorios publicos: 66
+  - Total de commits: 4650 
   - Total de estrellas obtenidas: 204
   - Total de Lenguajes: 27
-  - Lenguaje con mayor porcentaje: JAVA con 62.65%
+  - Lenguaje con mayor porcentaje: JAVA con 62.34%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : lunes, 9 de septiembre de 2024, 11:09:16
+  - Ultima actualización del README desde GitHub Actions : lunes, 9 de septiembre de 2024, 13:07:16
  
   ```
  
@@ -154,25 +154,25 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/62.65%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/62.34%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/24.15%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/24.03%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/8.00%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/8.44%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.23%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.22%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
@@ -184,7 +184,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Markdown-212121.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
-<img src="https://img.shields.io/badge/0.57%25-212121.svg?style=social" alt="Markdown" />
+<img src="https://img.shields.io/badge/0.56%25-212121.svg?style=social" alt="Markdown" />
 
 
 </div>
