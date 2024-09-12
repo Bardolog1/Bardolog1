@@ -136,15 +136,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 264
+  - Total de repositorios: 265
   - Total de repositorios privados: 198
-  - Total de repositorios publicos: 66
-  - Total de commits: 4678 
+  - Total de repositorios publicos: 67
+  - Total de commits: 4680 
   - Total de estrellas obtenidas: 204
   - Total de Lenguajes: 27
-  - Lenguaje con mayor porcentaje: JAVA con 62.34%
+  - Lenguaje con mayor porcentaje: JAVA con 62.35%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : miércoles, 11 de septiembre de 2024, 21:28:45
+  - Ultima actualización del README desde GitHub Actions : miércoles, 11 de septiembre de 2024, 23:07:10
  
   ```
  
@@ -154,7 +154,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/62.34%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/62.35%25-B07219.svg?style=social" alt="Java" />
 
 
 
@@ -178,7 +178,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/c%2B%2B-F34B7D.svg?style=for-the-badge&logo=c%2b%2b&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/0.73%25-F34B7D.svg?style=social" alt="C++" />
+<img src="https://img.shields.io/badge/0.72%25-F34B7D.svg?style=social" alt="C++" />
 
 
 
