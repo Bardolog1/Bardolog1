@@ -136,15 +136,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 265
+  - Total de repositorios: 268
   - Total de repositorios privados: 198
-  - Total de repositorios publicos: 67
-  - Total de commits: 4912 
+  - Total de repositorios publicos: 70
+  - Total de commits: 4913 
   - Total de estrellas obtenidas: 204
-  - Total de Lenguajes: 27
-  - Lenguaje con mayor porcentaje: JAVA con 62.35%
+  - Total de Lenguajes: 29
+  - Lenguaje con mayor porcentaje: JAVA con 62.17%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : lunes, 30 de septiembre de 2024, 23:09:01
+  - Ultima actualización del README desde GitHub Actions : martes, 1 de octubre de 2024, 1:08:30
  
   ```
  
@@ -154,25 +154,25 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/62.35%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/62.17%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/24.03%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/23.96%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/8.44%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/8.42%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.22%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.21%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
