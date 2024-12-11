@@ -8,16 +8,16 @@ export default function ContributionsSchema() {
         aling="right"
     />
 
-     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/snake-contrib/github-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/snake-contrib/github-snake.svg" />
-      <img alt="github-snake" src="github-snake.svg" />
-    </picture>
-    
-    <img
-        width="100%"
-        src="https://capsule-render.vercel.app/api?type=waving&color=057EEF&height=120&section=header"
-    />
+ <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/snake-contrib/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/snake-contrib/github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
+
+<img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=057EEF&height=120&section=header"
+/>
    
 </div>
     `;
