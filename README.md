@@ -44,10 +44,18 @@
         width="100%"
         aling="right"
     />
+
+     <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/snake-contrib/github-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/snake-contrib/github-snake.svg" />
+      <img alt="github-snake" src="github-snake.svg" />
+    </picture>
+    
     <img
         width="100%"
         src="https://capsule-render.vercel.app/api?type=waving&color=057EEF&height=120&section=header"
     />
+   
 </div>
     
 <div align="center">
@@ -139,12 +147,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 269
   - Total de repositorios privados: 198
   - Total de repositorios publicos: 71
-  - Total de commits: 5805 
+  - Total de commits: 5807 
   - Total de estrellas obtenidas: 205
   - Total de Lenguajes: 29
   - Lenguaje con mayor porcentaje: JAVA con 62.12%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : miércoles, 11 de diciembre de 2024, 18:23:46
+  - Ultima actualización del README desde GitHub Actions : miércoles, 11 de diciembre de 2024, 18:34:14
  
   ```
  
