@@ -9,18 +9,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      
+    
       - name: Checkout code
         uses: actions/checkout@v2
       - uses: actions/checkout@v3
+
+      - name:  Generate 3D Contrib stats Grid
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      
+
+      - name:  Generate Snake Contribution grid 
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            snake-contrib/github-snake.svg
+            snake-contrib/github-snake-dark.svg?palette=github-dark
+            snake-contrib/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            
       - name: Configure Git
         run: |
           git config user.name "Libardo Lozano (Bot)"
           git config user.email "lilozanoga@unal.edu.co"
+          
       - name: Use Node.js 18.17.0
         uses: actions/setup-node@v2
         with:
