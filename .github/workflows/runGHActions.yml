@@ -9,15 +9,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-      
     
       - name: Checkout code
-        uses: actions/checkout@v2
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name:  Generate 3D Contrib stats Grid
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -56,7 +53,6 @@ jobs:
             exit 0
           fi
       
-
       - name: Git commit - Git Push/Pull
         run: |
           if git diff-index --quiet HEAD --; then
