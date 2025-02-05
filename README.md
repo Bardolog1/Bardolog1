@@ -144,15 +144,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 270
-  - Total de repositorios privados: 198
+  - Total de repositorios: 271
+  - Total de repositorios privados: 199
   - Total de repositorios publicos: 72
-  - Total de commits: 6478 
+  - Total de commits: 6485 
   - Total de estrellas obtenidas: 205
   - Total de Lenguajes: 29
-  - Lenguaje con mayor porcentaje: JAVA con 62.11%
+  - Lenguaje con mayor porcentaje: JAVA con 62.00%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : miércoles, 5 de febrero de 2025, 9:09:12
+  - Ultima actualización del README desde GitHub Actions : miércoles, 5 de febrero de 2025, 11:10:45
  
   ```
  
@@ -162,19 +162,19 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/62.11%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/62.00%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/23.93%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/23.89%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/8.49%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/8.65%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
