@@ -144,15 +144,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 272
+  - Total de repositorios: 273
   - Total de repositorios privados: 199
-  - Total de repositorios publicos: 73
-  - Total de commits: 6575 
-  - Total de estrellas obtenidas: 205
+  - Total de repositorios publicos: 74
+  - Total de commits: 6577 
+  - Total de estrellas obtenidas: 206
   - Total de Lenguajes: 29
-  - Lenguaje con mayor porcentaje: JAVA con 62.01%
+  - Lenguaje con mayor porcentaje: JAVA con 60.64%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : miércoles, 12 de febrero de 2025, 11:10:47
+  - Ultima actualización del README desde GitHub Actions : miércoles, 12 de febrero de 2025, 13:11:21
  
   ```
  
@@ -162,37 +162,37 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/62.01%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/60.64%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/23.89%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/23.36%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/8.65%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/10.66%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.22%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.17%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
 
 <img src="https://img.shields.io/badge/c%2B%2B-F34B7D.svg?style=for-the-badge&logo=c%2b%2b&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/0.72%25-F34B7D.svg?style=social" alt="C++" />
+<img src="https://img.shields.io/badge/0.70%25-F34B7D.svg?style=social" alt="C++" />
 
 
 
 
 <img src="https://img.shields.io/badge/Markdown-212121.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
-<img src="https://img.shields.io/badge/0.56%25-212121.svg?style=social" alt="Markdown" />
+<img src="https://img.shields.io/badge/0.55%25-212121.svg?style=social" alt="Markdown" />
 
 
 </div>
