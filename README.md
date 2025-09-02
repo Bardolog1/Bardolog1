@@ -147,12 +147,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 274
   - Total de repositorios privados: 200
   - Total de repositorios publicos: 74
-  - Total de commits: 9023 
+  - Total de commits: 9025 
   - Total de estrellas obtenidas: 206
   - Total de Lenguajes: 29
   - Lenguaje con mayor porcentaje: JAVA con 60.01%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : lunes, 1 de septiembre de 2025, 19:33:09
+  - Ultima actualización del README desde GitHub Actions : lunes, 1 de septiembre de 2025, 21:39:23
  
   ```
  
@@ -174,13 +174,13 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/11.10%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/11.11%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.56%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.55%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
