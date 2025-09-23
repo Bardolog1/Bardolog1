@@ -147,12 +147,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 275
   - Total de repositorios privados: 201
   - Total de repositorios publicos: 74
-  - Total de commits: 9317 
+  - Total de commits: 9319 
   - Total de estrellas obtenidas: 206
   - Total de Lenguajes: 29
-  - Lenguaje con mayor porcentaje: JAVA con 59.82%
+  - Lenguaje con mayor porcentaje: JAVA con 59.84%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : martes, 23 de septiembre de 2025, 9:14:01
+  - Ultima actualización del README desde GitHub Actions : martes, 23 de septiembre de 2025, 11:12:31
  
   ```
  
@@ -162,31 +162,31 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/59.82%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/59.84%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/23.16%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/23.15%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/11.30%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/11.29%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.60%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.59%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
 
 <img src="https://img.shields.io/badge/c%2B%2B-F34B7D.svg?style=for-the-badge&logo=c%2b%2b&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/0.70%25-F34B7D.svg?style=social" alt="C++" />
+<img src="https://img.shields.io/badge/0.69%25-F34B7D.svg?style=social" alt="C++" />
 
 
 
