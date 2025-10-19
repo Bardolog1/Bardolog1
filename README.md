@@ -144,15 +144,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 276
-  - Total de repositorios privados: 201
-  - Total de repositorios publicos: 75
-  - Total de commits: 9633 
+  - Total de repositorios: 277
+  - Total de repositorios privados: 203
+  - Total de repositorios publicos: 74
+  - Total de commits: 9636 
   - Total de estrellas obtenidas: 206
   - Total de Lenguajes: 29
-  - Lenguaje con mayor porcentaje: JAVA con 59.83%
+  - Lenguaje con mayor porcentaje: JAVA con 59.50%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : domingo, 19 de octubre de 2025, 1:13:01
+  - Ultima actualización del README desde GitHub Actions : domingo, 19 de octubre de 2025, 3:14:53
  
   ```
  
@@ -162,13 +162,13 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/59.83%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/59.50%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/23.19%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/23.07%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
@@ -180,7 +180,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.63%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.62%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
@@ -191,8 +191,8 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 
-<img src="https://img.shields.io/badge/Markdown-212121.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
-<img src="https://img.shields.io/badge/0.54%25-212121.svg?style=social" alt="Markdown" />
+<img src="https://img.shields.io/badge/Python-3572A5.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/0.59%25-3572A5.svg?style=social" alt="Python" />
 
 
 </div>
