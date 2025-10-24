@@ -144,15 +144,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 278
+  - Total de repositorios: 279
   - Total de repositorios privados: 204
-  - Total de repositorios publicos: 74
-  - Total de commits: 9706 
+  - Total de repositorios publicos: 75
+  - Total de commits: 9711 
   - Total de estrellas obtenidas: 206
   - Total de Lenguajes: 29
-  - Lenguaje con mayor porcentaje: JAVA con 59.35%
+  - Lenguaje con mayor porcentaje: JAVA con 59.25%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : viernes, 24 de octubre de 2025, 13:14:35
+  - Ultima actualización del README desde GitHub Actions : viernes, 24 de octubre de 2025, 15:13:12
  
   ```
  
@@ -162,25 +162,25 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/59.35%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/59.25%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/23.01%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/22.97%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/11.18%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/11.33%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.62%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.61%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
