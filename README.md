@@ -147,12 +147,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 280
   - Total de repositorios privados: 205
   - Total de repositorios publicos: 75
-  - Total de commits: 9736 
+  - Total de commits: 9745 
   - Total de estrellas obtenidas: 206
   - Total de Lenguajes: 31
-  - Lenguaje con mayor porcentaje: JAVA con 49.61%
+  - Lenguaje con mayor porcentaje: JAVA con 49.59%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : sábado, 25 de octubre de 2025, 21:43:08
+  - Ultima actualización del README desde GitHub Actions : sábado, 25 de octubre de 2025, 23:14:25
  
   ```
  
@@ -162,7 +162,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/49.61%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/49.59%25-B07219.svg?style=social" alt="Java" />
 
 
 
@@ -174,19 +174,19 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Python-3572A5.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/16.36%25-3572A5.svg?style=social" alt="Python" />
+<img src="https://img.shields.io/badge/16.35%25-3572A5.svg?style=social" alt="Python" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/9.56%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/9.57%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.24%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.26%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
