@@ -147,12 +147,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 281
   - Total de repositorios privados: 206
   - Total de repositorios publicos: 75
-  - Total de commits: 10151 
+  - Total de commits: 10153 
   - Total de estrellas obtenidas: 206
   - Total de Lenguajes: 31
-  - Lenguaje con mayor porcentaje: JAVA con 49.32%
+  - Lenguaje con mayor porcentaje: JAVA con 49.31%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : jueves, 27 de noviembre de 2025, 13:15:16
+  - Ultima actualización del README desde GitHub Actions : jueves, 27 de noviembre de 2025, 15:14:09
  
   ```
  
@@ -162,25 +162,25 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/49.32%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/49.31%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/19.27%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/19.26%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/Python-3572A5.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/16.23%25-3572A5.svg?style=social" alt="Python" />
+<img src="https://img.shields.io/badge/16.22%25-3572A5.svg?style=social" alt="Python" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/10.01%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/10.04%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
