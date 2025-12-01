@@ -152,7 +152,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de Lenguajes: 31
   - Lenguaje con mayor porcentaje: JAVA con 49.30%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : lunes, 1 de diciembre de 2025, 15:11:05
+  - Ultima actualización del README desde GitHub Actions : lunes, 1 de diciembre de 2025, 17:10:46
  
   ```
  
