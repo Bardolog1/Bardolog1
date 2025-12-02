@@ -144,15 +144,15 @@
 Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 ```
-  - Total de repositorios: 281
+  - Total de repositorios: 282
   - Total de repositorios privados: 206
-  - Total de repositorios publicos: 75
-  - Total de commits: 10214 
+  - Total de repositorios publicos: 76
+  - Total de commits: 10222 
   - Total de estrellas obtenidas: 207
   - Total de Lenguajes: 31
-  - Lenguaje con mayor porcentaje: JAVA con 49.30%
+  - Lenguaje con mayor porcentaje: JAVA con 49.26%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : martes, 2 de diciembre de 2025, 13:15:32
+  - Ultima actualización del README desde GitHub Actions : martes, 2 de diciembre de 2025, 15:14:27
  
   ```
  
@@ -162,25 +162,25 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/49.30%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/49.26%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/19.26%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/19.32%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/Python-3572A5.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/16.22%25-3572A5.svg?style=social" alt="Python" />
+<img src="https://img.shields.io/badge/16.21%25-3572A5.svg?style=social" alt="Python" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/10.05%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/10.04%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
