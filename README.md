@@ -147,12 +147,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 283
   - Total de repositorios privados: 207
   - Total de repositorios publicos: 76
-  - Total de commits: 11324 
+  - Total de commits: 11297 
   - Total de estrellas obtenidas: 207
   - Total de Lenguajes: 31
   - Lenguaje con mayor porcentaje: JAVA con 49.27%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : miércoles, 4 de marzo de 2026, 15:19:07
+  - Ultima actualización del README desde GitHub Actions : miércoles, 4 de marzo de 2026, 17:19:03
  
   ```
  
