@@ -147,12 +147,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 286
   - Total de repositorios privados: 210
   - Total de repositorios publicos: 76
-  - Total de commits: 11489 
+  - Total de commits: 11491 
   - Total de estrellas obtenidas: 207
   - Total de Lenguajes: 32
-  - Lenguaje con mayor porcentaje: JAVA con 48.97%
+  - Lenguaje con mayor porcentaje: JAVA con 48.92%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : martes, 17 de marzo de 2026, 15:22:13
+  - Ultima actualización del README desde GitHub Actions : martes, 17 de marzo de 2026, 17:18:17
  
   ```
  
@@ -162,25 +162,25 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/48.97%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/48.92%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/19.20%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/19.18%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/Python-3572A5.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/16.11%25-3572A5.svg?style=social" alt="Python" />
+<img src="https://img.shields.io/badge/16.09%25-3572A5.svg?style=social" alt="Python" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/9.99%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/9.98%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
@@ -192,7 +192,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/TypeScript-2b7489.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/0.91%25-2b7489.svg?style=social" alt="TypeScript" />
+<img src="https://img.shields.io/badge/1.01%25-2b7489.svg?style=social" alt="TypeScript" />
 
 
 </div>
