@@ -147,12 +147,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 286
   - Total de repositorios privados: 210
   - Total de repositorios publicos: 76
-  - Total de commits: 11498 
+  - Total de commits: 11503 
   - Total de estrellas obtenidas: 207
   - Total de Lenguajes: 32
-  - Lenguaje con mayor porcentaje: JAVA con 48.90%
+  - Lenguaje con mayor porcentaje: JAVA con 48.88%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : martes, 17 de marzo de 2026, 23:52:08
+  - Ultima actualización del README desde GitHub Actions : miércoles, 18 de marzo de 2026, 1:37:18
  
   ```
  
@@ -162,13 +162,13 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/48.90%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/48.88%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/19.18%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/19.17%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
@@ -192,7 +192,7 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/TypeScript-2b7489.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/1.05%25-2b7489.svg?style=social" alt="TypeScript" />
+<img src="https://img.shields.io/badge/1.09%25-2b7489.svg?style=social" alt="TypeScript" />
 
 
 </div>
