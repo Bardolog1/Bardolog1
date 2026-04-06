@@ -122,10 +122,10 @@ Actualización automática con GitHub Actions cada 6 horas.
   </tr>
 </table>
 
-> **Última actualización:** ${date} (America/Bogota)
+**Última actualización:** ${date} (America/Bogota)
  
 <br>
-### Top 6 Lenguajes Por Volumen De Código
+## Top Lenguajes Por Volumen De Código
 <p align="center">
   Basado en bytes detectados en repositorios propios del perfil.
 </p>

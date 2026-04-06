@@ -84,46 +84,32 @@ Referencias útiles para extender y personalizar este README.
     
 ## Stack Principal
 
-<div align="center">
-    <a href="https://skillicons.dev" target="_blank">
-        <img
-            src="https://skillicons.dev/icons?i=java,spring,kafka,postgres,docker,aws,rabbitmq,gradle,git,githubactions&theme=dark&perline=8"
-            alt="Skill icons"
-        />
-    </a>
-</div>
+Stack orientado a arquitectura backend empresarial con capacidad full-stack para entregar soluciones end-to-end.
+
+### Frontend
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=0F172A)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Lit](https://img.shields.io/badge/Lit-324FFF?style=for-the-badge&logo=lit&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F1E05A?style=for-the-badge&logo=javascript&logoColor=111827)
+
+### Backend y Arquitectura
+
+![Backend Stack](https://skillicons.dev/icons?i=java,spring,kafka,rabbitmq,postgres,redis,gradle,docker&theme=dark&perline=8)
+
+### Cloud y DevOps
+
+![Cloud y DevOps](https://skillicons.dev/icons?i=aws,kubernetes,git,githubactions,linux,bash&theme=dark&perline=8)
     
 ## Contacto
-<div align="left">
 
-<a href="mailto:liloga.dev@gmail.com">
-    <img
-        src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
-        alt="Correo"
-    />
-</a>
+Disponible para oportunidades Senior Backend, Tech Lead y proyectos de arquitectura de software.
 
-<a href="https://www.linkedin.com/in/bardolog1/" target="_blank">
-    <img
-        src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-        alt="LinkedIn"
-    />
-</a>
-
-<a href="https://t.me/bardolog1/" target="_blank">
-    <img
-        src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
-        alt="Telegram"
-    />
-</a>
-
-<a href="https://github.com/Bardolog1/" target="_blank">
-    <img
-        src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-        alt="github logo"
-    />
-</a>
-</div>
+[![Email Profesional](https://img.shields.io/badge/Email%20Profesional-Gmail-111827?style=for-the-badge&logo=gmail&logoColor=white)](mailto:liloga.dev@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil%20Profesional-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bardolog1/)
+[![Telegram](https://img.shields.io/badge/Telegram-Contacto%20Directo-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bardolog1/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositorios-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bardolog1/)
     
   
 <br>
@@ -197,7 +183,7 @@ Actualización automática con GitHub Actions cada 6 horas.
  
 <br>
 
-  ## Top Lenguajes Por Volumen De Código
+## Top Lenguajes Por Volumen De Código
 <p align="center">
     Basado en bytes detectados en repositorios propios del perfil.
 </p>
