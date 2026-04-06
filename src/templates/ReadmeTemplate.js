@@ -3,24 +3,19 @@ import BannerHeader from "./BannerHeader.js";
 import Contact from "./Contact.js";
 import ContributionsSchema from "./ContributionsSchema.js";
 import Footer from "./Footer.js";
+import LiveStatsDashboard from "./LiveStatsDashboard.js";
 import PrincipalStack from "./PrincipalStack.js";
 import TemporalStats from "./TemporalStats.js";
 
-
-let templateReadme =``;
-
 export default function ReadmeTemplate(updatedStats) {
-    
-    return templateReadme.concat(
+    return [
         BannerHeader(),
         AboutInfo(),
         ContributionsSchema(),
+        LiveStatsDashboard(),
         PrincipalStack(),
         Contact(),
         TemporalStats(updatedStats),
         Footer()
-    );
-    
-    
-   
+    ].join("\n");
 }

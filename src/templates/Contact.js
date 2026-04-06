@@ -1,26 +1,26 @@
 export default  function Contact() {
     return `
-## Contacts:
+## Contacto
 <div align="left">
 
 <a href="mailto:liloga.dev@gmail.com">
     <img
         src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
-        target="_blank"
+        alt="Correo"
     />
 </a>
 
 <a href="https://www.linkedin.com/in/bardolog1/" target="_blank">
     <img
         src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-        target="_blank"
+        alt="LinkedIn"
     />
 </a>
 
 <a href="https://t.me/bardolog1/" target="_blank">
     <img
         src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
-        target="_blank"
+        alt="Telegram"
     />
 </a>
 

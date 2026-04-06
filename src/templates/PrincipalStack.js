@@ -1,6 +1,6 @@
 export default function PrincipalStack() {
     return `
-## Principal Stack:
+## Stack Principal
 
 <div align="center">
     <a href="https://www.java.com/" target="_blank">
@@ -29,5 +29,14 @@ export default function PrincipalStack() {
         />
     </a>
 </div>    
+
+<div align="center">
+    <a href="https://skillicons.dev" target="_blank">
+        <img
+            src="https://skillicons.dev/icons?i=java,spring,kafka,postgres,docker,aws,rabbitmq,gradle,git,githubactions&theme=light&perline=10"
+            alt="Skill icons"
+        />
+    </a>
+</div>
     `;
 }

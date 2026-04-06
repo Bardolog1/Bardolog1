@@ -28,6 +28,29 @@ export default function TemporalStats(updatedStats) {
   );
   const topLanguage = sortedLangs[0] ?? { name: "N/A", value: 0 };
 
+  const totalReposValue = Number(totalRepos ?? 0);
+  const totalPrivateReposValue = Number(totalPrivateRepos ?? 0);
+  const totalPublicReposValue = Number(totalPublicRepos ?? 0);
+  const totalCommitsValue = Number(totalCommits ?? 0);
+  const totalStarsValue = Number(totalStars ?? 0);
+  const totalPullRequestsValue = Number(updatedStats.totalPullRequests ?? 0);
+
+  const formatNumber = (value) => value.toLocaleString("es-ES");
+  const publicRatio =
+    totalReposValue > 0
+      ? ((totalPublicReposValue * 100) / totalReposValue).toFixed(1)
+      : "0.0";
+  const privateRatio =
+    totalReposValue > 0
+      ? ((totalPrivateReposValue * 100) / totalReposValue).toFixed(1)
+      : "0.0";
+
+  const buildBadgeUrl = (label, value, color) => {
+    const encodedLabel = encodeURIComponent(label);
+    const encodedValue = encodeURIComponent(value);
+    return `https://img.shields.io/badge/${encodedLabel}-${encodedValue}-${color}?style=for-the-badge&labelColor=0f172a`;
+  };
+
   const date = newDate.toLocaleDateString("es-ES", options);
 
   return `
@@ -42,28 +65,38 @@ export default function TemporalStats(updatedStats) {
 
 <br>
 
-# Mi Proyecto de Readme Actualizado con GitHub Actions
+## Panel De Métricas Automáticas
  
-     
-Estadísticas actualizadas por GH Actions:
+<p align="center">
+  Actualización automática con GitHub Actions cada 6 horas.
+</p>
 
-\`\`\`
-  - Total de repositorios: ${totalRepos}
-  - Total de repositorios privados: ${totalPrivateRepos}
-  - Total de repositorios publicos: ${totalPublicRepos}
-  - Total de commits: ${totalCommits} 
-  - Total de estrellas obtenidas: ${totalStars}
-  - Total de Lenguajes: ${updatedStats.langPercents.length}
-  - Lenguaje con mayor porcentaje: ${topLanguage.name.toUpperCase()} con ${topLanguage.value}%
-  - Total de pull requests: ${updatedStats.totalPullRequests}
-  - Ultima actualización del README desde GitHub Actions : ${date}
- 
-  \`\`\`
+<div align="center">
+  <img src="${buildBadgeUrl("Repositorios", formatNumber(totalReposValue), "2563EB")}" alt="Repositorios" />
+  <img src="${buildBadgeUrl("Commits", formatNumber(totalCommitsValue), "0EA5E9")}" alt="Commits" />
+  <img src="${buildBadgeUrl("Pull Requests", formatNumber(totalPullRequestsValue), "16A34A")}" alt="Pull Requests" />
+  <img src="${buildBadgeUrl("Estrellas", formatNumber(totalStarsValue), "EA580C")}" alt="Estrellas" />
+</div>
+
+<div align="center">
+  <img src="${buildBadgeUrl("Repos públicos", `${formatNumber(totalPublicReposValue)} (${publicRatio}%)`, "0891B2")}" alt="Repos públicos" />
+  <img src="${buildBadgeUrl("Repos privados", `${formatNumber(totalPrivateReposValue)} (${privateRatio}%)`, "1D4ED8")}" alt="Repos privados" />
+  <img src="${buildBadgeUrl("Lenguajes", formatNumber(updatedStats.langPercents.length), "7C3AED")}" alt="Lenguajes" />
+  <img src="${buildBadgeUrl("Top lenguaje", `${topLanguage.name.toUpperCase()} ${topLanguage.value}%`, "BE123C")}" alt="Top lenguaje" />
+</div>
+
+<p align="center">
+  <strong>Última actualización:</strong> ${date} (America/Bogota)
+</p>
  
 <br>
-<div align="center" width="100%">
-    ${LanguageStats(updatedStats.langPercents)}
-</div>
+### Top 6 Lenguajes Por Volumen De Código
+<p align="center">
+  Basado en bytes detectados en repositorios propios del perfil.
+</p>
+
+${LanguageStats(updatedStats.langPercents)}
+
 <br>
     `;
 }
