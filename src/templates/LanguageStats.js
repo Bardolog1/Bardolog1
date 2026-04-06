@@ -1,8 +1,8 @@
-import LanguageBadge from "../utils/LanguagesBadges.json" assert { type: "json" };
+import { createRequire } from "module";
 
-const LanguagesData = LanguageBadge;
+const require = createRequire(import.meta.url);
+const LanguagesData = require("../utils/LanguagesBadges.json");
 const FALLBACK_COLOR = "334155";
-const PROGRESS_BAR_LENGTH = 18;
 
 function getLanguageMeta(languageName) {
   return LanguagesData.find(
@@ -10,15 +10,11 @@ function getLanguageMeta(languageName) {
   );
 }
 
-function buildProgressBar(value) {
-  const clampedValue = Math.max(0, Math.min(100, Number(value)));
-  const filledBlocks = Math.round((clampedValue / 100) * PROGRESS_BAR_LENGTH);
-  const emptyBlocks = PROGRESS_BAR_LENGTH - filledBlocks;
+function buildLanguageCard(languageStat) {
+  if (!languageStat) {
+    return `<td width="50%" valign="top" align="left"></td>`;
+  }
 
-  return `${"#".repeat(filledBlocks)}${"-".repeat(emptyBlocks)}`;
-}
-
-function buildLanguageRow(languageStat) {
   const languageMeta = getLanguageMeta(languageStat.name);
 
   const color = (languageMeta?.color ?? `#${FALLBACK_COLOR}`).replace("#", "");
@@ -29,18 +25,47 @@ function buildLanguageRow(languageStat) {
 
   const percentageValue = Number(languageStat.value);
   const formattedPercentage = `${percentageValue.toFixed(2)}%`;
-  const usageBar = buildProgressBar(percentageValue);
   const badgeUrl = `https://img.shields.io/badge/${languageId}-${color}.svg?style=for-the-badge${logoName}`;
+  const usageBadgeUrl = `https://img.shields.io/badge/Uso-${encodeURIComponent(formattedPercentage)}-0f172a?style=flat-square`;
 
-  return `| ![${languageStat.name}](${badgeUrl}) | **${formattedPercentage}** \`${usageBar}\` |`;
+  return `
+<td width="50%" valign="top" align="left">
+  <img src="${badgeUrl}" alt="${languageStat.name}" />
+  <br/>
+  <img src="${usageBadgeUrl}" alt="Uso ${languageStat.name}" />
+  <br/>
+  <progress value="${percentageValue.toFixed(2)}" max="100"></progress>
+  <br/>
+  <sub>${formattedPercentage} del código detectado</sub>
+</td>`;
+}
+
+function buildLanguageRows(languages) {
+  const rows = [];
+
+  for (let index = 0; index < languages.length; index += 2) {
+    rows.push([languages[index], languages[index + 1] ?? null]);
+  }
+
+  return rows
+    .map(
+      ([leftLanguage, rightLanguage]) => `
+<tr>
+  ${buildLanguageCard(leftLanguage)}
+  ${buildLanguageCard(rightLanguage)}
+</tr>`
+    )
+    .join("\n");
 }
 
 export default function LanguageStats(langsStats) {
   if (!langsStats.length) {
     return `
-| Lenguaje | Uso |
-| --- | --- |
-| Sin datos por ahora | -- |
+<table align="center" width="100%">
+  <tr>
+    <td align="center">Sin datos de lenguajes por ahora</td>
+  </tr>
+</table>
 `;
   }
 
@@ -53,9 +78,9 @@ export default function LanguageStats(langsStats) {
     .slice(0, 6);
 
   return `
-| Lenguaje | Uso |
-| --- | --- |
-${topLanguages.map((languageStat) => buildLanguageRow(languageStat)).join("\n")}
+<table align="center" width="100%">
+${buildLanguageRows(topLanguages)}
+</table>
 `;
 }
 
