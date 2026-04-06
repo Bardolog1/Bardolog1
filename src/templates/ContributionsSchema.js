@@ -5,7 +5,7 @@ export default function ContributionsSchema() {
         src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg"
         alt="Contributions"
         width="100%"
-        aling="right"
+        align="right"
     />
 
  <picture>

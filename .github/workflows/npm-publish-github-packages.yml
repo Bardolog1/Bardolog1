@@ -10,10 +10,13 @@ jobs:
   get-stats:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITH_TOKEN }}
@@ -31,12 +34,13 @@ jobs:
         run: git fetch origin main
       
       - name: Use Node.js 18.17.0
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.17.0'  
+          node-version: '18.17.0'
+          cache: npm
       
       - name: Install dependencies
-        run: npm install @octokit/rest
+        run: npm ci
 
       - name: Run Node.js script
         env:
@@ -59,7 +63,7 @@ jobs:
             
             git add -A .
             git commit -m "Readme and Schemas are updated"
-            git pull origin features/modularization-of-methods
+            git pull --rebase origin features/modularization-of-methods
             git push origin features/modularization-of-methods  
           fi
         

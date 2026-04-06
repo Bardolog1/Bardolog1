@@ -2,8 +2,12 @@
     "name": "Bardolog1",
     "version": "1.0.0",
     "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "update:readme": "node index.js"
+    },
     "engines": {
-        "node": "18.17.0"
+        "node": ">=18.17.0"
     },
     "dependencies": {
         "@octokit/rest": "^18.12.0"

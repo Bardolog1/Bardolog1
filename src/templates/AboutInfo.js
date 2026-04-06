@@ -1,7 +1,7 @@
 export default function AboutInfo() {
     return `
 <h2 align="center">
-    Hi 👋! My name is Libardo Lozano and I'm a Software Developer
+    Hi 👋! I'm Libardo Lozano - Senior Backend Engineer (Java/Spring)
 </h2>
 <div align="center">
     <img
@@ -13,12 +13,17 @@ export default function AboutInfo() {
         alt="Computador"
     />
     <p align="left">
-        Experienced software developer with a strong foundation in both programming
-        and additional expertise in design and basic electronics. I bring over 3
-        years of hands-on experience in software development, coupled with excellent
-        communication skills, a quick learning aptitude, leadership qualities, and a
-        readiness to embrace change.
+        Senior Software Engineer with 7+ years of experience building and evolving
+        mission-critical enterprise platforms, mainly in banking environments (BBVA).
+        I specialize in Java and Spring Boot, with a strong focus on distributed
+        architectures, microservices, event-driven systems, and clean/hexagonal design.
     </p>
+    <ul align="left">
+        <li>Core stack: Java, Spring Boot, Spring Cloud, Spring Security.</li>
+        <li>Architecture focus: scalable backend services, integration standards, and low-coupling design.</li>
+        <li>Domain experience: ASO, APX, Cells, Host/Mainframe integrations, and enterprise modernization.</li>
+        <li>Current path: growing into Tech Lead / Software Architect responsibilities.</li>
+    </ul>
     <img
         width="100%"
         src="https://capsule-render.vercel.app/api?type=waving&color=FF2967&height=120&section=footer"

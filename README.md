@@ -12,7 +12,7 @@
 </div>
     
 <h2 align="center">
-    Hi 👋! My name is Libardo Lozano and I'm a Software Developer
+    Hi 👋! I'm Libardo Lozano - Senior Backend Engineer (Java/Spring)
 </h2>
 <div align="center">
     <img
@@ -24,12 +24,17 @@
         alt="Computador"
     />
     <p align="left">
-        Experienced software developer with a strong foundation in both programming
-        and additional expertise in design and basic electronics. I bring over 3
-        years of hands-on experience in software development, coupled with excellent
-        communication skills, a quick learning aptitude, leadership qualities, and a
-        readiness to embrace change.
+        Senior Software Engineer with 7+ years of experience building and evolving
+        mission-critical enterprise platforms, mainly in banking environments (BBVA).
+        I specialize in Java and Spring Boot, with a strong focus on distributed
+        architectures, microservices, event-driven systems, and clean/hexagonal design.
     </p>
+    <ul align="left">
+        <li>Core stack: Java, Spring Boot, Spring Cloud, Spring Security.</li>
+        <li>Architecture focus: scalable backend services, integration standards, and low-coupling design.</li>
+        <li>Domain experience: ASO, APX, Cells, Host/Mainframe integrations, and enterprise modernization.</li>
+        <li>Current path: growing into Tech Lead / Software Architect responsibilities.</li>
+    </ul>
     <img
         width="100%"
         src="https://capsule-render.vercel.app/api?type=waving&color=FF2967&height=120&section=footer"
@@ -42,7 +47,7 @@
         src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg"
         alt="Contributions"
         width="100%"
-        aling="right"
+        align="right"
     />
 
  <picture>
@@ -58,38 +63,32 @@
    
 </div>
     
-<div align="center">
-
-# THIS README IS UNDER CONSTRUCTION 
-
-</div>
-<br>
-
 ## Principal Stack:
 
-<div aling="center">
-    <a href="#">
+<div align="center">
+    <a href="https://www.java.com/" target="_blank">
         <img
             src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"
-            target="_blank"
         />
     </a>
-    <a href="#">
+    <a href="https://spring.io/projects/spring-boot" target="_blank">
         <img
-            src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"
-            target="_blank"
+            src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"
         />
     </a>
-    <a href="#">
+    <a href="https://kafka.apache.org/" target="_blank">
         <img
-            src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"
-            target="_blank"
+            src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"
         />
     </a>
-    <a href="#">
+    <a href="https://www.postgresql.org/" target="_blank">
         <img
-            src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"
-            target="_blank"
+            src="https://img.shields.io/badge/SQL-005C84?style=for-the-badge&logo=postgresql&logoColor=white"
+        />
+    </a>
+    <a href="https://www.docker.com/" target="_blank">
+        <img
+            src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"
         />
     </a>
 </div>    
@@ -118,10 +117,10 @@
     />
 </a>
 
-<a href="#" target="_blank">
+<a href="https://github.com/Bardolog1/" target="_blank">
     <img
-        src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
-        alt="whatsapp logo"
+        src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+        alt="github logo"
     />
 </a>
 </div>
@@ -132,7 +131,6 @@
 <div align="center" style="margin-top: 20px" > 
 
 <img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg" alt="gh actions"  style="width: 350px; height: 30px;"/> 
-<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg" alt="gh actions"  style="width: 350px; height: 30px;"/>
 
 </div>
 
@@ -141,7 +139,7 @@
 # Mi Proyecto de Readme Actualizado con GitHub Actions
  
      
-Estadísticas actualizadas por GH Actions (Falta perfeccionar):
+Estadísticas actualizadas por GH Actions:
 
 ```
   - Total de repositorios: 287

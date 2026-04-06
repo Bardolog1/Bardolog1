@@ -23,9 +23,10 @@ export default function TemporalStats(updatedStats) {
     timeZone: "America/Bogota", 
   };
   
-  const langBest = updatedStats.langPercents.sort((a, b) => b.value - a.value)[0].name.toUpperCase();
-  
-  const valueLangBest = updatedStats.langPercents.sort((a, b) => b.value - a.value)[0].value;
+  const sortedLangs = [...updatedStats.langPercents].sort(
+    (a, b) => b.value - a.value
+  );
+  const topLanguage = sortedLangs[0] ?? { name: "N/A", value: 0 };
 
   const date = newDate.toLocaleDateString("es-ES", options);
 
@@ -36,7 +37,6 @@ export default function TemporalStats(updatedStats) {
 <div align="center" style="margin-top: 20px" > 
 
 <img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg" alt="gh actions"  style="width: 350px; height: 30px;"/> 
-<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/npm-publish-github-packages.yml/badge.svg" alt="gh actions"  style="width: 350px; height: 30px;"/>
 
 </div>
 
@@ -45,7 +45,7 @@ export default function TemporalStats(updatedStats) {
 # Mi Proyecto de Readme Actualizado con GitHub Actions
  
      
-Estadísticas actualizadas por GH Actions (Falta perfeccionar):
+Estadísticas actualizadas por GH Actions:
 
 \`\`\`
   - Total de repositorios: ${totalRepos}
@@ -53,8 +53,8 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios publicos: ${totalPublicRepos}
   - Total de commits: ${totalCommits} 
   - Total de estrellas obtenidas: ${totalStars}
-  - Total de Lenguajes: ${Object.keys(updatedStats.langPercents).length}
-  - Lenguaje con mayor porcentaje: ${langBest} con ${valueLangBest}%
+  - Total de Lenguajes: ${updatedStats.langPercents.length}
+  - Lenguaje con mayor porcentaje: ${topLanguage.name.toUpperCase()} con ${topLanguage.value}%
   - Total de pull requests: ${updatedStats.totalPullRequests}
   - Ultima actualización del README desde GitHub Actions : ${date}
  
