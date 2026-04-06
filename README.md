@@ -147,12 +147,12 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
   - Total de repositorios: 287
   - Total de repositorios privados: 211
   - Total de repositorios publicos: 76
-  - Total de commits: 11731 
+  - Total de commits: 11734 
   - Total de estrellas obtenidas: 207
   - Total de Lenguajes: 32
-  - Lenguaje con mayor porcentaje: JAVA con 48.88%
+  - Lenguaje con mayor porcentaje: JAVA con 48.84%
   - Total de pull requests: 1
-  - Ultima actualización del README desde GitHub Actions : domingo, 5 de abril de 2026, 22:20:22
+  - Ultima actualización del README desde GitHub Actions : lunes, 6 de abril de 2026, 0:06:34
  
   ```
  
@@ -162,37 +162,37 @@ Estadísticas actualizadas por GH Actions (Falta perfeccionar):
 
 
 <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/48.88%25-B07219.svg?style=social" alt="Java" />
+<img src="https://img.shields.io/badge/48.84%25-B07219.svg?style=social" alt="Java" />
 
 
 
 
 <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/19.17%25-e34c26.svg?style=social" alt="HTML" />
+<img src="https://img.shields.io/badge/19.15%25-e34c26.svg?style=social" alt="HTML" />
 
 
 
 
 <img src="https://img.shields.io/badge/Python-3572A5.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/16.07%25-3572A5.svg?style=social" alt="Python" />
+<img src="https://img.shields.io/badge/16.06%25-3572A5.svg?style=social" alt="Python" />
 
 
 
 
 <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/9.97%25-F1E05A.svg?style=social" alt="JavaScript" />
+<img src="https://img.shields.io/badge/9.96%25-F1E05A.svg?style=social" alt="JavaScript" />
 
 
 
 
 <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/2.28%25-563d7c.svg?style=social" alt="CSS" />
+<img src="https://img.shields.io/badge/2.31%25-563d7c.svg?style=social" alt="CSS" />
 
 
 
 
 <img src="https://img.shields.io/badge/TypeScript-2b7489.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/1.09%25-2b7489.svg?style=social" alt="TypeScript" />
+<img src="https://img.shields.io/badge/1.14%25-2b7489.svg?style=social" alt="TypeScript" />
 
 
 </div>
