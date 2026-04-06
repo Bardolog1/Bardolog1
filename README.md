@@ -1,3 +1,4 @@
+
 <!-- markdownlint-disable -->
 
 # Libardo Lozano
@@ -5,16 +6,17 @@
 <div align="center">
     <img
       src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/images/Bannerdeveloper.gif"
-            alt="Banner profesional"
+      alt="Banner profesional"
       width="100%"
     />
     <img
       width="100%"
       src="https://capsule-render.vercel.app/api?type=waving&color=057EEF&height=120&section=header"
-            alt="Separador superior"
+      alt="Separador superior"
     />
 </div>
     
+
 <h2 align="center">
     Hi 👋! I'm Libardo Lozano
 </h2>
@@ -81,7 +83,8 @@ Referencias útiles para extender y personalizar este README.
 - [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)
 
 <br>
-    
+
+
 ## Stack Principal
 
 Stack orientado a arquitectura backend empresarial con capacidad full-stack para entregar soluciones end-to-end.
@@ -102,6 +105,7 @@ Stack orientado a arquitectura backend empresarial con capacidad full-stack para
 
 ![Cloud y DevOps](https://skillicons.dev/icons?i=aws,kubernetes,git,githubactions,linux,bash&theme=dark&perline=8)
     
+
 ## Contacto
 
 Disponible para oportunidades Senior Backend, Tech Lead y proyectos de arquitectura de software.
@@ -111,6 +115,7 @@ Disponible para oportunidades Senior Backend, Tech Lead y proyectos de arquitect
 [![Telegram](https://img.shields.io/badge/Telegram-Contacto%20Directo-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bardolog1/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositorios-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bardolog1/)
     
+
   
 <br>
 
@@ -185,7 +190,7 @@ Actualización automática con GitHub Actions cada 6 horas.
 
 ## Top Lenguajes Por Volumen De Código
 <p align="center">
-    Basado en bytes detectados en repositorios propios del perfil.
+  Basado en bytes detectados en repositorios propios del perfil.
 </p>
 
 <table align="center" width="100%">
@@ -252,6 +257,7 @@ Actualización automática con GitHub Actions cada 6 horas.
 </table>
 <br>
     
+
 <div align="center">
     <img
         width="100%"
