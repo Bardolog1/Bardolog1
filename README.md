@@ -1,3 +1,4 @@
+
 <!-- markdownlint-disable -->
 
 # Libardo Lozano
@@ -14,6 +15,7 @@
       alt="Separador superior"
     />
 </div>
+    
 
 <h2 align="center">
     Hi 👋! I'm Libardo Lozano
@@ -64,6 +66,8 @@
         src="https://capsule-render.vercel.app/api?type=waving&color=FF2967&height=120&section=footer"
     />
 </div>
+    
+    
 
 <p align="center"><img src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Contribuciones 3D" width="100%" /></p>
 <p align="center"><img src="https://github.com/Bardolog1/Bardolog1/blob/main/snake-contrib/github-snake-dark.svg?raw=1&v=20260406" alt="Snake de contribuciones" width="100%" /></p>
@@ -81,6 +85,7 @@ Referencias útiles para extender y personalizar este README.
 - [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)
 
 <br>
+
 
 ## Stack Principal
 
@@ -101,6 +106,7 @@ Stack orientado a arquitectura backend empresarial con capacidad full-stack para
 
 ![Cloud y DevOps](https://skillicons.dev/icons?i=aws,kubernetes,git,githubactions,jenkins,linux,bash&theme=dark&perline=8)
 ![SonarQb](images/skill-icons/sonarqube-tile.svg)
+    
 
 ## Contacto
 
@@ -110,12 +116,14 @@ Disponible para oportunidades Senior Backend, Tech Lead y proyectos de arquitect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil%20Profesional-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bardolog1/)
 [![Telegram](https://img.shields.io/badge/Telegram-Contacto%20Directo-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bardolog1/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositorios-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bardolog1/)
+    
 
+  
 <br>
 
-<div align="center" style="margin-top: 20px" >
+<div align="center" style="margin-top: 20px" > 
 
-<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg" alt="gh actions"  style="width: 350px; height: 30px;"/>
+<img src="https://github.com/Bardolog1/Bardolog1/actions/workflows/runGHActions.yml/badge.svg" alt="gh actions"  style="width: 350px; height: 30px;"/> 
 
 </div>
 
@@ -133,7 +141,7 @@ Actualización automática con GitHub Actions cada 6 horas.
       <sub>Total de repositorios</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Commits-11.750-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+      <img src="https://img.shields.io/badge/Commits-11.753-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
       <br/>
       <sub>Histórico de commits</sub>
     </td>
@@ -178,11 +186,10 @@ Actualización automática con GitHub Actions cada 6 horas.
   </tr>
 </table>
 
-**Última actualización:** lunes, 6 de abril de 2026, 11:29:32 (America/Bogota)
-
+**Última actualización:** lunes, 6 de abril de 2026, 19:34:20 (America/Bogota)
+ 
 <br>
 ## Top Lenguajes Por Volumen De Código
-
 <p align="center">
   Basado en bytes detectados en repositorios propios del perfil.
 </p>
@@ -262,6 +269,7 @@ Actualización automática con GitHub Actions cada 6 horas.
 
 
 <br>
+    
 
 <div align="center">
     <img
@@ -270,3 +278,4 @@ Actualización automática con GitHub Actions cada 6 horas.
         alt="Separador final"
     />
 </div>
+    
