@@ -141,7 +141,7 @@ Actualización automática con GitHub Actions cada 6 horas.
       <sub>Total de repositorios</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Commits-11.833-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+      <img src="https://img.shields.io/badge/Commits-11.838-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
       <br/>
       <sub>Histórico de commits</sub>
     </td>
@@ -186,7 +186,7 @@ Actualización automática con GitHub Actions cada 6 horas.
   </tr>
 </table>
 
-**Última actualización:** sábado, 25 de abril de 2026, 13:19:04 (America/Bogota)
+**Última actualización:** sábado, 25 de abril de 2026, 19:40:23 (America/Bogota)
  
 <br>
 ## Top Lenguajes Por Volumen De Código
@@ -235,11 +235,11 @@ Actualización automática con GitHub Actions cada 6 horas.
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-9.93%25-0f172a?style=flat-square" alt="Uso JavaScript" />
+  <img src="https://img.shields.io/badge/Uso-9.94%25-0f172a?style=flat-square" alt="Uso JavaScript" />
   <br/>
-  <progress value="9.93" max="100"></progress>
+  <progress value="9.94" max="100"></progress>
   <br/>
-  <sub>9.93% del código detectado</sub>
+  <sub>9.94% del código detectado</sub>
 </td>
 </tr>
 
