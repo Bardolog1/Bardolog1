@@ -136,12 +136,12 @@ Actualización automática con GitHub Actions cada 6 horas.
 <table align="center" width="100%">
   <tr>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Repositorios-287-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
+      <img src="https://img.shields.io/badge/Repositorios-288-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
       <br/>
       <sub>Total de repositorios</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Commits-11.928-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+      <img src="https://img.shields.io/badge/Commits-11.930-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
       <br/>
       <sub>Histórico de commits</sub>
     </td>
@@ -158,18 +158,18 @@ Actualización automática con GitHub Actions cada 6 horas.
   </tr>
   <tr>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Publicos-76%20(26.5%25)-0284C7?style=for-the-badge&labelColor=0f172a" alt="Repositorios publicos" />
+      <img src="https://img.shields.io/badge/Publicos-76%20(26.4%25)-0284C7?style=for-the-badge&labelColor=0f172a" alt="Repositorios publicos" />
       <br/>
-      <progress value="26.5" max="100"></progress>
+      <progress value="26.4" max="100"></progress>
       <br/>
-      <sub>26.5% del total</sub>
+      <sub>26.4% del total</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Privados-211%20(73.5%25)-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Repositorios privados" />
+      <img src="https://img.shields.io/badge/Privados-212%20(73.6%25)-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Repositorios privados" />
       <br/>
-      <progress value="73.5" max="100"></progress>
+      <progress value="73.6" max="100"></progress>
       <br/>
-      <sub>73.5% del total</sub>
+      <sub>73.6% del total</sub>
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/Lenguajes-32-7C3AED?style=for-the-badge&labelColor=0f172a" alt="Lenguajes detectados" />
@@ -186,7 +186,7 @@ Actualización automática con GitHub Actions cada 6 horas.
   </tr>
 </table>
 
-**Última actualización:** lunes, 18 de mayo de 2026, 8:20:18 (America/Bogota)
+**Última actualización:** lunes, 18 de mayo de 2026, 13:41:47 (America/Bogota)
  
 <br>
 ## Top Lenguajes Por Volumen De Código
