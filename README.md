@@ -141,7 +141,7 @@ Actualización automática con GitHub Actions cada 6 horas.
       <sub>Total de repositorios</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Commits-11.935-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+      <img src="https://img.shields.io/badge/Commits-11.936-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
       <br/>
       <sub>Histórico de commits</sub>
     </td>
@@ -177,16 +177,16 @@ Actualización automática con GitHub Actions cada 6 horas.
       <sub>Diversidad del stack</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Top-JAVA%2048.86%25-BE123C?style=for-the-badge&labelColor=0f172a" alt="Top lenguaje" />
+      <img src="https://img.shields.io/badge/Top-JAVA%2048.85%25-BE123C?style=for-the-badge&labelColor=0f172a" alt="Top lenguaje" />
       <br/>
-      <progress value="48.86" max="100"></progress>
+      <progress value="48.85" max="100"></progress>
       <br/>
       <sub>Lenguaje dominante</sub>
     </td>
   </tr>
 </table>
 
-**Última actualización:** martes, 19 de mayo de 2026, 19:52:25 (America/Bogota)
+**Última actualización:** miércoles, 20 de mayo de 2026, 2:20:03 (America/Bogota)
  
 <br>
 ## Top Lenguajes Por Volumen De Código
@@ -202,21 +202,21 @@ Actualización automática con GitHub Actions cada 6 horas.
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-48.86%25-0f172a?style=flat-square" alt="Uso Java" />
+  <img src="https://img.shields.io/badge/Uso-48.85%25-0f172a?style=flat-square" alt="Uso Java" />
   <br/>
-  <progress value="48.86" max="100"></progress>
+  <progress value="48.85" max="100"></progress>
   <br/>
-  <sub>48.86% del código detectado</sub>
+  <sub>48.85% del código detectado</sub>
 </td>
   
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-19.16%25-0f172a?style=flat-square" alt="Uso HTML" />
+  <img src="https://img.shields.io/badge/Uso-19.15%25-0f172a?style=flat-square" alt="Uso HTML" />
   <br/>
-  <progress value="19.16" max="100"></progress>
+  <progress value="19.15" max="100"></progress>
   <br/>
-  <sub>19.16% del código detectado</sub>
+  <sub>19.15% del código detectado</sub>
 </td>
 </tr>
 
