@@ -136,12 +136,12 @@ Actualización automática con GitHub Actions cada 6 horas.
 <table align="center" width="100%">
   <tr>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Repositorios-288-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
+      <img src="https://img.shields.io/badge/Repositorios-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
       <br/>
       <sub>Total de repositorios</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Commits-12.202-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+      <img src="https://img.shields.io/badge/Commits-12.203-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
       <br/>
       <sub>Histórico de commits</sub>
     </td>
@@ -158,18 +158,18 @@ Actualización automática con GitHub Actions cada 6 horas.
   </tr>
   <tr>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Publicos-76%20(26.4%25)-0284C7?style=for-the-badge&labelColor=0f172a" alt="Repositorios publicos" />
+      <img src="https://img.shields.io/badge/Publicos-77%20(26.6%25)-0284C7?style=for-the-badge&labelColor=0f172a" alt="Repositorios publicos" />
       <br/>
-      <progress value="26.4" max="100"></progress>
+      <progress value="26.6" max="100"></progress>
       <br/>
-      <sub>26.4% del total</sub>
+      <sub>26.6% del total</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Privados-212%20(73.6%25)-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Repositorios privados" />
+      <img src="https://img.shields.io/badge/Privados-212%20(73.4%25)-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Repositorios privados" />
       <br/>
-      <progress value="73.6" max="100"></progress>
+      <progress value="73.4" max="100"></progress>
       <br/>
-      <sub>73.6% del total</sub>
+      <sub>73.4% del total</sub>
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/Lenguajes-33-7C3AED?style=for-the-badge&labelColor=0f172a" alt="Lenguajes detectados" />
@@ -177,16 +177,16 @@ Actualización automática con GitHub Actions cada 6 horas.
       <sub>Diversidad del stack</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Top-JAVA%2048.84%25-BE123C?style=for-the-badge&labelColor=0f172a" alt="Top lenguaje" />
+      <img src="https://img.shields.io/badge/Top-JAVA%2048.82%25-BE123C?style=for-the-badge&labelColor=0f172a" alt="Top lenguaje" />
       <br/>
-      <progress value="48.84" max="100"></progress>
+      <progress value="48.82" max="100"></progress>
       <br/>
       <sub>Lenguaje dominante</sub>
     </td>
   </tr>
 </table>
 
-**Última actualización:** sábado, 25 de julio de 2026, 14:06:48 (America/Bogota)
+**Última actualización:** sábado, 25 de julio de 2026, 21:37:12 (America/Bogota)
  
 <br>
 ## Top Lenguajes Por Volumen De Código
@@ -202,21 +202,21 @@ Actualización automática con GitHub Actions cada 6 horas.
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-48.84%25-0f172a?style=flat-square" alt="Uso Java" />
+  <img src="https://img.shields.io/badge/Uso-48.82%25-0f172a?style=flat-square" alt="Uso Java" />
   <br/>
-  <progress value="48.84" max="100"></progress>
+  <progress value="48.82" max="100"></progress>
   <br/>
-  <sub>48.84% del código detectado</sub>
+  <sub>48.82% del código detectado</sub>
 </td>
   
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-19.15%25-0f172a?style=flat-square" alt="Uso HTML" />
+  <img src="https://img.shields.io/badge/Uso-19.14%25-0f172a?style=flat-square" alt="Uso HTML" />
   <br/>
-  <progress value="19.15" max="100"></progress>
+  <progress value="19.14" max="100"></progress>
   <br/>
-  <sub>19.15% del código detectado</sub>
+  <sub>19.14% del código detectado</sub>
 </td>
 </tr>
 
@@ -225,11 +225,11 @@ Actualización automática con GitHub Actions cada 6 horas.
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/Python-3572A5.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-16.06%25-0f172a?style=flat-square" alt="Uso Python" />
+  <img src="https://img.shields.io/badge/Uso-16.05%25-0f172a?style=flat-square" alt="Uso Python" />
   <br/>
-  <progress value="16.06" max="100"></progress>
+  <progress value="16.05" max="100"></progress>
   <br/>
-  <sub>16.06% del código detectado</sub>
+  <sub>16.05% del código detectado</sub>
 </td>
   
 <td width="50%" valign="top" align="left">
@@ -258,11 +258,11 @@ Actualización automática con GitHub Actions cada 6 horas.
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/TypeScript-2b7489.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-1.14%25-0f172a?style=flat-square" alt="Uso TypeScript" />
+  <img src="https://img.shields.io/badge/Uso-1.17%25-0f172a?style=flat-square" alt="Uso TypeScript" />
   <br/>
-  <progress value="1.14" max="100"></progress>
+  <progress value="1.17" max="100"></progress>
   <br/>
-  <sub>1.14% del código detectado</sub>
+  <sub>1.17% del código detectado</sub>
 </td>
 </tr>
 </table>
