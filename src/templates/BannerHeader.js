@@ -6,14 +6,14 @@ export default function BannerHeader() {
 
 <div align="center">
     <img
-      src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/images/Bannerdeveloper.gif"
-      alt="Banner profesional"
+      src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/images/Bannerdeveloper.gif"
+      alt="Professional banner"
       width="100%"
     />
     <img
       width="100%"
       src="https://capsule-render.vercel.app/api?type=waving&color=057EEF&height=120&section=header"
-      alt="Separador superior"
+      alt="Top separator"
     />
 </div>
     `;

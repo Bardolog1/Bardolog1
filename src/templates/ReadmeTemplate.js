@@ -1,5 +1,6 @@
 import AboutInfo from "./AboutInfo.js";
 import BannerHeader from "./BannerHeader.js";
+import Certifications from "./Certifications.js";
 import Contact from "./Contact.js";
 import ContributionsSchema from "./ContributionsSchema.js";
 import Footer from "./Footer.js";
@@ -10,10 +11,11 @@ import TemporalStats from "./TemporalStats.js";
 export default function ReadmeTemplate(updatedStats) {
     return [
         BannerHeader(),
-        AboutInfo(),
+        AboutInfo(updatedStats),
         ContributionsSchema(),
         LiveStatsDashboard(),
         PrincipalStack(),
+        Certifications(),
         Contact(),
         TemporalStats(updatedStats),
         Footer()

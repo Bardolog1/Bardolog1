@@ -4,6 +4,7 @@ import { getLanguages } from "./stats/getLanguages.js";
 import { getPullRequests } from "./stats/getPullRequest.js";
 import { calculateLangPercents } from "./utils/calculateLangPercents.js";
 import { updateReadme } from "./utils/updateReadme.js";
+import getExperienceYears from "./utils/getExperienceYears.js";
 
 const STATS_TEMPLATE = {
   owner: "",
@@ -16,6 +17,7 @@ const STATS_TEMPLATE = {
   totalStars: 0,
   lang: [],
   repos: [],
+  experienceYears: 0,
 };
 
 const BATCH_SIZE = 3;
@@ -129,7 +131,9 @@ export async function getStats(user) {
     );
     
     updatedStats.langPercents = await calculateLangPercents(updatedStats.lang);
-  
+
+    updatedStats.experienceYears = getExperienceYears();
+
     await updateReadme(updatedStats);
    
   } catch (error) {

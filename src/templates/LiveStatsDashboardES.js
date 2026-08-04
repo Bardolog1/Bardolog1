@@ -1,8 +1,8 @@
-export default function LiveStatsDashboard() {
+export default function LiveStatsDashboardES() {
   return `
-## Profile Resources
+## Recursos Del Perfil
 
-Useful references to extend and customize this README.
+Referencias útiles para extender y personalizar este README.
 
 - [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
 - [Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats)

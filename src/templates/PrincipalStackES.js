@@ -1,23 +1,23 @@
-export default function PrincipalStack() {
+export default function PrincipalStackES() {
     return `
-## Principal Stack
+## Stack Principal
 
-Stack oriented to enterprise backend architecture with full-stack capability to deliver end-to-end solutions.
+Stack orientado a arquitectura backend empresarial con capacidad full-stack para entregar soluciones end-to-end.
 
 ### Frontend
 
 ![Frontend Stack](https://skillicons.dev/icons?i=react,angular,lit,html,css,ts,js&theme=dark&perline=8)
 ![Polymer](images/skill-icons/polymer-tile.svg)
 
-### Backend & Architecture
+### Backend y Arquitectura
 
 ![Backend Stack](https://skillicons.dev/icons?i=java,spring,kafka,rabbitmq,postgres,redis,maven,gradle,docker&theme=dark&perline=9)
 ![COBOL](images/skill-icons/cobol-tile.svg)
 ![Host Mainframe](images/skill-icons/mainframe-tile.svg)
 
-### Cloud & DevOps
+### Cloud y DevOps
 
-![Cloud & DevOps](https://skillicons.dev/icons?i=aws,kubernetes,git,githubactions,jenkins,linux,bash&theme=dark&perline=8)
+![Cloud y DevOps](https://skillicons.dev/icons?i=aws,kubernetes,git,githubactions,jenkins,linux,bash&theme=dark&perline=8)
 ![SonarQube](images/skill-icons/sonarqube-tile.svg)
     `;
 }

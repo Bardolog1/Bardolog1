@@ -1,6 +1,6 @@
-import LanguageStats from "./LanguageStats.js";
+import LanguageStatsES from "./LanguageStatsES.js";
 
-export default function TemporalStats(updatedStats) {
+export default function TemporalStatsES(updatedStats) {
   const {
     totalRepos,
     totalPrivateRepos,
@@ -35,7 +35,7 @@ export default function TemporalStats(updatedStats) {
   const totalStarsValue = Number(totalStars ?? 0);
   const totalPullRequestsValue = Number(updatedStats.totalPullRequests ?? 0);
 
-  const formatNumber = (value) => value.toLocaleString("en-US");
+  const formatNumber = (value) => value.toLocaleString("es-ES");
   const publicRatio =
     totalReposValue > 0
       ? ((totalPublicReposValue * 100) / totalReposValue).toFixed(1)
@@ -51,7 +51,7 @@ export default function TemporalStats(updatedStats) {
     return `https://img.shields.io/badge/${encodedLabel}-${encodedValue}-${color}?style=for-the-badge&labelColor=0f172a`;
   };
 
-  const date = newDate.toLocaleDateString("en-US", options);
+  const date = newDate.toLocaleDateString("es-ES", options);
 
   return `
   
@@ -65,72 +65,72 @@ export default function TemporalStats(updatedStats) {
 
 <br>
 
-## Automatic Metrics Panel
+## Panel De Métricas Automáticas
 
-Automatically updated with GitHub Actions every 6 hours.
+Actualización automática con GitHub Actions cada 6 horas.
 
 <table align="center" width="100%">
   <tr>
     <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Repositories", formatNumber(totalReposValue), "2563EB")}" alt="Repositories" />
+      <img src="${buildBadgeUrl("Repositorios", formatNumber(totalReposValue), "2563EB")}" alt="Repositorios" />
       <br/>
-      <sub>Total repositories</sub>
+      <sub>Total de repositorios</sub>
     </td>
     <td align="center" width="25%">
       <img src="${buildBadgeUrl("Commits", formatNumber(totalCommitsValue), "0EA5E9")}" alt="Commits" />
       <br/>
-      <sub>Commit history</sub>
+      <sub>Histórico de commits</sub>
     </td>
     <td align="center" width="25%">
       <img src="${buildBadgeUrl("Pull Requests", formatNumber(totalPullRequestsValue), "16A34A")}" alt="Pull Requests" />
       <br/>
-      <sub>Pull requests detected</sub>
+      <sub>PRs detectados</sub>
     </td>
     <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Stars", formatNumber(totalStarsValue), "EA580C")}" alt="Stars" />
+      <img src="${buildBadgeUrl("Estrellas", formatNumber(totalStarsValue), "EA580C")}" alt="Estrellas" />
       <br/>
-      <sub>Stars accumulated</sub>
+      <sub>Estrellas acumuladas</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Public", `${formatNumber(totalPublicReposValue)} (${publicRatio}%)`, "0284C7")}" alt="Public repositories" />
+      <img src="${buildBadgeUrl("Públicos", `${formatNumber(totalPublicReposValue)} (${publicRatio}%)`, "0284C7")}" alt="Repositorios públicos" />
       <br/>
       <progress value="${publicRatio}" max="100"></progress>
       <br/>
-      <sub>${publicRatio}% of total</sub>
+      <sub>${publicRatio}% del total</sub>
     </td>
     <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Private", `${formatNumber(totalPrivateReposValue)} (${privateRatio}%)`, "1D4ED8")}" alt="Private repositories" />
+      <img src="${buildBadgeUrl("Privados", `${formatNumber(totalPrivateReposValue)} (${privateRatio}%)`, "1D4ED8")}" alt="Repositorios privados" />
       <br/>
       <progress value="${privateRatio}" max="100"></progress>
       <br/>
-      <sub>${privateRatio}% of total</sub>
+      <sub>${privateRatio}% del total</sub>
     </td>
     <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Languages", formatNumber(updatedStats.langPercents.length), "7C3AED")}" alt="Languages detected" />
+      <img src="${buildBadgeUrl("Lenguajes", formatNumber(updatedStats.langPercents.length), "7C3AED")}" alt="Lenguajes detectados" />
       <br/>
-      <sub>Stack diversity</sub>
+      <sub>Diversidad del stack</sub>
     </td>
     <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Top", `${topLanguage.name.toUpperCase()} ${Number(topLanguage.value).toFixed(2)}%`, "BE123C")}" alt="Top language" />
+      <img src="${buildBadgeUrl("Top", `${topLanguage.name.toUpperCase()} ${Number(topLanguage.value).toFixed(2)}%`, "BE123C")}" alt="Top lenguaje" />
       <br/>
       <progress value="${Number(topLanguage.value).toFixed(2)}" max="100"></progress>
       <br/>
-      <sub>Dominant language</sub>
+      <sub>Lenguaje dominante</sub>
     </td>
   </tr>
 </table>
 
-**Last updated:** ${date} (America/Bogota)
+**Última actualización:** ${date} (America/Bogota)
  
 <br>
-## Top Languages By Code Volume
+## Top Lenguajes Por Volumen De Código
 <p align="center">
-  Based on bytes detected across the profile's own repositories.
+  Basado en bytes detectados en repositorios propios del perfil.
 </p>
 
-${LanguageStats(updatedStats.langPercents)}
+${LanguageStatsES(updatedStats.langPercents)}
 
 <br>
     `;

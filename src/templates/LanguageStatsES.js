@@ -26,17 +26,17 @@ function buildLanguageCard(languageStat) {
   const percentageValue = Number(languageStat.value);
   const formattedPercentage = `${percentageValue.toFixed(2)}%`;
   const badgeUrl = `https://img.shields.io/badge/${languageId}-${color}.svg?style=for-the-badge${logoName}`;
-  const usageBadgeUrl = `https://img.shields.io/badge/Usage-${encodeURIComponent(formattedPercentage)}-0f172a?style=flat-square`;
+  const usageBadgeUrl = `https://img.shields.io/badge/Uso-${encodeURIComponent(formattedPercentage)}-0f172a?style=flat-square`;
 
   return `
 <td width="50%" valign="top" align="left">
   <img src="${badgeUrl}" alt="${languageStat.name}" />
   <br/>
-  <img src="${usageBadgeUrl}" alt="Usage ${languageStat.name}" />
+  <img src="${usageBadgeUrl}" alt="Uso ${languageStat.name}" />
   <br/>
   <progress value="${percentageValue.toFixed(2)}" max="100"></progress>
   <br/>
-  <sub>${formattedPercentage} of code detected</sub>
+  <sub>${formattedPercentage} del código detectado</sub>
 </td>`;
 }
 
@@ -58,12 +58,12 @@ function buildLanguageRows(languages) {
     .join("\n");
 }
 
-export default function LanguageStats(langsStats) {
+export default function LanguageStatsES(langsStats) {
   if (!langsStats.length) {
     return `
 <table align="center" width="100%">
   <tr>
-    <td align="center">No language data yet</td>
+    <td align="center">Sin datos de lenguajes por ahora</td>
   </tr>
 </table>
 `;
@@ -83,4 +83,3 @@ ${buildLanguageRows(topLanguages)}
 </table>
 `;
 }
-
