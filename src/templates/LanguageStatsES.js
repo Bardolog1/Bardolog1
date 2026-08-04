@@ -10,62 +10,30 @@ function getLanguageMeta(languageName) {
   );
 }
 
-function buildLanguageCard(languageStat) {
-  if (!languageStat) {
-    return `<td width="50%" valign="top" align="left"></td>`;
-  }
-
+function buildLanguageBadge(languageStat) {
   const languageMeta = getLanguageMeta(languageStat.name);
 
   const color = (languageMeta?.color ?? `#${FALLBACK_COLOR}`).replace("#", "");
   const languageId = languageMeta?.id ?? encodeURIComponent(languageStat.name);
   const logoName = languageMeta?.logoName
-    ? `&logo=${languageMeta.logoName.toLowerCase()}&logoColor=white`
+    ? `&logo=${languageMeta.logoName.toLowerCase()}`
+    : "";
+  const logoColor = languageMeta?.textColor
+    ? `&logoColor=${languageMeta.textColor.replace("#", "")}`
     : "";
 
   const percentageValue = Number(languageStat.value);
   const formattedPercentage = `${percentageValue.toFixed(2)}%`;
-  const badgeUrl = `https://img.shields.io/badge/${languageId}-${color}.svg?style=for-the-badge${logoName}`;
-  const usageBadgeUrl = `https://img.shields.io/badge/Uso-${encodeURIComponent(formattedPercentage)}-0f172a?style=flat-square`;
 
-  return `
-<td width="50%" valign="top" align="left">
-  <img src="${badgeUrl}" alt="${languageStat.name}" />
-  <br/>
-  <img src="${usageBadgeUrl}" alt="Uso ${languageStat.name}" />
-  <br/>
-  <progress value="${percentageValue.toFixed(2)}" max="100"></progress>
-  <br/>
-  <sub>${formattedPercentage} del código detectado</sub>
-</td>`;
-}
+  const badgeLabelId = languageId.replace(/-/g, "%2D");
 
-function buildLanguageRows(languages) {
-  const rows = [];
-
-  for (let index = 0; index < languages.length; index += 2) {
-    rows.push([languages[index], languages[index + 1] ?? null]);
-  }
-
-  return rows
-    .map(
-      ([leftLanguage, rightLanguage]) => `
-<tr>
-  ${buildLanguageCard(leftLanguage)}
-  ${buildLanguageCard(rightLanguage)}
-</tr>`
-    )
-    .join("\n");
+  return `<img src="https://img.shields.io/badge/${badgeLabelId}-${encodeURIComponent(formattedPercentage)}-${color}.svg?style=flat-square${logoName}${logoColor}" alt="${languageStat.name} ${formattedPercentage}" />`;
 }
 
 export default function LanguageStatsES(langsStats) {
   if (!langsStats.length) {
     return `
-<table align="center" width="100%">
-  <tr>
-    <td align="center">Sin datos de lenguajes por ahora</td>
-  </tr>
-</table>
+<p align="center">Sin datos de lenguajes por ahora</p>
 `;
   }
 
@@ -78,8 +46,8 @@ export default function LanguageStatsES(langsStats) {
     .slice(0, 6);
 
   return `
-<table align="center" width="100%">
-${buildLanguageRows(topLanguages)}
-</table>
+<p align="center">
+  ${topLanguages.map(buildLanguageBadge).join("\n  ")}
+</p>
 `;
 }

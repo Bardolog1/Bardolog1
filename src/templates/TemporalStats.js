@@ -3,8 +3,6 @@ import LanguageStats from "./LanguageStats.js";
 export default function TemporalStats(updatedStats) {
   const {
     totalRepos,
-    totalPrivateRepos,
-    totalPublicRepos,
     totalCommits,
     totalStars,
   } = updatedStats;
@@ -23,27 +21,12 @@ export default function TemporalStats(updatedStats) {
     timeZone: "America/Bogota", 
   };
   
-  const sortedLangs = [...updatedStats.langPercents].sort(
-    (a, b) => b.value - a.value
-  );
-  const topLanguage = sortedLangs[0] ?? { name: "N/A", value: 0 };
-
   const totalReposValue = Number(totalRepos ?? 0);
-  const totalPrivateReposValue = Number(totalPrivateRepos ?? 0);
-  const totalPublicReposValue = Number(totalPublicRepos ?? 0);
   const totalCommitsValue = Number(totalCommits ?? 0);
   const totalStarsValue = Number(totalStars ?? 0);
   const totalPullRequestsValue = Number(updatedStats.totalPullRequests ?? 0);
 
   const formatNumber = (value) => value.toLocaleString("en-US");
-  const publicRatio =
-    totalReposValue > 0
-      ? ((totalPublicReposValue * 100) / totalReposValue).toFixed(1)
-      : "0.0";
-  const privateRatio =
-    totalReposValue > 0
-      ? ((totalPrivateReposValue * 100) / totalReposValue).toFixed(1)
-      : "0.0";
 
   const buildBadgeUrl = (label, value, color) => {
     const encodedLabel = encodeURIComponent(label);
@@ -69,69 +52,17 @@ export default function TemporalStats(updatedStats) {
 
 Automatically updated with GitHub Actions every 6 hours.
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Repositories", formatNumber(totalReposValue), "2563EB")}" alt="Repositories" />
-      <br/>
-      <sub>Total repositories</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Commits", formatNumber(totalCommitsValue), "0EA5E9")}" alt="Commits" />
-      <br/>
-      <sub>Commit history</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Pull Requests", formatNumber(totalPullRequestsValue), "16A34A")}" alt="Pull Requests" />
-      <br/>
-      <sub>Pull requests detected</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Stars", formatNumber(totalStarsValue), "EA580C")}" alt="Stars" />
-      <br/>
-      <sub>Stars accumulated</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Public", `${formatNumber(totalPublicReposValue)} (${publicRatio}%)`, "0284C7")}" alt="Public repositories" />
-      <br/>
-      <progress value="${publicRatio}" max="100"></progress>
-      <br/>
-      <sub>${publicRatio}% of total</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Private", `${formatNumber(totalPrivateReposValue)} (${privateRatio}%)`, "1D4ED8")}" alt="Private repositories" />
-      <br/>
-      <progress value="${privateRatio}" max="100"></progress>
-      <br/>
-      <sub>${privateRatio}% of total</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Languages", formatNumber(updatedStats.langPercents.length), "7C3AED")}" alt="Languages detected" />
-      <br/>
-      <sub>Stack diversity</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="${buildBadgeUrl("Top", `${topLanguage.name.toUpperCase()} ${Number(topLanguage.value).toFixed(2)}%`, "BE123C")}" alt="Top language" />
-      <br/>
-      <progress value="${Number(topLanguage.value).toFixed(2)}" max="100"></progress>
-      <br/>
-      <sub>Dominant language</sub>
-    </td>
-  </tr>
-</table>
-
-**Last updated:** ${date} (America/Bogota)
- 
-<br>
-## Top Languages By Code Volume
-<p align="center">
-  Based on bytes detected across the profile's own repositories.
-</p>
+<div align="center">
+  <img src="${buildBadgeUrl("Repositories", formatNumber(totalReposValue), "2563EB")}" alt="Repositories" />
+  <img src="${buildBadgeUrl("Commits", formatNumber(totalCommitsValue), "0EA5E9")}" alt="Commits" />
+  <img src="${buildBadgeUrl("Pull Requests", formatNumber(totalPullRequestsValue), "16A34A")}" alt="Pull Requests" />
+  <img src="${buildBadgeUrl("Stars", formatNumber(totalStarsValue), "EA580C")}" alt="Stars" />
+</div>
 
 ${LanguageStats(updatedStats.langPercents)}
 
+**Last updated:** ${date} (America/Bogota)
+ 
 <br>
     `;
 }

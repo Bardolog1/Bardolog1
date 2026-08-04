@@ -4,8 +4,8 @@ import CertificationsES from "./CertificationsES.js";
 import ContactES from "./ContactES.js";
 import ContributionsSchema from "./ContributionsSchema.js";
 import Footer from "./Footer.js";
-import LiveStatsDashboardES from "./LiveStatsDashboardES.js";
 import PrincipalStackES from "./PrincipalStackES.js";
+import RepositoriesES from "./RepositoriesES.js";
 import TemporalStatsES from "./TemporalStatsES.js";
 
 export default function ReadmeTemplateES(updatedStats) {
@@ -13,8 +13,8 @@ export default function ReadmeTemplateES(updatedStats) {
         BannerHeader(),
         AboutInfoES(updatedStats),
         ContributionsSchema(),
-        LiveStatsDashboardES(),
         PrincipalStackES(),
+        RepositoriesES(updatedStats),
         CertificationsES(),
         ContactES(),
         TemporalStatsES(updatedStats),
