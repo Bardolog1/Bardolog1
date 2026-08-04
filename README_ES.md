@@ -5,7 +5,7 @@
 
 <div align="center">
     <img
-      src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/images/Bannerdeveloper.gif"
+      src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/images/Bannerdeveloper.gif"
       alt="Professional banner"
       width="100%"
     />
@@ -56,7 +56,7 @@
         </td>
         <td width="45%" align="center" valign="middle">
             <img
-                src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/images/libardo-perfil.jpeg"
+                src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/images/libardo-perfil.jpeg"
                 width="300"
                 style="border-radius: 50%; object-fit: cover;"
                 alt="Foto de perfil de Libardo Lozano"
@@ -74,7 +74,7 @@
     
     
 
-<p align="center"><img src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/master/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contributions" width="100%" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Bardolog1/Bardolog1/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contributions" width="100%" /></p>
 <p align="center"><img src="https://github.com/Bardolog1/Bardolog1/blob/main/snake-contrib/github-snake-dark.svg?raw=1&v=20260406" alt="Contributions snake" width="100%" /></p>
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=057EEF&height=120&section=header" alt="Intermediate separator" width="100%" /></p>
     
@@ -176,7 +176,7 @@ Actualización automática con GitHub Actions cada 6 horas.
       <sub>Total de repositorios</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Commits-12.237-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+      <img src="https://img.shields.io/badge/Commits-12.241-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
       <br/>
       <sub>Histórico de commits</sub>
     </td>
@@ -207,21 +207,21 @@ Actualización automática con GitHub Actions cada 6 horas.
       <sub>73.4% del total</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Lenguajes-6-7C3AED?style=for-the-badge&labelColor=0f172a" alt="Lenguajes detectados" />
+      <img src="https://img.shields.io/badge/Lenguajes-33-7C3AED?style=for-the-badge&labelColor=0f172a" alt="Lenguajes detectados" />
       <br/>
       <sub>Diversidad del stack</sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Top-JAVA%2048.80%25-BE123C?style=for-the-badge&labelColor=0f172a" alt="Top lenguaje" />
+      <img src="https://img.shields.io/badge/Top-JAVA%2048.82%25-BE123C?style=for-the-badge&labelColor=0f172a" alt="Top lenguaje" />
       <br/>
-      <progress value="48.80" max="100"></progress>
+      <progress value="48.82" max="100"></progress>
       <br/>
       <sub>Lenguaje dominante</sub>
     </td>
   </tr>
 </table>
 
-**Última actualización:** lunes, 3 de agosto de 2026, 23:26:58 (America/Bogota)
+**Última actualización:** lunes, 3 de agosto de 2026, 23:38:40 (America/Bogota)
  
 <br>
 ## Top Lenguajes Por Volumen De Código
@@ -237,21 +237,21 @@ Actualización automática con GitHub Actions cada 6 horas.
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-48.80%25-0f172a?style=flat-square" alt="Uso Java" />
+  <img src="https://img.shields.io/badge/Uso-48.82%25-0f172a?style=flat-square" alt="Uso Java" />
   <br/>
-  <progress value="48.80" max="100"></progress>
+  <progress value="48.82" max="100"></progress>
   <br/>
-  <sub>48.80% del código detectado</sub>
+  <sub>48.82% del código detectado</sub>
 </td>
   
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-19.15%25-0f172a?style=flat-square" alt="Uso HTML" />
+  <img src="https://img.shields.io/badge/Uso-19.14%25-0f172a?style=flat-square" alt="Uso HTML" />
   <br/>
-  <progress value="19.15" max="100"></progress>
+  <progress value="19.14" max="100"></progress>
   <br/>
-  <sub>19.15% del código detectado</sub>
+  <sub>19.14% del código detectado</sub>
 </td>
 </tr>
 
@@ -260,21 +260,21 @@ Actualización automática con GitHub Actions cada 6 horas.
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/Python-3572A5.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-16.06%25-0f172a?style=flat-square" alt="Uso Python" />
+  <img src="https://img.shields.io/badge/Uso-16.05%25-0f172a?style=flat-square" alt="Uso Python" />
   <br/>
-  <progress value="16.06" max="100"></progress>
+  <progress value="16.05" max="100"></progress>
   <br/>
-  <sub>16.06% del código detectado</sub>
+  <sub>16.05% del código detectado</sub>
 </td>
   
 <td width="50%" valign="top" align="left">
   <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
   <br/>
-  <img src="https://img.shields.io/badge/Uso-9.93%25-0f172a?style=flat-square" alt="Uso JavaScript" />
+  <img src="https://img.shields.io/badge/Uso-9.94%25-0f172a?style=flat-square" alt="Uso JavaScript" />
   <br/>
-  <progress value="9.93" max="100"></progress>
+  <progress value="9.94" max="100"></progress>
   <br/>
-  <sub>9.93% del código detectado</sub>
+  <sub>9.94% del código detectado</sub>
 </td>
 </tr>
 
