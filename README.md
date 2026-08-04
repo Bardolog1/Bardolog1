@@ -109,9 +109,9 @@ Stack oriented to enterprise backend architecture with full-stack capability to 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=Microservices-Project-Spring&theme=github_dark&hide_border=true" alt="Microservices-Project-Spring" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=thinking-orbs-colorized&theme=github_dark&hide_border=true" alt="thinking-orbs-colorized" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=blog-arq-software&theme=github_dark&hide_border=true" alt="blog-arq-software" />
+  <a href="https://github.com/Bardolog1/Microservices-Project-Spring" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microservices--Project--Spring-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Microservices-Project-Spring" /></a>
+  <a href="https://github.com/Bardolog1/thinking-orbs-colorized" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/thinking--orbs--colorized-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="thinking-orbs-colorized" /></a>
+  <a href="https://github.com/Bardolog1/blog-arq-software" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/blog--arq--software-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="blog-arq-software" /></a>
 </div>
 
 <p align="center">A selection of public projects. Explore more in the repositories tab.</p>
@@ -180,7 +180,7 @@ Automatically updated with GitHub Actions every 6 hours.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repositories-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositories" />
-  <img src="https://img.shields.io/badge/Commits-12%2C243-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Commits-12%2C244-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
   <img src="https://img.shields.io/badge/Pull%20Requests-55-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Stars-207-EA580C?style=for-the-badge&labelColor=0f172a" alt="Stars" />
 </div>
@@ -196,7 +196,7 @@ Automatically updated with GitHub Actions every 6 hours.
 </p>
 
 
-**Last updated:** Tuesday, August 4, 2026 at 24:07:12 (America/Bogota)
+**Last updated:** Tuesday, August 4, 2026 at 00:20:57 (America/Bogota)
  
 <br>
     

@@ -17,10 +17,10 @@ export default function RepositoriesES(updatedStats) {
     "blog-arq-software",
   ];
 
-  const repoCards = featuredRepos
+  const repoBadges = featuredRepos
     .map(
       (repo) =>
-        `<img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=${repo}&theme=github_dark&hide_border=true" alt="${repo}" />`
+        `<a href="https://github.com/Bardolog1/${repo}" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/${repo.replace(/-/g, "--")}-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="${repo}" /></a>`
     )
     .join("\n  ");
 
@@ -34,7 +34,7 @@ export default function RepositoriesES(updatedStats) {
 </div>
 
 <div align="center">
-  ${repoCards}
+  ${repoBadges}
 </div>
 
 <p align="center">Una selección de proyectos públicos. Explora más en la pestaña de repositorios.</p>

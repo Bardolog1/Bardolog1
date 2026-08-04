@@ -109,9 +109,9 @@ Stack orientado a arquitectura backend empresarial con capacidad full-stack para
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=Microservices-Project-Spring&theme=github_dark&hide_border=true" alt="Microservices-Project-Spring" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=thinking-orbs-colorized&theme=github_dark&hide_border=true" alt="thinking-orbs-colorized" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=blog-arq-software&theme=github_dark&hide_border=true" alt="blog-arq-software" />
+  <a href="https://github.com/Bardolog1/Microservices-Project-Spring" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microservices--Project--Spring-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Microservices-Project-Spring" /></a>
+  <a href="https://github.com/Bardolog1/thinking-orbs-colorized" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/thinking--orbs--colorized-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="thinking-orbs-colorized" /></a>
+  <a href="https://github.com/Bardolog1/blog-arq-software" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/blog--arq--software-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="blog-arq-software" /></a>
 </div>
 
 <p align="center">Una selección de proyectos públicos. Explora más en la pestaña de repositorios.</p>
@@ -180,7 +180,7 @@ Actualización automática con GitHub Actions cada 6 horas.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repositorios-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
-  <img src="https://img.shields.io/badge/Commits-12.243-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Commits-12.244-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
   <img src="https://img.shields.io/badge/Pull%20Requests-55-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Estrellas-207-EA580C?style=for-the-badge&labelColor=0f172a" alt="Estrellas" />
 </div>
@@ -196,7 +196,7 @@ Actualización automática con GitHub Actions cada 6 horas.
 </p>
 
 
-**Última actualización:** martes, 4 de agosto de 2026, 0:07:12 (America/Bogota)
+**Última actualización:** martes, 4 de agosto de 2026, 0:20:57 (America/Bogota)
  
 <br>
     

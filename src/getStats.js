@@ -86,10 +86,6 @@ export async function getStats(user) {
   updatedStats.owner = user.data.login;
  
   try {
-    updatedStats.totalPrivateRepos = user.data.total_private_repos;
-    updatedStats.totalPublicRepos = user.data.public_repos;
-    updatedStats.totalRepos = updatedStats.totalPrivateRepos + updatedStats.totalPublicRepos;
-
     let page = 1;
     const repos = [];
 
@@ -101,6 +97,10 @@ export async function getStats(user) {
         break;
       }
     }
+
+    updatedStats.totalPrivateRepos = repos.filter((repo) => repo.private).length;
+    updatedStats.totalPublicRepos = repos.filter((repo) => !repo.private).length;
+    updatedStats.totalRepos = repos.length;
 
     const ownerRepos = repos.filter(
       (repo) =>
