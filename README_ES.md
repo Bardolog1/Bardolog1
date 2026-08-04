@@ -79,19 +79,6 @@
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=057EEF&height=120&section=header" alt="Intermediate separator" width="100%" /></p>
     
 
-## Recursos Del Perfil
-
-Referencias útiles para extender y personalizar este README.
-
-- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
-- [Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats)
-- [Readme Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph)
-- [Skill Icons](https://github.com/tandpfun/skill-icons)
-- [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)
-
-<br>
-
-
 ## Stack Principal
 
 Stack orientado a arquitectura backend empresarial con capacidad full-stack para entregar soluciones end-to-end.
@@ -111,6 +98,25 @@ Stack orientado a arquitectura backend empresarial con capacidad full-stack para
 
 ![Cloud y DevOps](https://skillicons.dev/icons?i=aws,kubernetes,git,githubactions,jenkins,linux,bash&theme=dark&perline=8)
 ![SonarQube](images/skill-icons/sonarqube-tile.svg)
+    
+
+## Repositorios
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Repositorios-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Total de repositorios" />
+  <img src="https://img.shields.io/badge/P%C3%BAblicos-77-22C55E?style=for-the-badge&labelColor=0f172a" alt="Repositorios públicos" />
+  <img src="https://img.shields.io/badge/Privados-212-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Repositorios privados" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=Microservices-Project-Spring&theme=github_dark&hide_border=true" alt="Microservices-Project-Spring" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=thinking-orbs-colorized&theme=github_dark&hide_border=true" alt="thinking-orbs-colorized" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Bardolog1&repo=blog-arq-software&theme=github_dark&hide_border=true" alt="blog-arq-software" />
+</div>
+
+<p align="center">Una selección de proyectos públicos. Explora más en la pestaña de repositorios.</p>
+
+<br>
     
 
 ## Certificaciones y cursos
@@ -150,7 +156,11 @@ Disponible para oportunidades Senior Backend, Tech Lead y proyectos de arquitect
 [![Telegram](https://img.shields.io/badge/Telegram-Contacto-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bardolog1/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositorios-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bardolog1/)
 
-Basado en Medellín · Bogotá, Colombia — abierto a reubicación en Colombia y en el extranjero. 🛂 Titular de permiso de trabajo UE (visa de trabajo, no ciudadanía).
+<div align="center">
+  <img src="https://img.shields.io/badge/Ubicaci%C3%B3n-Medell%C3%ADn%20%C2%B7%20Bogot%C3%A1%2C%20Colombia-0F172A?style=for-the-badge&labelColor=0f172a" alt="Ubicación: Medellín · Bogotá, Colombia" />
+  <img src="https://img.shields.io/badge/Reubicaci%C3%B3n-Abierto%20a%20reubicaci%C3%B3n%20en%20Colombia%20y%20en%20el%20extranjero-22C55E?style=for-the-badge&labelColor=0f172a" alt="Abierto a reubicación en Colombia y en el extranjero" />
+  <img src="https://img.shields.io/badge/Permiso%20de%20trabajo-UE%20%E2%80%94%20visa%20de%20trabajo%2C%20no%20ciudadan%C3%ADa-2563EB?style=for-the-badge&labelColor=0f172a" alt="Permiso de trabajo UE: visa de trabajo, no ciudadanía" />
+</div>
     
 
   
@@ -164,145 +174,30 @@ Basado en Medellín · Bogotá, Colombia — abierto a reubicación en Colombia 
 
 <br>
 
-## Panel De Métricas Automáticas
+## Panel de Métricas Automáticas
 
 Actualización automática con GitHub Actions cada 6 horas.
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Repositorios-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
-      <br/>
-      <sub>Total de repositorios</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Commits-12.241-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
-      <br/>
-      <sub>Histórico de commits</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Pull%20Requests-55-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
-      <br/>
-      <sub>PRs detectados</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Estrellas-207-EA580C?style=for-the-badge&labelColor=0f172a" alt="Estrellas" />
-      <br/>
-      <sub>Estrellas acumuladas</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/P%C3%BAblicos-77%20(26.6%25)-0284C7?style=for-the-badge&labelColor=0f172a" alt="Repositorios públicos" />
-      <br/>
-      <progress value="26.6" max="100"></progress>
-      <br/>
-      <sub>26.6% del total</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Privados-212%20(73.4%25)-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Repositorios privados" />
-      <br/>
-      <progress value="73.4" max="100"></progress>
-      <br/>
-      <sub>73.4% del total</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Lenguajes-33-7C3AED?style=for-the-badge&labelColor=0f172a" alt="Lenguajes detectados" />
-      <br/>
-      <sub>Diversidad del stack</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Top-JAVA%2048.82%25-BE123C?style=for-the-badge&labelColor=0f172a" alt="Top lenguaje" />
-      <br/>
-      <progress value="48.82" max="100"></progress>
-      <br/>
-      <sub>Lenguaje dominante</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://img.shields.io/badge/Repositorios-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
+  <img src="https://img.shields.io/badge/Commits-12.243-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Pull%20Requests-55-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
+  <img src="https://img.shields.io/badge/Estrellas-207-EA580C?style=for-the-badge&labelColor=0f172a" alt="Estrellas" />
+</div>
 
-**Última actualización:** lunes, 3 de agosto de 2026, 23:38:40 (America/Bogota)
- 
-<br>
-## Top Lenguajes Por Volumen De Código
+
 <p align="center">
-  Basado en bytes detectados en repositorios propios del perfil.
+  <img src="https://img.shields.io/badge/Java-48.82%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 48.82%" />
+  <img src="https://img.shields.io/badge/HTML-19.14%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 19.14%" />
+  <img src="https://img.shields.io/badge/Python-16.05%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 16.05%" />
+  <img src="https://img.shields.io/badge/JavaScript-9.94%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 9.94%" />
+  <img src="https://img.shields.io/badge/CSS-2.32%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 2.32%" />
+  <img src="https://img.shields.io/badge/TypeScript-1.17%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 1.17%" />
 </p>
 
 
-<table align="center" width="100%">
-
-<tr>
-  
-<td width="50%" valign="top" align="left">
-  <img src="https://img.shields.io/badge/Java-B07219.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <br/>
-  <img src="https://img.shields.io/badge/Uso-48.82%25-0f172a?style=flat-square" alt="Uso Java" />
-  <br/>
-  <progress value="48.82" max="100"></progress>
-  <br/>
-  <sub>48.82% del código detectado</sub>
-</td>
-  
-<td width="50%" valign="top" align="left">
-  <img src="https://img.shields.io/badge/HTML-e34c26.svg?style=for-the-badge&logo=html&logoColor=white" alt="HTML" />
-  <br/>
-  <img src="https://img.shields.io/badge/Uso-19.14%25-0f172a?style=flat-square" alt="Uso HTML" />
-  <br/>
-  <progress value="19.14" max="100"></progress>
-  <br/>
-  <sub>19.14% del código detectado</sub>
-</td>
-</tr>
-
-<tr>
-  
-<td width="50%" valign="top" align="left">
-  <img src="https://img.shields.io/badge/Python-3572A5.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <br/>
-  <img src="https://img.shields.io/badge/Uso-16.05%25-0f172a?style=flat-square" alt="Uso Python" />
-  <br/>
-  <progress value="16.05" max="100"></progress>
-  <br/>
-  <sub>16.05% del código detectado</sub>
-</td>
-  
-<td width="50%" valign="top" align="left">
-  <img src="https://img.shields.io/badge/JavaScript-F1E05A.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-  <br/>
-  <img src="https://img.shields.io/badge/Uso-9.94%25-0f172a?style=flat-square" alt="Uso JavaScript" />
-  <br/>
-  <progress value="9.94" max="100"></progress>
-  <br/>
-  <sub>9.94% del código detectado</sub>
-</td>
-</tr>
-
-<tr>
-  
-<td width="50%" valign="top" align="left">
-  <img src="https://img.shields.io/badge/CSS-563d7c.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-  <br/>
-  <img src="https://img.shields.io/badge/Uso-2.32%25-0f172a?style=flat-square" alt="Uso CSS" />
-  <br/>
-  <progress value="2.32" max="100"></progress>
-  <br/>
-  <sub>2.32% del código detectado</sub>
-</td>
-  
-<td width="50%" valign="top" align="left">
-  <img src="https://img.shields.io/badge/TypeScript-2b7489.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <br/>
-  <img src="https://img.shields.io/badge/Uso-1.17%25-0f172a?style=flat-square" alt="Uso TypeScript" />
-  <br/>
-  <progress value="1.17" max="100"></progress>
-  <br/>
-  <sub>1.17% del código detectado</sub>
-</td>
-</tr>
-</table>
-
-
+**Última actualización:** martes, 4 de agosto de 2026, 0:07:12 (America/Bogota)
+ 
 <br>
     
 
