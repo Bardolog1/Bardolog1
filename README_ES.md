@@ -180,23 +180,23 @@ Actualización automática con GitHub Actions cada 6 horas.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repositorios-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
-  <img src="https://img.shields.io/badge/Commits-12.350-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
-  <img src="https://img.shields.io/badge/Pull%20Requests-61-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
+  <img src="https://img.shields.io/badge/Commits-12.356-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Pull%20Requests-62-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Estrellas-207-EA580C?style=for-the-badge&labelColor=0f172a" alt="Estrellas" />
 </div>
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-48.87%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 48.87%" />
-  <img src="https://img.shields.io/badge/HTML-19.03%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 19.03%" />
-  <img src="https://img.shields.io/badge/Python-16.06%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 16.06%" />
-  <img src="https://img.shields.io/badge/JavaScript-9.81%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 9.81%" />
-  <img src="https://img.shields.io/badge/CSS-2.37%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 2.37%" />
-  <img src="https://img.shields.io/badge/TypeScript-1.30%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 1.30%" />
+  <img src="https://img.shields.io/badge/Java-48.75%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 48.75%" />
+  <img src="https://img.shields.io/badge/HTML-19.10%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 19.10%" />
+  <img src="https://img.shields.io/badge/Python-16.03%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 16.03%" />
+  <img src="https://img.shields.io/badge/JavaScript-9.91%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 9.91%" />
+  <img src="https://img.shields.io/badge/CSS-2.36%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 2.36%" />
+  <img src="https://img.shields.io/badge/TypeScript-1.29%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 1.29%" />
 </p>
 
 
-**Última actualización:** martes, 18 de agosto de 2026, 20:08:17 (America/Bogota)
+**Última actualización:** miércoles, 19 de agosto de 2026, 1:42:18 (America/Bogota)
  
 <br>
     
