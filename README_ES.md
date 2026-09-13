@@ -103,9 +103,9 @@ Stack orientado a arquitectura backend empresarial con capacidad full-stack para
 ## Repositorios
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repositorios-292-2563EB?style=for-the-badge&labelColor=0f172a" alt="Total de repositorios" />
+  <img src="https://img.shields.io/badge/Repositorios-291-2563EB?style=for-the-badge&labelColor=0f172a" alt="Total de repositorios" />
   <img src="https://img.shields.io/badge/P%C3%BAblicos-77-22C55E?style=for-the-badge&labelColor=0f172a" alt="Repositorios públicos" />
-  <img src="https://img.shields.io/badge/Privados-215-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Repositorios privados" />
+  <img src="https://img.shields.io/badge/Privados-214-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Repositorios privados" />
 </div>
 
 <div align="center">
@@ -179,7 +179,7 @@ Disponible para oportunidades Senior Backend, Tech Lead y proyectos de arquitect
 Actualización automática con GitHub Actions cada 6 horas.
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repositorios-292-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
+  <img src="https://img.shields.io/badge/Repositorios-291-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
   <img src="https://img.shields.io/badge/Commits-12.544-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
   <img src="https://img.shields.io/badge/Pull%20Requests-85-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Estrellas-207-EA580C?style=for-the-badge&labelColor=0f172a" alt="Estrellas" />
@@ -196,7 +196,7 @@ Actualización automática con GitHub Actions cada 6 horas.
 </p>
 
 
-**Última actualización:** sábado, 12 de septiembre de 2026, 22:12:26 (America/Bogota)
+**Última actualización:** domingo, 13 de septiembre de 2026, 6:08:21 (America/Bogota)
  
 <br>
     
