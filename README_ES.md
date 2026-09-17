@@ -180,23 +180,23 @@ Actualización automática con GitHub Actions cada 6 horas.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repositorios-301-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
-  <img src="https://img.shields.io/badge/Commits-12.569-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
-  <img src="https://img.shields.io/badge/Pull%20Requests-85-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
+  <img src="https://img.shields.io/badge/Commits-12.590-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Pull%20Requests-86-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Estrellas-219-EA580C?style=for-the-badge&labelColor=0f172a" alt="Estrellas" />
 </div>
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-47.80%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 47.80%" />
+  <img src="https://img.shields.io/badge/Java-47.79%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 47.79%" />
   <img src="https://img.shields.io/badge/HTML-18.56%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 18.56%" />
-  <img src="https://img.shields.io/badge/Python-15.65%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 15.65%" />
+  <img src="https://img.shields.io/badge/Python-15.67%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 15.67%" />
   <img src="https://img.shields.io/badge/JavaScript-10.56%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 10.56%" />
-  <img src="https://img.shields.io/badge/CSS-2.35%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 2.35%" />
+  <img src="https://img.shields.io/badge/CSS-2.34%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 2.34%" />
   <img src="https://img.shields.io/badge/TypeScript-1.90%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 1.90%" />
 </p>
 
 
-**Última actualización:** jueves, 17 de septiembre de 2026, 11:17:21 (America/Bogota)
+**Última actualización:** jueves, 17 de septiembre de 2026, 16:00:12 (America/Bogota)
  
 <br>
     

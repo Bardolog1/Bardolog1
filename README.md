@@ -180,23 +180,23 @@ Automatically updated with GitHub Actions every 6 hours.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repositories-301-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositories" />
-  <img src="https://img.shields.io/badge/Commits-12%2C569-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
-  <img src="https://img.shields.io/badge/Pull%20Requests-85-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
+  <img src="https://img.shields.io/badge/Commits-12%2C590-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Pull%20Requests-86-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Stars-219-EA580C?style=for-the-badge&labelColor=0f172a" alt="Stars" />
 </div>
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-47.80%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 47.80%" />
+  <img src="https://img.shields.io/badge/Java-47.79%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 47.79%" />
   <img src="https://img.shields.io/badge/HTML-18.56%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 18.56%" />
-  <img src="https://img.shields.io/badge/Python-15.65%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 15.65%" />
+  <img src="https://img.shields.io/badge/Python-15.67%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 15.67%" />
   <img src="https://img.shields.io/badge/JavaScript-10.56%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 10.56%" />
-  <img src="https://img.shields.io/badge/CSS-2.35%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 2.35%" />
+  <img src="https://img.shields.io/badge/CSS-2.34%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 2.34%" />
   <img src="https://img.shields.io/badge/TypeScript-1.90%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 1.90%" />
 </p>
 
 
-**Last updated:** Thursday, September 17, 2026 at 11:17:21 (America/Bogota)
+**Last updated:** Thursday, September 17, 2026 at 16:00:12 (America/Bogota)
  
 <br>
     
