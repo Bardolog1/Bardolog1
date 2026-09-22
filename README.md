@@ -180,8 +180,8 @@ Automatically updated with GitHub Actions every 6 hours.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repositories-304-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositories" />
-  <img src="https://img.shields.io/badge/Commits-12%2C619-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
-  <img src="https://img.shields.io/badge/Pull%20Requests-86-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
+  <img src="https://img.shields.io/badge/Commits-12%2C620-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Pull%20Requests-87-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Stars-218-EA580C?style=for-the-badge&labelColor=0f172a" alt="Stars" />
 </div>
 
@@ -196,7 +196,7 @@ Automatically updated with GitHub Actions every 6 hours.
 </p>
 
 
-**Last updated:** Tuesday, September 22, 2026 at 11:20:04 (America/Bogota)
+**Last updated:** Tuesday, September 22, 2026 at 15:56:39 (America/Bogota)
  
 <br>
     
