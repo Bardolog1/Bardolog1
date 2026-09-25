@@ -180,7 +180,7 @@ Actualización automática con GitHub Actions cada 6 horas.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repositorios-305-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
-  <img src="https://img.shields.io/badge/Commits-12.714-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Commits-12.718-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
   <img src="https://img.shields.io/badge/Pull%20Requests-93-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Estrellas-217-EA580C?style=for-the-badge&labelColor=0f172a" alt="Estrellas" />
 </div>
@@ -192,11 +192,11 @@ Actualización automática con GitHub Actions cada 6 horas.
   <img src="https://img.shields.io/badge/Python-15.62%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 15.62%" />
   <img src="https://img.shields.io/badge/JavaScript-10.61%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 10.61%" />
   <img src="https://img.shields.io/badge/CSS-2.36%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 2.36%" />
-  <img src="https://img.shields.io/badge/TypeScript-2.06%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 2.06%" />
+  <img src="https://img.shields.io/badge/TypeScript-2.05%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 2.05%" />
 </p>
 
 
-**Última actualización:** viernes, 25 de septiembre de 2026, 11:35:29 (America/Bogota)
+**Última actualización:** viernes, 25 de septiembre de 2026, 16:09:43 (America/Bogota)
  
 <br>
     
