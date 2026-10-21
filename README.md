@@ -103,9 +103,9 @@ Stack oriented to enterprise backend architecture with full-stack capability to 
 ## Repositories
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repositories-309-2563EB?style=for-the-badge&labelColor=0f172a" alt="Total repositories" />
+  <img src="https://img.shields.io/badge/Repositories-310-2563EB?style=for-the-badge&labelColor=0f172a" alt="Total repositories" />
   <img src="https://img.shields.io/badge/Public-80-22C55E?style=for-the-badge&labelColor=0f172a" alt="Public repositories" />
-  <img src="https://img.shields.io/badge/Private-229-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Private repositories" />
+  <img src="https://img.shields.io/badge/Private-230-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Private repositories" />
 </div>
 
 <div align="center">
@@ -179,9 +179,9 @@ Open to Senior Backend, Tech Lead and software architecture opportunities.
 Automatically updated with GitHub Actions every 6 hours.
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repositories-309-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositories" />
-  <img src="https://img.shields.io/badge/Commits-12%2C863-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
-  <img src="https://img.shields.io/badge/Pull%20Requests-126-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
+  <img src="https://img.shields.io/badge/Repositories-310-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositories" />
+  <img src="https://img.shields.io/badge/Commits-12%2C865-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Pull%20Requests-133-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Stars-217-EA580C?style=for-the-badge&labelColor=0f172a" alt="Stars" />
 </div>
 
@@ -196,7 +196,7 @@ Automatically updated with GitHub Actions every 6 hours.
 </p>
 
 
-**Last updated:** Tuesday, October 20, 2026 at 16:19:15 (America/Bogota)
+**Last updated:** Tuesday, October 20, 2026 at 22:22:55 (America/Bogota)
  
 <br>
     
