@@ -180,23 +180,23 @@ Actualización automática con GitHub Actions cada 6 horas.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repositorios-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositorios" />
-  <img src="https://img.shields.io/badge/Commits-13.159-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Commits-13.247-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
   <img src="https://img.shields.io/badge/Pull%20Requests-147-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Estrellas-221-EA580C?style=for-the-badge&labelColor=0f172a" alt="Estrellas" />
 </div>
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML-28.74%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 28.74%" />
-  <img src="https://img.shields.io/badge/Python-24.73%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 24.73%" />
-  <img src="https://img.shields.io/badge/JavaScript-16.61%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 16.61%" />
-  <img src="https://img.shields.io/badge/Java-15.77%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 15.77%" />
-  <img src="https://img.shields.io/badge/TypeScript-5.40%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 5.40%" />
-  <img src="https://img.shields.io/badge/CSS-3.76%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 3.76%" />
+  <img src="https://img.shields.io/badge/HTML-28.42%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 28.42%" />
+  <img src="https://img.shields.io/badge/Python-24.45%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 24.45%" />
+  <img src="https://img.shields.io/badge/JavaScript-16.43%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 16.43%" />
+  <img src="https://img.shields.io/badge/Java-15.60%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 15.60%" />
+  <img src="https://img.shields.io/badge/TypeScript-6.46%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 6.46%" />
+  <img src="https://img.shields.io/badge/CSS-3.72%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 3.72%" />
 </p>
 
 
-**Última actualización:** miércoles, 4 de noviembre de 2026, 8:50:35 (America/Bogota)
+**Última actualización:** miércoles, 4 de noviembre de 2026, 18:15:42 (America/Bogota)
  
 <br>
     
