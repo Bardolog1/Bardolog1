@@ -180,23 +180,23 @@ Automatically updated with GitHub Actions every 6 hours.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repositories-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositories" />
-  <img src="https://img.shields.io/badge/Commits-13%2C314-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Commits-13%2C311-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
   <img src="https://img.shields.io/badge/Pull%20Requests-180-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Stars-221-EA580C?style=for-the-badge&labelColor=0f172a" alt="Stars" />
 </div>
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML-28.41%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 28.41%" />
-  <img src="https://img.shields.io/badge/Python-24.45%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 24.45%" />
-  <img src="https://img.shields.io/badge/JavaScript-16.42%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 16.42%" />
+  <img src="https://img.shields.io/badge/HTML-28.40%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 28.40%" />
+  <img src="https://img.shields.io/badge/Python-24.46%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 24.46%" />
+  <img src="https://img.shields.io/badge/JavaScript-16.43%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 16.43%" />
   <img src="https://img.shields.io/badge/Java-15.61%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 15.61%" />
-  <img src="https://img.shields.io/badge/TypeScript-6.46%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 6.46%" />
+  <img src="https://img.shields.io/badge/TypeScript-6.45%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 6.45%" />
   <img src="https://img.shields.io/badge/CSS-3.72%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 3.72%" />
 </p>
 
 
-**Last updated:** Friday, November 20, 2026 at 09:56:44 (America/Bogota)
+**Last updated:** Friday, November 20, 2026 at 18:43:21 (America/Bogota)
  
 <br>
     
