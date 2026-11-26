@@ -103,8 +103,8 @@ Stack oriented to enterprise backend architecture with full-stack capability to 
 ## Repositories
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repositories-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Total repositories" />
-  <img src="https://img.shields.io/badge/Public-74-22C55E?style=for-the-badge&labelColor=0f172a" alt="Public repositories" />
+  <img src="https://img.shields.io/badge/Repositories-290-2563EB?style=for-the-badge&labelColor=0f172a" alt="Total repositories" />
+  <img src="https://img.shields.io/badge/Public-75-22C55E?style=for-the-badge&labelColor=0f172a" alt="Public repositories" />
   <img src="https://img.shields.io/badge/Private-215-1D4ED8?style=for-the-badge&labelColor=0f172a" alt="Private repositories" />
 </div>
 
@@ -179,24 +179,24 @@ Open to Senior Backend, Tech Lead and software architecture opportunities.
 Automatically updated with GitHub Actions every 6 hours.
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repositories-289-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositories" />
-  <img src="https://img.shields.io/badge/Commits-13%2C328-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
+  <img src="https://img.shields.io/badge/Repositories-290-2563EB?style=for-the-badge&labelColor=0f172a" alt="Repositories" />
+  <img src="https://img.shields.io/badge/Commits-13%2C329-0EA5E9?style=for-the-badge&labelColor=0f172a" alt="Commits" />
   <img src="https://img.shields.io/badge/Pull%20Requests-180-16A34A?style=for-the-badge&labelColor=0f172a" alt="Pull Requests" />
   <img src="https://img.shields.io/badge/Stars-221-EA580C?style=for-the-badge&labelColor=0f172a" alt="Stars" />
 </div>
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML-28.41%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 28.41%" />
-  <img src="https://img.shields.io/badge/Python-24.45%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 24.45%" />
-  <img src="https://img.shields.io/badge/JavaScript-16.42%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 16.42%" />
-  <img src="https://img.shields.io/badge/Java-15.61%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 15.61%" />
-  <img src="https://img.shields.io/badge/TypeScript-6.46%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 6.46%" />
-  <img src="https://img.shields.io/badge/CSS-3.72%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 3.72%" />
+  <img src="https://img.shields.io/badge/HTML-28.35%25-e34c26.svg?style=flat-square&logo=html&logoColor=FFFFFF" alt="HTML 28.35%" />
+  <img src="https://img.shields.io/badge/Python-24.39%25-3572A5.svg?style=flat-square&logo=python&logoColor=FFFFFF" alt="Python 24.39%" />
+  <img src="https://img.shields.io/badge/JavaScript-16.57%25-F1E05A.svg?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript 16.57%" />
+  <img src="https://img.shields.io/badge/Java-15.57%25-B07219.svg?style=flat-square&logo=openjdk&logoColor=FFFFFF" alt="Java 15.57%" />
+  <img src="https://img.shields.io/badge/TypeScript-6.44%25-2b7489.svg?style=flat-square&logo=typescript&logoColor=FFFFFF" alt="TypeScript 6.44%" />
+  <img src="https://img.shields.io/badge/CSS-3.76%25-563d7c.svg?style=flat-square&logo=css&logoColor=FFFFFF" alt="CSS 3.76%" />
 </p>
 
 
-**Last updated:** Wednesday, November 25, 2026 at 20:36:46 (America/Bogota)
+**Last updated:** Thursday, November 26, 2026 at 11:26:54 (America/Bogota)
  
 <br>
     
